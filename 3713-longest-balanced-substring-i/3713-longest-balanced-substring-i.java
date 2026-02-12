@@ -13,6 +13,8 @@ class Solution {
 
         for( int i=0; i<n; i++ ){
 
+            if( ans >= n-i ) break; //early exit
+            
             int []map = new int[26];
             int max = 0 ,min = n ;
 
