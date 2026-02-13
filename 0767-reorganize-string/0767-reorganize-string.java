@@ -4,8 +4,8 @@ class Solution {
         PriorityQueue<Character> pq = new PriorityQueue<>((c1,c2)->{
             return Integer.compare(map[c2-'a'],map[c1-'a']);
         });
-        char []arr = s.toCharArray();
-        for( char c : arr ) map[c-'a']++;
+        // char []arr = s.toCharArray();
+        for( char c : s.toCharArray() ) map[c-'a']++;
         for( int i=0; i<26; i++  ){
             if( map[i] != 0 )
                 pq.add((char)(i+'a'));
