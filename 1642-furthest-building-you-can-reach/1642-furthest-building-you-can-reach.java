@@ -10,11 +10,12 @@ class Solution {
         for( int i=0; i<mid; i++ ) pq.add(i);
         for( int i=0; i<mid; i++ ){
             int idx = pq.poll();
-            if( arr[idx] >= arr[idx+1] ) break;
+            if( arr[idx] >= arr[idx+1] ) return true;
             if( ladders != 0 ){
                 help[idx] = 1;
                 ladders--;
             }
+            else break;
         }
 
         for( int i=0; i<mid; i++ ){
