@@ -3,9 +3,7 @@ class Solution {
      
         int []help = new int[mid+1];
         PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->{
-            if( a == mid ) return 1;
-            else if( b == mid ) return -1;
-            else return Integer.compare(arr[b+1]-arr[b],arr[a+1]-arr[a]);
+            return Integer.compare(arr[b+1]-arr[b],arr[a+1]-arr[a]);
         });
         for( int i=0; i<mid; i++ ) pq.add(i);
         for( int i=0; i<mid; i++ ){
