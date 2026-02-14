@@ -1,27 +1,20 @@
 class Solution {
     boolean check(int[] arr, int bricks, int ladders, int mid){
-     
-        int []help = new int[mid+1];
+    
         PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->{
-            return Integer.compare(arr[b+1]-arr[b],arr[a+1]-arr[a]);
+            return Integer.compare(a,b);
         });
-        for( int i=0; i<mid; i++ ) pq.add(i);
+
         for( int i=0; i<mid; i++ ){
-            int idx = pq.poll();
-            if( arr[idx] >= arr[idx+1] ) return true;
-            if( ladders != 0 ){
-                help[idx] = 1;
-                ladders--;
+            int diff = arr[i+1]-arr[i];
+            if( diff > 0 ){
+                pq.add(diff);
+                if( pq.size() > ladders ){
+                    bricks -= pq.poll();
+                    if( bricks < 0 ) return false;
+                }
             }
-            else break;
-        }
-
-        for( int i=0; i<mid; i++ ){
-            if( help[i] == 1 || arr[i] >= arr[i+1] )continue;
-
-            if( arr[i+1] - arr[i] <= bricks ) bricks -= arr[i+1] - arr[i];
-            else return false;
-        }
+        } 
 
         return true;
 
