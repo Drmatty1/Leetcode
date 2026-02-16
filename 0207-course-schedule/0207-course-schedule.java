@@ -1,9 +1,9 @@
 class Solution {
-    boolean dfs( int i, Map<Integer,List<Integer>> adj,int []visited, int []callStack){
+    boolean dfs( int i, List<List<Integer>> adj,int []visited, int []callStack){
         visited[i] = 1;
         callStack[i] = 1;
         boolean ans = false;
-        if( !adj.containsKey(i) ){
+        if( adj.get(i).isEmpty() ){
             callStack[i] = 0;
             return false;
         }
@@ -18,10 +18,15 @@ class Solution {
         return ans;   
     }
     public boolean isCyclic(int V, int[][] edges) {
-        Map<Integer,List<Integer>> adj = new HashMap<>();
+        // Map<Integer,List<Integer>> adj = new HashMap<>();
+        // for( int[]e : edges ) 
+        //     adj.computeIfAbsent(e[0], k -> new ArrayList<>()).add(e[1]);
+
+        List<List<Integer>> adj = new ArrayList<>();
+        for( int i=0; i<V; i++ ) adj.add(new ArrayList<>());
         for( int[]e : edges ) 
-            adj.computeIfAbsent(e[0], k -> new ArrayList<>()).add(e[1]);
-            
+            adj.get(e[1]).add(e[0]);
+
         int []visited = new int[V];
         int []callStack = new int[V];
         boolean ans = false;
@@ -60,7 +65,7 @@ class Solution {
         return (count == V);
     }
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // return !isCyclic( numCourses, prerequisites );
-        return topoSort(numCourses, prerequisites);
+        return !isCyclic( numCourses, prerequisites );
+        // return topoSort(numCourses, prerequisites);
     }
 }
