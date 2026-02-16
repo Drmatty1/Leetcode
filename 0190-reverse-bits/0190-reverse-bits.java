@@ -1,15 +1,13 @@
 class Solution {
-    Map<Integer,Integer> dp = new HashMap<>();
+    
     public int reverseBits(int n) {
-        if( dp.containsKey(n) ) return dp.get(n);
-        StringBuilder ans = new StringBuilder();
-        while( ans.length() < 32 ){
-            int rem = n%2;
-            ans.append((char)(rem+'0'));
-            n = n/2;
+        
+        int ans= 0 ,power = 31;
+        while( power >= 0 ){
+            ans |= (n%2)<<power;
+            n = n>>1;
+            power--;
         }
-        int rev = Integer.parseInt(ans.toString(),2);
-        dp.put(n, rev);
-        return rev;
+        return ans;
     }
 }
