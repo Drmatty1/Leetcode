@@ -1,5 +1,5 @@
 class Solution {
-        int[] topoSort( int numCourses, int[][] prerequisites ){
+    int[] topoSort( int numCourses, int[][] prerequisites ){
         int V = numCourses;
 
         List<List<Integer>> adj = new ArrayList<>();
