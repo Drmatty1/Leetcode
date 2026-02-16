@@ -56,6 +56,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
+| [0190-reverse-bits](https://github.com/Drmatty1/Leetcode/tree/master/0190-reverse-bits) |
 ## Simulation
 |  |
 | ------- |
@@ -76,4 +77,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/Drmatty1/Leetcode/tree/master/0190-reverse-bits) |
 <!---LeetCode Topics End-->
