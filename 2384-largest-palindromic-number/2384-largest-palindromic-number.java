@@ -1,9 +1,11 @@
 class Solution {
     public String largestPalindromic(String num) {
+        
         int []no = new int[10];
         for( char c : num.toCharArray() ) no[c-'0']++;
 
         StringBuilder ans = new StringBuilder();
+        
         for( int i = 9; i>=0; i-- ){
             int count  = no[i]/2;
             if( i == 0 && ans.length()==0 ) break;
@@ -14,7 +16,6 @@ class Solution {
             if( no[i] % 2 != 0 ){
                 if( i == 0 && ans.length()==0 ) break;
                 ans.append((char)(i+'0'));
-                System.out.println((char)(i+'0'));
                 flag = 1;
                 break;
             }
