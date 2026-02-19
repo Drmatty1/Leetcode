@@ -23,10 +23,14 @@ class Solution {
             
             while( s-->0 ){
                 int c = q.poll();
-                int nbh = adj.get(c).get(0);
-                degree[nbh]--;
-                if( degree[nbh] == 1 ) q.add(nbh);
-                adj.get(nbh).remove(Integer.valueOf(c));
+                for( int nbh : adj.get(c) ){
+                    degree[nbh]--;
+                    if( degree[nbh] == 1 ) q.add(nbh);
+                }
+                // int nbh = adj.get(c).get(0);
+                // degree[nbh]--;
+                // if( degree[nbh] == 1 ) q.add(nbh);
+                // adj.get(nbh).remove(Integer.valueOf(c));
             }
             
         }
