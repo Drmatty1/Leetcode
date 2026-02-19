@@ -3,7 +3,7 @@ class Solution {
         
         int[] degree = new int[n];
         List<List<Integer>> adj = new ArrayList<>();
-        for( int i=0; i<n; i++ )adj.add(new ArrayList<>());
+        for( int i=0; i<n; i++ )adj.add(new LinkedList<>());
         
         for( int[]e : edges ){
             adj.get( e[0] ).add(e[1]);
