@@ -8,11 +8,8 @@ class Solution {
         int n = arr.length;
         int i=0;
         while( i<n ){
-            if( arr[i]-1 != i && (arr[i] != arr[arr[i]-1]) ){
+            if( arr[i] != arr[arr[i]-1] ){
                 swap(arr,i,arr[i]-1);
-                // if( arr[i] == arr[arr[i]-1] ){
-                //     i++;
-                // }
             }
             else{
                 i++;
