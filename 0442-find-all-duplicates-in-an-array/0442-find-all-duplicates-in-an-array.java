@@ -24,11 +24,9 @@ class Solution {
         sortArray(nums);
         List<Integer> ans = new ArrayList<>();
         for( int i=0; i<nums.length; i++ ){
-            if( nums[i]-1 != i && nums[i] > 0 ){
+            if( nums[i]-1 != i  ){
                 ans.add(nums[i]);
-                nums[nums[i]-1] *= -1;
             }
-            // System.out.println(nums[i]);
         }
         return ans;
     }
