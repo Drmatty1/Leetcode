@@ -4,6 +4,40 @@ class Solution {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    int partition0(int[] arr, int s, int e) {
+        int pivot = arr[s];
+        int c = bitCount(pivot);
+        
+        int i = s + 1; 
+        int j = e;
+
+        while (i <= j) {
+            while (i <= e) {
+                int a = bitCount(arr[i]);
+                if (a < c || (a == c && arr[i] <= pivot)) {
+                    i++;
+                } else {
+                    break;
+                }
+            } 
+
+            while (j >= s + 1) {
+                int b = bitCount(arr[j]);
+                if (b > c || (b == c && arr[j] > pivot)) {
+                    j--;
+                } else {
+                    break;
+                }
+            } 
+
+            if (i < j) {
+                swapArr(arr, i, j);
+            }
+        }
+        
+        swapArr(arr, s, j); 
+        return j;
+    }
     int partition(int []arr, int s, int e){
         int i = s-1, j = s, pivot = arr[e];
         while( j < e){
@@ -16,7 +50,7 @@ class Solution {
     }
     void QS(int []arr, int s, int e){
         if(s>e) return ;
-        int pivot = partition(arr,s,e);
+        int pivot = partition0(arr,s,e);
         QS(arr, s, pivot-1);
         QS(arr, pivot+1, e);
     }
