@@ -8,8 +8,7 @@ class Solution {
         int i = s-1, j = s, pivot = arr[e];
         while( j < e){
             int a = bitCount(arr[j]), b = bitCount(pivot);
-            if( a < b ) swapArr(arr,++i,j);
-            else if( a==b && arr[j]<pivot ) swapArr(arr,++i,j);
+            if( a < b || (a==b && arr[j]<pivot)) swapArr(arr,++i,j);
             j++;
         }
         swapArr(arr, i+1, e);
