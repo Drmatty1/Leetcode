@@ -9,7 +9,7 @@ class Solution {
     }
     public int concatenatedBinary(int n) {
         int M = (int)1e9+7;
-        long ans = 0;
+        int ans = 0;
         for( int i=1; i<=n; i++ ){
             StringBuilder temp = getStr(i);
             for (int j = 0; j < temp.length(); j++) {
@@ -17,6 +17,6 @@ class Solution {
                 ans = ( (ans<<1)+(c-'0') )%M ;
             }
         }
-        return (int)(ans%M);
+        return (ans);
     }
 }
