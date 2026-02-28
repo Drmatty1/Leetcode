@@ -1,7 +1,8 @@
 class Solution {
- 
+    static int[]dp = new int[100001];
     public int concatenatedBinary(int n) {
         int M = (int)1e9+7;
+        if( dp[n] != 0 ) return dp[n];
         int ans = 0;
         for( int i=1; i<=n; i++ ){
             int temp = i;
@@ -12,6 +13,7 @@ class Solution {
                 test = test>>1; 
             }
         }
+        dp[n] = ans;
         return (ans);
     }
 }
