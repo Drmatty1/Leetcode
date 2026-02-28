@@ -4,10 +4,12 @@ class Solution {
         int M = (int)1e9+7;
         int ans = 0;
         for( int i=1; i<=n; i++ ){
-            String temp = Integer.toBinaryString(i);
-            for (int j = 0; j < temp.length(); j++) {
-                char c = temp.charAt(j);
-                ans = ( (ans<<1)+(c-'0') )%M ;
+            int temp = i;
+            int test = (int)Math.pow(2,17);
+            while( (test&temp) == 0 ) test = test>>1;
+            while( test != 0) {
+                ans = ( (ans<<1)+((temp&test)!=0?1:0) )%M ;
+                test = test>>1; 
             }
         }
         return (ans);
