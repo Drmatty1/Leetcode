@@ -45,6 +45,7 @@ class Solution {
             StringBuilder I1 = new StringBuilder(I);
             s.append("1").append(I1.reverse());
             I.append("0").append(s1.reverse());
+            dp.set(i,s);
             i++;
         }
         dp.set(n,s);
