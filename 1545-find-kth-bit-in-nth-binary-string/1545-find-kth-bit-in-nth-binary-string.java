@@ -1,5 +1,17 @@
 class Solution {
-    public char findKthBit(int n, int k) {
+    int solve(int n,int k){
+        if( k == 1 )  return 0;
+        if( (k & (k-1)) == 0  ) return 1;
+        
+        int lenleft =  (1<<(n-1));
+        if( k < lenleft ){
+            return solve(n-1,k);
+        }
+        else{
+            return solve(n-1,2*lenleft-k)^1;
+        }
+    }
+    char solve2(int n, int k){
         if( k==1 )  return '0';
         if( (k & (k-1)) == 0  ) return '1';
         StringBuilder s = new StringBuilder("0");
@@ -14,5 +26,8 @@ class Solution {
         }
 
         return s.charAt(k-1);
+    }
+    public char findKthBit(int n, int k) {
+        return (char)(solve(n,k)+'0');
     }
 }
