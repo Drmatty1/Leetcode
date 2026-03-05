@@ -19,24 +19,20 @@ class Solution {
         int count = 1;
         while ( !q.isEmpty() ){
             
-            int size = q.size();
-            boolean flag = false;
-            for( int i=0; i<size; i++ ){
-                
-                int curr=q.poll();
-                for( int[]d : dir ){
+            int curr=q.poll();
+            int i = curr/n, j = curr%n;
 
-                    int ni = curr/n + d[0];
-                    int nj = curr%n + d[1];
-                   
-                    if( ni>=0 && ni<m && nj>=0 && nj<n && grid[ni][nj]==-1){
-                        q.add(ni*n+nj);
-                        grid[ni][nj] = count;
+            for( int[]d : dir ){
+
+                int ni = i + d[0];
+                int nj = j + d[1];
                 
-                    }
+                if( ni>=0 && ni<m && nj>=0 && nj<n && grid[ni][nj]==-1){
+                    q.add(ni*n+nj);
+                    grid[ni][nj] = grid[i][j]+1;
                 }
             }
-            count++;
+    
         }
        
         return ;
