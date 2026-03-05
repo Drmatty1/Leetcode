@@ -10,8 +10,9 @@ class Solution {
             for( int j=0; j<n; j++ ){
                 if(grid[i][j]==1){ 
                     q.add(i*n+j);
-                    grid[i][j] = -1;
+                    grid[i][j] = 0;
                 }
+                else grid[i][j] = -1;
             }
         }
        
@@ -28,7 +29,7 @@ class Solution {
                     int ni = curr/n + d[0];
                     int nj = curr%n + d[1];
                    
-                    if( ni>=0 && ni<m && nj>=0 && nj<n && grid[ni][nj]==0){
+                    if( ni>=0 && ni<m && nj>=0 && nj<n && grid[ni][nj]==-1){
                         q.add(ni*n+nj);
                         grid[ni][nj] = count;
                 
@@ -37,13 +38,7 @@ class Solution {
             }
             count++;
         }
-        for( int i=0; i<m; i++ ){
-            for( int j=0; j<n; j++ ){
-                if(grid[i][j]==-1){ 
-                    grid[i][j] = 0;
-                }
-            }
-        }
+       
         return ;
     }
     public int[][] highestPeak(int[][] isWater){
