@@ -34,7 +34,9 @@ class Solution {
         return ans;
     }
     public int minOperations(String s) {
-        return Math.min(start0(s),start1(s));
+        // return Math.min(start0(s),start1(s));
+        int l=s.length(), ans0 = start0(s);
+        return Math.min(ans0, l-ans0);
     }
         
 }
