@@ -40,7 +40,7 @@ class Solution {
     List<List<String>> solve2(String[] strs){
         
         int l = strs.length;
-        Map<String,List<Integer>> map = new HashMap<>();
+        Map<String,List<String>> map = new HashMap<>();
 
         for( int i=0; i<l; i++ ){
             
@@ -53,20 +53,10 @@ class Solution {
             if(!map.containsKey(temp)){
                 map.put(temp, new ArrayList<>());
             }
-            map.get(temp).add(i);
+            map.get(temp).add(strs[i]);
         }
 
-        List<List<String>> ans= new ArrayList<>();
-
-        for( Map.Entry<String,List<Integer>> e : map.entrySet() ){
-
-            List<String> temp =  new ArrayList<>();
-            for( int I : e.getValue() ){
-                temp.add(strs[I]);
-            }
-            ans.add(temp);
-        }
-        return ans;
+        return new ArrayList<>(map.values());
     }
 
     public List<List<String>> groupAnagrams(String[] strs) {
