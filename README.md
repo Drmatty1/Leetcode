@@ -10,6 +10,7 @@
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Drmatty1/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2384-largest-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2384-largest-palindromic-number) |
+| [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 ## String
 |  |
@@ -95,6 +96,7 @@
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [2202-maximize-the-topmost-element-after-k-moves](https://github.com/Drmatty1/Leetcode/tree/master/2202-maximize-the-topmost-element-after-k-moves) |
+| [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [3309-maximum-possible-number-by-binary-concatenation](https://github.com/Drmatty1/Leetcode/tree/master/3309-maximum-possible-number-by-binary-concatenation) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Drmatty1/Leetcode/tree/master/3644-maximum-k-to-sort-a-permutation) |
@@ -172,6 +174,7 @@
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Drmatty1/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
+| [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 ## Two Pointers
 |  |
