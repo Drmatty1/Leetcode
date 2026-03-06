@@ -12,8 +12,7 @@ class Solution {
         return res;
 
     }
-    public List<List<String>> groupAnagrams(String[] strs) {
-        
+    List<List<String>> solve(String[] strs){
         List<List<String>> ans= new ArrayList<>();
         Arrays.sort(strs, (a,b) -> { 
             return sort(a).compareTo(sort(b));
@@ -37,5 +36,28 @@ class Solution {
         }
         ans.add(temp);
         return ans;
+    }
+    List<List<String>> solve2(String[] strs){
+        int l = strs.length;
+        Map<String,List<Integer>> map = new HashMap<>();
+        for( int i=0; i<l; i++ ){
+            String temp = sort(strs[i]).toString();
+            if(!map.containsKey(temp)){
+                map.put(temp, new ArrayList<>());
+            }
+            map.get(temp).add(i);
+        }
+        List<List<String>> ans= new ArrayList<>();
+        for( Map.Entry<String,List<Integer>> e : map.entrySet() ){
+            List<String> temp =  new ArrayList<>();
+            for( int I : e.getValue() ){
+                temp.add(strs[I]);
+            }
+            ans.add(temp);
+        }
+        return ans;
+    }
+    public List<List<String>> groupAnagrams(String[] strs) {
+        return solve2(strs);
     }
 }
