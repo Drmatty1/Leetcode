@@ -1,8 +1,13 @@
 class Solution {
     public String minRemoveToMakeValid(String s) {
+
         StringBuilder ans = new StringBuilder();
-        int open = 0, close=0;
-        for( char c : s.toCharArray() ){
+        int open = 0, close=0, size = s.length();
+
+        for( int i=0; i<size; i++ ){
+
+            char c = s.charAt(i);
+
             if( c == '(' ){
                 open++;
                 ans.append(c);
@@ -23,6 +28,7 @@ class Solution {
         int l=ans.length();
 
         for( int i=l-1; i>=0; i-- ){
+            
             char c = ans.charAt(i);
             if( c == ')' ){
                 close++;
