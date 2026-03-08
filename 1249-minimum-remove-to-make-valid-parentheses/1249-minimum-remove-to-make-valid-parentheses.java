@@ -1,48 +1,50 @@
 class Solution {
     public String minRemoveToMakeValid(String s) {
 
-        StringBuilder ans = new StringBuilder();
-        int open = 0, close=0, size = s.length();
-
-        for( int i=0; i<size; i++ ){
-
-            char c = s.charAt(i);
-
+        // StringBuilder ans = new StringBuilder();
+        int size = s.length();
+        char []ans = new char[size];
+        int top=0;
+        int open = 0, close=0;
+        
+        for( char c : s.toCharArray() ){
             if( c == '(' ){
                 open++;
-                ans.append(c);
+                ans[top++] = c;
             }
             else if( c == ')'  ){
                 if( open > close ){
                     close++;
-                    ans.append(c);
+                    ans[top++] = c;
                 }
             }
-            else ans.append(c);
+            else ans[top++] = c;
         }
         
-        if( close == open ) return ans.toString();
+        if( close == open ) return new String(ans,0,top);
         
         open = 0; close = 0;
-        StringBuilder res = new StringBuilder();
-        int l=ans.length();
-
-        for( int i=l-1; i>=0; i-- ){
-            
-            char c = ans.charAt(i);
+        // StringBuilder res = new StringBuilder();
+        // int l=ans.length();
+        char []res = new char[top];
+        int i = top-1;
+        int j=i;
+        for( ; j>=0; j-- ){
+            char c = ans[j];
             if( c == ')' ){
                 close++;
-                res.append(c);
+                res[i--] = c;
             }
             else if( c == '('  ){
                 if( open < close ){
                     open++;
-                    res.append(c);
+                    res[i--] = c;
                 }
             }
-            else res.append(c);
+            else res[i--] = c;
         }
+       
+        return new String(res,i+1,top-i-1);
 
-        return res.reverse().toString();
     }
 }
