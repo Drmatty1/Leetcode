@@ -22,6 +22,7 @@
 | [0696-count-binary-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Drmatty1/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Drmatty1/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -217,6 +218,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Drmatty1/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 ## Stack
 |  |
