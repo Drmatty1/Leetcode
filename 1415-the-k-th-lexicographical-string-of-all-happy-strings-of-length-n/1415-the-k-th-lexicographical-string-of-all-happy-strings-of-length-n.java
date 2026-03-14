@@ -6,23 +6,19 @@ class Solution {
             dp[i] = new String[3*(int)Math.pow(2,i)];
         }
     }
+    static char []chars = { 'a', 'b', 'c' };
 
-    char []chars = { 'a', 'b', 'c' };
     void solve( int l, int[] a, int n, char[]temp, char p ){
         
         if( l == n ){
             dp[n-1][a[0]++] = new String(temp);
-            System.out.println("ppi"+" "+l+" "+n);
             return ;
         }
 
         for( char c : chars ){
-            System.out.println(c+" "+p+" "+l);
            
             if( p == '1' || c != p ) {
-                System.out.println("ii"+" "+c+" "+p);
                 temp[l] = c ;
-                // if( l != 0 ) System.out.println(temp[l-1]+" "+temp[l]);
                 solve( l+1, a, n, temp, c );
             }
         }
@@ -31,7 +27,6 @@ class Solution {
         int []a = {0};
         char []arr = new char[n];
 
-        // System.out.println(t+"hi");
         solve( 0, a, n, arr , '1' );
     }
 
@@ -43,10 +38,6 @@ class Solution {
         if( dp[n-1][k-1] != null ) return  dp[n-1][k-1];
 
         generate( n );
-
-        for( String s : dp[2] ){
-            System.out.println(s);
-        }
 
         return dp[n-1][k-1];
     }
