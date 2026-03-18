@@ -145,6 +145,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Drmatty1/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
@@ -203,10 +204,12 @@
 ## Tree
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 ## Binary Tree
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 ## Union-Find
 |  |
@@ -231,4 +234,8 @@
 |  |
 | ------- |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Drmatty1/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 <!---LeetCode Topics End-->
