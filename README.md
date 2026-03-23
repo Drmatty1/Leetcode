@@ -90,6 +90,7 @@
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/Drmatty1/Leetcode/tree/master/0134-gas-station) |
+| [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0502-ipo](https://github.com/Drmatty1/Leetcode/tree/master/0502-ipo) |
@@ -119,6 +120,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
+| [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
@@ -163,6 +165,7 @@
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Drmatty1/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
