@@ -36,7 +36,7 @@ class Solution {
         }
         return true;
     }
-     boolean canJump1( int[] s, int m ){
+    boolean canJump1( int[] s, int m ){
 
         int prev = s[0], n = s.length;
         boolean []flag = new boolean[n];
@@ -65,7 +65,7 @@ class Solution {
         }
         return true;
     }
-    public int maxJump(int[] stones) {
+    int BSOnRange(int[] stones){
         int []s = stones;
         int l = 1, h = s[s.length-1];
         int potentialAns = h;
@@ -81,5 +81,13 @@ class Solution {
             }
         }
         return potentialAns;
+    }
+    public int maxJump(int[] stones) {
+        int n = stones.length;
+        int res = stones[1]-stones[0];
+        for( int i=2; i<n; i++ ){
+            res = Math.max(res,stones[i]-stones[i-2]);
+        }
+        return res;
     }
 }
