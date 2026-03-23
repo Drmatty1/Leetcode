@@ -36,6 +36,35 @@ class Solution {
         }
         return true;
     }
+     boolean canJump1( int[] s, int m ){
+
+        int prev = s[0], n = s.length;
+        boolean []flag = new boolean[n];
+
+        for( int i=1; i<n; i++ ){
+
+            if( s[i]-prev <= m ) continue;
+
+            // must have jumped here
+            flag[i-1] = true;
+            prev = s[i-1];
+            
+            if( s[i]-prev > m ) return false;
+        }
+
+        prev = s[n-1];
+        
+        for( int i =n-2; i>=0; i-- ){
+
+            if( flag[i] == true ) continue;
+
+            if( prev-s[i] > m ) return false;
+            
+            prev = s[i];
+
+        }
+        return true;
+    }
     public int maxJump(int[] stones) {
         int []s = stones;
         int l = 1, h = s[s.length-1];
@@ -43,7 +72,7 @@ class Solution {
 
         while( l <= h ){
             int mid = (h-l)/2+l;
-            if( canJump(s,mid) ){
+            if( canJump1(s,mid) ){
                 potentialAns = mid;
                 h = mid-1;
             }
