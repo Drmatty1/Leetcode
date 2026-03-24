@@ -92,13 +92,9 @@ class Solution {
                 
                 char p = a.charAt(i), q = b.charAt(j);
                 if( p == q ){
-                    //pick
-                    int op1 = 1 + next[j+1];
                     
-                    //skip
-                    int op2 = next[j];
 
-                    curr[j] = Math.max(op1,op2);
+                    curr[j] =  1 + next[j+1];
                 }
                 else{
                     int op1 = next[j];
