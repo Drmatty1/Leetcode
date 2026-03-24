@@ -133,6 +133,11 @@ class Solution {
 
         // return sol2(text1,text2);
 
-        return sol3(text1, text2);
+        int res = 0;
+        if( text1.length() > text2.length() )
+            res = sol3(text1, text2);
+        else
+            res = sol3(text2, text1);
+        return res;
     }
 }
