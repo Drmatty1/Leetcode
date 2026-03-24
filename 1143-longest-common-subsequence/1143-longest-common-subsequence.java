@@ -18,6 +18,8 @@ class Solution {
         return Math.max(op1,op2);
 
     }
+
+    // TOP-DOWN
     int sol1( String a, String b, int i, int j, int[][]dp ){
         if( i == a.length() || j == b.length() ){
             return 0;
@@ -40,16 +42,55 @@ class Solution {
         return dp[i][j] = Math.max(op1,op2);
 
     }
+    int sol2( String a, String b ){
+        int l1 = a.length(), l2 = b.length();
+
+        int [][]dp =  new int[l1+1][l2+1];
+
+        for( int i=l1-1; i>=0; i-- ){
+
+            for( int j=l2-1; j>=0; j-- ){
+                
+                char p = a.charAt(i), q = b.charAt(j);
+                if( p == q ){
+                    //pick
+                    int op1 = 1 + dp[i+1][j+1];
+                    
+                    //skip
+                    int op2 = dp[i+1][j];
+
+                    dp[i][j] = Math.max(op1,op2);
+                }
+                else{
+                    int op1 = dp[i+1][j];
+                    int op2 = dp[i][j+1];
+                    dp[i][j] = Math.max(op1,op2);
+                }
+
+            }
+
+        }
+
+        return dp[0][0];
+
+    }
     public int longestCommonSubsequence(String text1, String text2) {
         
-        int [][]dp =  new int[1001][1001];
-        for( int i=0; i<1001; i++ ){
-            for( int j=0; j<1001; j++ ){
-                dp[i][j] = -1;
-            }
-        }
         // int op1 = sol(text1, text2, 0, 0);
-        int op1 = sol1(text1, text2, 0, 0, dp);
-        return op1;
+        // return op1;
+
+
+        // int [][]dp =  new int[1001][1001];
+        // for( int i=0; i<1001; i++ ){
+        //     for( int j=0; j<1001; j++ ){
+        //         dp[i][j] = -1;
+        //     }
+        // }
+        
+        // int op1 = sol1(text1, text2, 0, 0, dp);
+        // return op1;
+
+
+        return sol2(text1,text2);
     }
 }
