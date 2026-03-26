@@ -125,6 +125,7 @@
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Drmatty1/Leetcode/tree/master/0062-unique-paths) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
@@ -231,6 +232,7 @@
 ## Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -238,6 +240,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -253,6 +256,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Drmatty1/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 ## Stack
@@ -269,6 +273,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [2498-frog-jump-ii](https://github.com/Drmatty1/Leetcode/tree/master/2498-frog-jump-ii) |
