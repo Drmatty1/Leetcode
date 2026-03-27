@@ -34,7 +34,7 @@ class Solution {
         
     }
 
-    boolean solve2( int[] nums, int target ){
+    boolean solve21( int[] nums, int target ){
 
         int l = nums.length;
         
@@ -61,6 +61,37 @@ class Solution {
         return dp[0][target];
     }
 
+    boolean solve22( int[] nums, int target ){
+
+        int l = nums.length;
+        
+        boolean [][]dp = new boolean[l+1][target+1];
+        
+        for( int i=0; i<l+1; i++ ){
+            dp[i][0] = true;
+        }
+        
+        // if (nums[0] <= target) {
+        //     dp[0][nums[0]] = true;
+        // }
+
+        for( int i=0; i<l; i++ ){
+            for( int t = 1; t<=target; t++ ){
+
+                boolean op1 = false;
+                if( nums[i] <= t ){
+                    op1 = i==0?false:dp[i-1][t-nums[i]];
+                }
+
+                boolean op2 = i==0?false:dp[i-1][t];
+
+                dp[i][t] = op1||op2;
+            }
+        }
+
+        return dp[l-1][target];
+    }
+
     public boolean canPartition(int[] nums) {
         int sum = 0;
         for( int e : nums ) sum+=e;
@@ -70,6 +101,7 @@ class Solution {
         // int[][]dp = new int[nums.length+1][20001];
         // return solve1( nums, 0, sum/2, dp );
 
-        return solve2(nums, sum/2);
+        // return solve21(nums, sum/2);
+        return solve22(nums, sum/2);
     }
 }
