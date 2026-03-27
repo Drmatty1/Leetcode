@@ -93,6 +93,7 @@
 | [0088-merge-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/Drmatty1/Leetcode/tree/master/0134-gas-station) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/Drmatty1/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0502-ipo](https://github.com/Drmatty1/Leetcode/tree/master/0502-ipo) |
@@ -129,6 +130,7 @@
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/Drmatty1/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1143-longest-common-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1143-longest-common-subsequence) |
