@@ -173,6 +173,7 @@
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
+| [2069-walking-robot-simulation-ii](https://github.com/Drmatty1/Leetcode/tree/master/2069-walking-robot-simulation-ii) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Depth-First Search
@@ -301,4 +302,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Drmatty1/Leetcode/tree/master/0062-unique-paths) |
+## Design
+|  |
+| ------- |
+| [2069-walking-robot-simulation-ii](https://github.com/Drmatty1/Leetcode/tree/master/2069-walking-robot-simulation-ii) |
 <!---LeetCode Topics End-->
