@@ -52,22 +52,7 @@ class Robot {
     public String getDir() {
         if( step == 0 ) return s[d];
 
-        while( step != 0 ){
-
-            int[] vals = {width - x - 1, height - y - 1, x, y};
-            int rem = vals[d];
-
-            int min = Math.min(rem,step);
-            x += min*dir[d][0];
-            y += min*dir[d][1];
-
-            if( step > rem ){
-                step -= rem;
-                d = (d+1)%4;
-            }
-            else step = 0;
-
-        }
+        getPos();
         return s[d];
     }
 }
