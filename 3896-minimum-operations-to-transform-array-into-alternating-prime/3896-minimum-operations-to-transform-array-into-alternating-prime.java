@@ -1,7 +1,7 @@
 class Solution {
     static List<Integer> p = new ArrayList<>();
     static void Sieve(){
-        int M=1000000;
+        int M=100004;
         boolean []nonPrime = new boolean[M];
         nonPrime[1] = true;
         nonPrime[2] = false;
