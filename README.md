@@ -182,6 +182,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Drmatty1/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Drmatty1/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -193,6 +194,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Drmatty1/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Drmatty1/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
@@ -259,6 +261,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0199-binary-tree-right-side-view](https://github.com/Drmatty1/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0606-construct-string-from-binary-tree](https://github.com/Drmatty1/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -268,6 +271,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0199-binary-tree-right-side-view](https://github.com/Drmatty1/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0606-construct-string-from-binary-tree](https://github.com/Drmatty1/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
