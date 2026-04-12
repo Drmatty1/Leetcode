@@ -38,13 +38,43 @@ class Solution {
 
     }
 
-    public int longestPalindromeSubseq(String s) {
-        // return sol(s,0,s.length()-1);
+    int sol2(String s){
 
         int l = s.length();
         int [][]dp = new int[l][l];
-        for( int i=0; i<l; i++ )Arrays.fill(dp[i],-1);
-        return sol1(s,0,s.length()-1,dp);
+
+        for( int i=0; i<l; i++ ) dp[i][i]=1;
+
+        for( int sCol=1; sCol<l; sCol++ ){
+            for( int i=0,j=sCol; i<l&&j<l; i++,j++ ){
+                
+                int c1 = s.charAt(i), c2 = s.charAt(j);
+                int ans =0;
+                if( c1 == c2 ){
+                    ans = 2+dp[i+1][j-1];
+                }
+                else{
+                    int a = dp[i+1][j];
+                    int b = dp[i][j-1];
+                    ans = Math.max(a,b);
+                }
+                dp[i][j] = ans;
+            }
+        }
+
+        return dp[0][l-1];
+
+    }
+
+    public int longestPalindromeSubseq(String s) {
+        // return sol(s,0,s.length()-1);
+
+        // int l = s.length();
+        // int [][]dp = new int[l][l];
+        // for( int i=0; i<l; i++ )Arrays.fill(dp[i],-1);
+        // return sol1(s,0,s.length()-1,dp);
+
+        return sol2(s);
 
     }
 }
