@@ -66,6 +66,7 @@ class Solution {
 
     }
 
+    //Simulated Diagonal Traversal -> Can be Space Optimized
     int sol2BEST(String s){
 
         int l = s.length();
@@ -95,6 +96,36 @@ class Solution {
     }
 
     
+    int sol3BEST(String s){
+
+        int l = s.length();
+        int []next = new int[l];
+        int []curr = new int[l];
+
+        for (int i = l - 1; i >= 0; i--) {
+            
+            curr[i]=1;
+
+            for (int j = i + 1; j < l; j++) {
+                
+                int c1 = s.charAt(i), c2 = s.charAt(j);
+                int ans =0;
+                if( c1 == c2 ){
+                    ans = 2+next[j-1];
+                }
+                else{
+                    int a = next[j];
+                    int b = curr[j-1];
+                    ans = Math.max(a,b);
+                }
+                curr[j] = ans;
+            }
+            next = curr.clone();
+        }
+
+        return next[l-1];
+
+    }
 
 
 
@@ -106,7 +137,11 @@ class Solution {
         // for( int i=0; i<l; i++ )Arrays.fill(dp[i],-1);
         // return sol1(s,0,s.length()-1,dp);
 
-        return sol2BEST(s);
+        
+        // return sol2BEST(s);
+
+        return sol3BEST(s);
+
 
     }
 }
