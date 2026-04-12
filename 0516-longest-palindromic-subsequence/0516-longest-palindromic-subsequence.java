@@ -127,6 +127,40 @@ class Solution {
 
     }
 
+    int sol4BEST(String s){
+
+        int l = s.length();
+        // int []next = new int[l];
+        int []curr = new int[l];
+
+        for (int i = l - 1; i >= 0; i--) {
+            
+            int prev = 0 ;  // dp[i+1][j-1]
+            curr[i]=1;
+
+            for (int j = i + 1; j < l; j++) {
+
+                int temp = curr[j];  // rep dp[i+1][j]
+                
+                int c1 = s.charAt(i), c2 = s.charAt(j);
+                int ans =0;
+                if( c1 == c2 ){
+                    ans = 2+prev;   // 2+next[j-1];
+                }
+                else{
+                    int a = curr[j];     //next[j];
+                    int b = curr[j-1];    //curr[j-1];
+                    ans = Math.max(a,b);
+                }
+                curr[j] = ans;
+                prev = temp;
+            }
+          
+        }
+
+        return curr[l-1];
+
+    }
 
 
     public int longestPalindromeSubseq(String s) {
@@ -140,7 +174,11 @@ class Solution {
         
         // return sol2BEST(s);
 
-        return sol3BEST(s);
+
+        // return sol3BEST(s);
+
+
+        return sol4BEST(s);
 
 
     }
