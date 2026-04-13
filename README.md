@@ -100,6 +100,7 @@
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Drmatty1/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Drmatty1/Leetcode/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/Drmatty1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0088-merge-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/Drmatty1/Leetcode/tree/master/0134-gas-station) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
@@ -141,6 +142,7 @@
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Drmatty1/Leetcode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/Drmatty1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
@@ -234,6 +236,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Drmatty1/Leetcode/tree/master/0048-rotate-image) |
+| [0064-minimum-path-sum](https://github.com/Drmatty1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
