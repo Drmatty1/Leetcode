@@ -24,6 +24,31 @@ class Solution {
 
     }
 
+    int solOP(int []arr){
+
+        Stack<Integer> st = new Stack<>();
+        int ans= 0;
+        
+        for( int i=0; i<arr.length; i++ ){
+            if( !st.isEmpty() && arr[i]>st.peek() ){
+                ans+=arr[i]*st.pop();
+    
+            }
+            st.push(arr[i]);
+        }
+
+        if( !st.isEmpty() ){
+            int curr = st.peek();
+            while( !st.isEmpty() && curr<st.peek() ){
+               
+                ans+=curr*st.peek();
+                curr = st.pop();
+            }
+        }
+
+        return ans;
+        
+    }
   
     public int mctFromLeafValues(int[] arr) {
         int [][]dp = new int[40][40];
