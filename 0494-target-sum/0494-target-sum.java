@@ -96,22 +96,22 @@ class Solution {
         next[P]=1;
 
         for( int i=n-1; i>=0; i-- ){
-            int []c = new int [P+1];
-            for( int curr = P; curr>=0; curr-- ){
+            
+            for( int curr = 0; curr<=P; curr++ ){
                 
                 int a = next[curr];
                 int b = 0;
                 if(curr+arr[i]<=P)
                     b = next[arr[i]+curr];
 
-                c[curr] = a+b;
+                next[curr] = a+b;
             }
-            next = c;
+        
         }
         
         return next[0];
     }
-
+    
 
     public int findTargetSumWays(int[] nums, int target) {         
         int n = nums.length;
