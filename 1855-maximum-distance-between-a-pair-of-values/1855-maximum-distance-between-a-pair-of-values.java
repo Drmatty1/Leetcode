@@ -33,7 +33,7 @@ class Solution {
         int s=0;
         for( int i=0; i<n1; i++ ){
             while( s<n2 && nums2[s]>=nums1[i])s++;
-            if( s<=n2 && s>0 && s>i ){
+            if( s<=n2 ){
                 ans = Math.max(ans,s-i-1);
             }
         }
