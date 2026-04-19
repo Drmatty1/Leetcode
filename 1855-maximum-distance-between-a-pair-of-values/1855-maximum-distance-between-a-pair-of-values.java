@@ -17,10 +17,12 @@ class Solution {
     public int maxDistance(int[] nums1, int[] nums2) {
         int ans = 0;
         int n1 = nums1.length, n2 = nums2.length;
-        for(int i=0; i<n1; i++){
-            int idx = BS(nums2,i,n2-1,nums1[i]);
+        int e = n2-1;
+        for(int i=n1-1; i>=0; i--){
+            int idx = BS(nums2,i,e,nums1[i]);
             if( idx != -1 ){
                 ans = Math.max(ans,idx-i);
+                e=idx;
             }
         }
         return ans;
