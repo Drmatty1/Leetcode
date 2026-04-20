@@ -53,17 +53,17 @@ class Solution {
 
         for( int l=r-1; l>=0; l-- ){
                
-            int []curr = new int [r+1];
+            // int []curr = new int [r+1];
 
             for( int i=0; i<=l; i++){
 
                 int a = next[i];
                 int b = next[i+1];
 
-                curr[i] = t.get(l).get(i)+Math.min(a,b);
+                next[i] = t.get(l).get(i)+Math.min(a,b);
 
             }
-            next = curr;
+            // next = curr;
     
         }
 
