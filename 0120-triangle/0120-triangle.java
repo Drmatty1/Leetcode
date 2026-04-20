@@ -24,13 +24,65 @@ class Solution {
         return dp[l][i] = t.get(l).get(i)+Math.min(a,b);
 
     }
+
+    int sol2(List<List<Integer>> t){
+        
+        int r = t.size();
+        int [][]dp = new int [r+1][r+1];
+
+        for( int l=r-1; l>=0; l-- ){
+            for( int i=0; i<=l; i++){
+
+                int a = dp[l+1][i];
+                int b = dp[l+1][i+1];
+
+                dp[l][i] = t.get(l).get(i)+Math.min(a,b);
+
+            }
+    
+        }
+
+        return dp[0][0];
+
+    }
+
+    int sol3(List<List<Integer>> t){
+        
+        int r = t.size();
+        int []next = new int [r+1];
+
+        for( int l=r-1; l>=0; l-- ){
+               
+            int []curr = new int [r+1];
+
+            for( int i=0; i<=l; i++){
+
+                int a = next[i];
+                int b = next[i+1];
+
+                curr[i] = t.get(l).get(i)+Math.min(a,b);
+
+            }
+            next = curr;
+    
+        }
+
+        return next[0];
+
+    }
+
+
     public int minimumTotal(List<List<Integer>> triangle) {
         // return sol(triangle,0,0);
 
-        int l = triangle.size();
-        int Min = Integer.MIN_VALUE;
-        int [][]dp = new int [l][l];
-        for(int i=0; i<l; i++)Arrays.fill(dp[i],Min);
-        return sol1(triangle,0,0,dp);
+        // int l = triangle.size();
+        // int Min = Integer.MIN_VALUE;
+        // int [][]dp = new int [l][l];
+        // for(int i=0; i<l; i++)Arrays.fill(dp[i],Min);
+        // return sol1(triangle,0,0,dp);
+
+        // return sol2(triangle);
+
+        return sol3(triangle);
     }
 }
