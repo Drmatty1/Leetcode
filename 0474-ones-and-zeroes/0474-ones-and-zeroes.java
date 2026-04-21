@@ -25,11 +25,12 @@ class Solution {
         
     }
 
-    int sol1(Map<String,Integer> map, String[] strs, int m, int n, int i, int p, int q, Map<String,Integer> dp){
+    int sol1(Map<String,Integer> map, String[] strs, int m, int n, int i, int p, int q, Map<Integer,Integer> dp){
 
         if(i==strs.length)return 0;
 
-        String key = i+" "+p+" "+q;
+        // String key = i+" "+p+" "+q;
+        int key = (i << 14) | (p << 7) | q;
 
         if(dp.containsKey(key)) return dp.get(key);
 
@@ -57,7 +58,7 @@ class Solution {
         // int ans = sol(map,strs,m,n,0,0,0);
 
         // Memo
-        Map<String,Integer> dp = new HashMap<>();
+        Map<Integer,Integer> dp = new HashMap<>();
         int ans = sol1(map,strs,m,n,0,0,0,dp);
         return ans;
     }
