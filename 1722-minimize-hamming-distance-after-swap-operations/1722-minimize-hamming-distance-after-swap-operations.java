@@ -32,11 +32,7 @@ class Solution {
         Map<Integer,List<Integer>> map = new HashMap<>();
 
         for( int i=0; i<n; i++ ){
-            d.find(i);
-        }
-
-        for( int i=0; i<n; i++ ){
-            int root = d.par[i];
+            int root = d.find(i);
             map.computeIfAbsent(root,k->new ArrayList<>()).add(i);
         }
 
