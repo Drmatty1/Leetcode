@@ -25,14 +25,15 @@ class Solution {
         
     }
 
-    int sol1(Map<String,Integer> map, String[] strs, int m, int n, int i, int p, int q, Map<Integer,Integer> dp){
+    int sol1(Map<String,Integer> map, String[] strs, int m, int n, int i, int p, int q, int [][][]dp){
 
         if(i==strs.length)return 0;
 
         // String key = i+" "+p+" "+q;
-        int key = (i << 14) | (p << 7) | q;
+        // int key = (i << 14) | (p << 7) | q;
 
-        if(dp.containsKey(key)) return dp.get(key);
+        // if(dp.containsKey(key)) return dp.get(key);
+        if( dp[i][p][q] != -1 ) return dp[i][p][q];
 
         int a = sol1(map,strs,m,n,i+1,p,q,dp);
 
@@ -43,8 +44,8 @@ class Solution {
             b = 1+sol1(map,strs,m,n,i+1,p+zero,q+one,dp);
         }
 
-        dp.put(key,(Math.max(a,b)));
-        return Math.max(a,b);
+        // dp.put(key,(Math.max(a,b)));
+        return dp[i][p][q] = Math.max(a,b);
         
     }
     public int findMaxForm(String[] strs, int m, int n) {
@@ -58,7 +59,11 @@ class Solution {
         // int ans = sol(map,strs,m,n,0,0,0);
 
         // Memo
-        Map<Integer,Integer> dp = new HashMap<>();
+        // Map<Integer,Integer> dp = new HashMap<>();
+        int [][][]dp = new int[strs.length][101][101];
+        for(int i=0; i<strs.length; i++){
+            for(int j=0; j<=100; j++)Arrays.fill(dp[i][j],-1);
+        }
         int ans = sol1(map,strs,m,n,0,0,0,dp);
         return ans;
     }
