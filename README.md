@@ -138,6 +138,7 @@
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
+| [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Drmatty1/Leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
@@ -196,6 +197,7 @@
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Drmatty1/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
+| [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Bit Manipulation
@@ -352,6 +354,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [2906-construct-product-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Drmatty1/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
