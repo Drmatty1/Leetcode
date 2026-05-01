@@ -95,6 +95,7 @@
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Drmatty1/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
@@ -154,6 +155,7 @@
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Drmatty1/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2202-maximize-the-topmost-element-after-k-moves](https://github.com/Drmatty1/Leetcode/tree/master/2202-maximize-the-topmost-element-after-k-moves) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
@@ -215,6 +217,7 @@
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Bit Manipulation
@@ -305,6 +308,7 @@
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [2906-construct-product-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
