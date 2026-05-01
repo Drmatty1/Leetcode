@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/0049-group-anagrams) |
+| [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0457-circular-array-loop](https://github.com/Drmatty1/Leetcode/tree/master/0457-circular-array-loop) |
@@ -408,6 +409,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
 | [2069-walking-robot-simulation-ii](https://github.com/Drmatty1/Leetcode/tree/master/2069-walking-robot-simulation-ii) |
 ## Memoization
 |  |
@@ -421,6 +423,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Drmatty1/Leetcode/tree/master/0002-add-two-numbers) |
+| [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
 ## Number Theory
 |  |
 | ------- |
@@ -429,4 +432,8 @@
 |  |
 | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Drmatty1/Leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
