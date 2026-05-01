@@ -6,10 +6,7 @@ class Solution {
         grid[i][j] = t ;
         
         boolean ans = false;
-
         char curr = grid[i][j];
-
-        // System.out.println(i+" "+j+" "+t+" "+(int)t);
 
         for(int []d : dir){
             int ni = i+d[0];
@@ -20,15 +17,14 @@ class Solution {
                 if(grid[ni][nj] == curr) return true;
                 if(grid[ni][nj] == (curr+32)){
                     ans |= dfs(grid,ni,nj,i,j,t);
+                    if(ans == true)return true;
                 }
                 
                     
             }
         }
-        // System.out.println(i+" "+j+" "+ans);
-        
-        return ans;
 
+        return ans;
     }
     public boolean containsCycle(char[][] grid) {
         r = grid.length;
@@ -40,6 +36,7 @@ class Solution {
                 char c = grid[i][j];
                 if( c<= 'z' && c>='a' ){
                     ans |= dfs(grid,i,j,-1,-1,(char)(c-32));
+                    if(ans == true)return true;
                 }
             }
         }
