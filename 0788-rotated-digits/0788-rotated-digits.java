@@ -1,6 +1,6 @@
 class Solution {
-    int []dp = new int[10001];
-    int max=1;
+    static int []dp = new int[10001];
+    static int max=1;
     int c(int n){
         int check = 0;
         while(n>0){
@@ -14,7 +14,7 @@ class Solution {
     public int rotatedDigits(int n) {
         int ans = 0;
         if( n <= max ) return dp[n];
-        
+
         for(int i=max+1; i<=n; i++){
             int t = c(i);
             dp[i] = t+dp[i-1];
