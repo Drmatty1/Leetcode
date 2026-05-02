@@ -198,6 +198,7 @@
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/Drmatty1/Leetcode/tree/master/0650-2-keys-keyboard) |
+| [0788-rotated-digits](https://github.com/Drmatty1/Leetcode/tree/master/0788-rotated-digits) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1143-longest-common-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -215,6 +216,7 @@
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
 | [0650-2-keys-keyboard](https://github.com/Drmatty1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Drmatty1/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
+| [0788-rotated-digits](https://github.com/Drmatty1/Leetcode/tree/master/0788-rotated-digits) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
