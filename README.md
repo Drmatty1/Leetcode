@@ -30,6 +30,7 @@
 | [0647-palindromic-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0696-count-binary-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
+| [0796-rotate-string](https://github.com/Drmatty1/Leetcode/tree/master/0796-rotate-string) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [1143-longest-common-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -446,4 +447,8 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/Drmatty1/Leetcode/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
