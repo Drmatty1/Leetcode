@@ -180,6 +180,7 @@
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Drmatty1/Leetcode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Drmatty1/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
+| [3819-rotate-non-negative-elements](https://github.com/Drmatty1/Leetcode/tree/master/3819-rotate-non-negative-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -253,6 +254,7 @@
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Drmatty1/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3819-rotate-non-negative-elements](https://github.com/Drmatty1/Leetcode/tree/master/3819-rotate-non-negative-elements) |
 ## Depth-First Search
 |  |
 | ------- |
