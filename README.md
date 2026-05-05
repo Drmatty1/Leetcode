@@ -334,6 +334,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Drmatty1/Leetcode/tree/master/0011-container-with-most-water) |
+| [0061-rotate-list](https://github.com/Drmatty1/Leetcode/tree/master/0061-rotate-list) |
 | [0088-merge-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0457-circular-array-loop](https://github.com/Drmatty1/Leetcode/tree/master/0457-circular-array-loop) |
 | [0647-palindromic-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0647-palindromic-substrings) |
@@ -436,6 +437,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Drmatty1/Leetcode/tree/master/0002-add-two-numbers) |
+| [0061-rotate-list](https://github.com/Drmatty1/Leetcode/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
 ## Number Theory
 |  |
