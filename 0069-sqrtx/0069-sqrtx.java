@@ -7,10 +7,8 @@ class Solution {
             double ny = (y*y+a)/(2*y);
             if( Math.abs(ny-y) <= epsilon ){
                 y = ny;
-                System.out.println(ny+" "+y+" "+(int)y);
                 break;
             }
-            System.out.println(ny+" "+y+" "+(int)y);
             y = ny;
         }
         return (int)(y);
