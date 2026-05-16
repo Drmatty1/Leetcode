@@ -1,7 +1,8 @@
 class Solution {
     public int findMin(int[] nums) {
-        int min = nums[0];
-        for(int e:nums) min = Math.min(min,e);
-        return min;
+        // int min = nums[0];
+        // for(int e:nums) min = Math.min(min,e);
+        // return min;
+        return Arrays.stream(nums).min().getAsInt();
     }
 }
