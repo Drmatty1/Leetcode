@@ -14,7 +14,7 @@ class Solution {
             int rem = max - gaps-chars ;
 
             for(int t=i; t<j; t++){
-                res.append(words[t]+" ");
+                res.append(words[t]).append(" ");
             }
             res.append(words[j]);
 
