@@ -58,17 +58,16 @@ class Solution {
 
         if(dp[i][j] != null) return dp[i][j];
 
-        char c1 = s1.charAt(i), c2 = s2.charAt(j), c3 = s3.charAt(i+j); 
-        if( c1 != c3 ){
-            if(c2 != c3)return dp[i][j] = false;
-            return dp[i][j]= sol11(s1,s2,s3,i,j+1,dp);
-        }
-        else{
-            if(c2 != c3)
-                return dp[i][j]=sol11(s1,s2,s3,i+1,j,dp);;
-            return dp[i][j] = sol11(s1,s2,s3,i,j+1,dp)||sol11(s1,s2,s3,i+1,j,dp);
-        }
+        boolean ans = false;
 
+        char c1 = s1.charAt(i), c2 = s2.charAt(j), c3 = s3.charAt(i+j); 
+        if(c1 == c3 )
+            ans |= sol11(s1,s2,s3,i+1,j,dp);
+        
+        if(c2 == c3)
+            ans |= sol11(s1,s2,s3,i,j+1,dp);
+        
+        return dp[i][j] = ans;
     }
 
 
@@ -88,19 +87,53 @@ class Solution {
             for(int j=n2-1; j>=0; j--){
 
                 char c1 = s1.charAt(i), c2 = s2.charAt(j), c3 = s3.charAt(i+j); 
-                if( c1 != c3 ){
-                    if(c2 != c3)  dp[i][j] = false;
-                    else dp[i][j] = dp[i][j+1];
-                }
-                else{
-                    if(c2 != c3) dp[i][j]=dp[i+1][j];
-                    else dp[i][j] = dp[i][j+1]||dp[i+1][j];
-                }
+
+                boolean ans = false;
+                if( c1 == c3 )
+                    ans |= dp[i+1][j];
+            
+                if(c2 == c3) 
+                    ans |= dp[i][j+1];
+                
+                dp[i][j] = ans;
 
             }
         }
 
         return dp[0][0];
+
+    }
+
+    boolean sol22(String s1, String s2, String s3){
+
+        int n1 = s1.length(), n2 = s2.length(), n3 = s3.length();
+
+        Boolean []dp = new Boolean[n2+1];
+        for(int j=0; j<=n2; j++){
+            dp[j] = s2.substring(j).equals(s3.substring(n1+j));
+        }
+
+        for(int i=n1-1; i>=0; i--){
+
+            dp[n2] =  s1.substring(i).equals(s3.substring(i+n2));
+
+            for(int j=n2-1; j>=0; j--){
+
+                char c1 = s1.charAt(i), c2 = s2.charAt(j), c3 = s3.charAt(i+j); 
+
+                boolean ans = false;
+                if( c1 == c3 )
+                    ans |= dp[j];
+            
+                if(c2 == c3) 
+                    ans |= dp[j+1];
+                
+                dp[j] = ans;
+
+            }
+        }
+
+        return dp[0];
 
     }
 
@@ -117,6 +150,8 @@ class Solution {
         // Boolean [][]dp = new Boolean[n1][n2];
         // return sol11(s1,s2,s3,0,0,dp);
 
-        return sol21(s1,s2,s3);
+        // return sol21(s1,s2,s3);
+
+        return sol22(s1,s2,s3);
     }
 }
