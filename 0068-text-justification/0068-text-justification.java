@@ -8,17 +8,9 @@ class Solution {
 
         int gaps = j-i;             // ==0 ????
 
-        if( gaps == 0 ){
-            StringBuilder res = new StringBuilder();
-            res.append(words[i]);
-            int spaces = max - chars;
-            while(spaces-->0) res.append(" ");
-            return new String(res);
-        } 
+        if( j == words.length-1 || gaps == 0 ){
 
-        if( j == words.length-1 ){
-
-            StringBuilder res = new StringBuilder();
+            StringBuilder res = new StringBuilder(max);
             int rem = max - gaps-chars ;
 
             for(int t=i; t<j; t++){
@@ -36,7 +28,7 @@ class Solution {
         int pergaps = spaces/gaps;
         int extra = spaces%gaps;
 
-        StringBuilder res = new StringBuilder();
+        StringBuilder res = new StringBuilder(max);
 
         for(int t=i; t<j; t++){
             res.append(words[t]);
