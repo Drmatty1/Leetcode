@@ -24,6 +24,7 @@
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/Drmatty1/Leetcode/tree/master/0068-text-justification) |
 | [0474-ones-and-zeroes](https://github.com/Drmatty1/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0516-longest-palindromic-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0606-construct-string-from-binary-tree](https://github.com/Drmatty1/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
@@ -125,6 +126,7 @@
 | [0057-insert-interval](https://github.com/Drmatty1/Leetcode/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/Drmatty1/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Drmatty1/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/Drmatty1/Leetcode/tree/master/0068-text-justification) |
 | [0088-merge-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0120-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0120-triangle) |
 | [0134-gas-station](https://github.com/Drmatty1/Leetcode/tree/master/0134-gas-station) |
@@ -251,6 +253,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/Drmatty1/Leetcode/tree/master/0068-text-justification) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2069-walking-robot-simulation-ii](https://github.com/Drmatty1/Leetcode/tree/master/2069-walking-robot-simulation-ii) |
