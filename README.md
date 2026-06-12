@@ -82,6 +82,7 @@
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Drmatty1/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
+| [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Drmatty1/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
 | [2202-maximize-the-topmost-element-after-k-moves](https://github.com/Drmatty1/Leetcode/tree/master/2202-maximize-the-topmost-element-after-k-moves) |
@@ -115,6 +116,7 @@
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1046-last-stone-weight](https://github.com/Drmatty1/Leetcode/tree/master/1046-last-stone-weight) |
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
+| [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 ## Array
@@ -163,6 +165,7 @@
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Drmatty1/Leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
+| [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
