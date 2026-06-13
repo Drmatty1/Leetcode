@@ -8,7 +8,7 @@ BEGIN
             select distinct salary 
             from Employee
             order by salary desc 
-            limit 1 offset N
+            limit N,1
             ) 
         as SecondHighestSalary
   );
