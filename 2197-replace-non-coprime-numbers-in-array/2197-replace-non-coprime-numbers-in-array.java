@@ -29,8 +29,10 @@ class Solution {
 
         for(int e: nums){
             int fusion  = e;
-            while( (top!=-1) && ncprm(fusion,st[top]) ){
-                fusion = (int)lcm(fusion,st[top--]);
+            while( (top!=-1) ){
+                int hcf = hcf(fusion,st[top]);
+                if(hcf <= 1 ) break;
+                fusion = (int)(1L*fusion*st[top--]/hcf);
             }
             st[++top] = fusion ;
         }
