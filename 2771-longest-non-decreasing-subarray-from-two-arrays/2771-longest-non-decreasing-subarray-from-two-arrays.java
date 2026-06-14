@@ -1,4 +1,36 @@
 class Solution {
+    int [][]dp ;
+    int solve(int i,int prevArr,int[] nums1, int[] nums2)
+    {
+        if(i>=nums1.length) return 0;             
+        
+        if(dp[i][prevArr] != -1 ) return dp[i][prevArr];
+        int ans=0;
+        if(prevArr==0)
+        {
+            int nontake = solve( i +1, 0,nums1,nums2);    
+            int take1=1+solve(i+1,1,nums1,nums2);    
+            int take2=1+solve(i+1,2,nums1,nums2);    
+            ans=Math.max(nontake,Math.max(take1,take2));            
+           
+        }
+        else 
+        {
+            if(prevArr==1)                         // prev array is nums1
+            {
+                if(nums1[i]>=nums1[i-1]) ans=Math.max(ans,1+solve(i+1,1,nums1,nums2)); // we will update our ans if cur val is greater or equal previous value 
+                if(nums2[i]>=nums1[i-1]) ans=Math.max(ans,1+solve(i+1,2,nums1,nums2));
+                
+            }
+            else if(prevArr==2)                    // prev array is num2 
+            {
+                if(nums1[i] >=nums2[i-1]) ans=Math.max(ans,1+solve(i+1,1,nums1,nums2));               
+                if(nums2[i]>=nums2[i-1]) ans=Math.max(ans,1+solve(i+1,2,nums1,nums2));               
+            }          
+        }
+
+        return dp[i][prevArr] = ans;
+    }
     int solOP(int[] nums1, int[] nums2) {
         int n = nums1.length;
 
@@ -66,7 +98,16 @@ class Solution {
         }
         return ans;
     }
+
     public int maxNonDecreasingLength(int[] nums1, int[] nums2) {
-        return solOP1(nums1, nums2);
+        // return solOP1(nums1, nums2);
+
+        int n = nums1.length;
+        dp = new int[n][3];
+        for(int i=0; i<n; i++){
+            Arrays.fill(dp[i], -1);
+        }
+        return solve(0,0,nums1,nums2);
+
     }
 }
