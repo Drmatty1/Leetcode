@@ -1,5 +1,5 @@
 class Solution {
-    public int maxNonDecreasingLength(int[] nums1, int[] nums2) {
+    int solOP(int[] nums1, int[] nums2) {
         int n = nums1.length;
 
         for(int i = n-1; i>=0; i--){
@@ -32,5 +32,41 @@ class Solution {
 
        
         return ans;
+    }
+    int solOP1(int[] nums1, int[] nums2) {
+        int n = nums1.length;
+
+        for(int i = n-1; i>=0; i--){
+
+            if(nums1[i] > nums2[i]){
+                int temp = nums1[i];
+                nums1[i] = nums2[i];
+                nums2[i] = temp;
+            }
+        }
+
+       
+        int dp1_n = 1, dp2_n = 1;
+        int dp1 , dp2;
+        int ans = 1;
+        for(int i=n-2; i>=0; i--){
+
+            if(nums1[i] <= nums1[i+1]) dp1 = 1+dp1_n;
+            else if( nums1[i] <= nums2[i+1] ) dp1 = 1+dp2_n;
+            else dp1 = 1;
+
+            if(nums2[i] <= nums1[i+1]) dp2 = 1+dp1_n;
+            else if( nums2[i] <= nums2[i+1] ) dp2 = 1+dp2_n;
+            else dp2 = 1;
+
+            ans = Math.max(ans,Math.max(dp1,dp2));
+            dp1_n = dp1;
+            dp2_n = dp2;
+
+        }
+        return ans;
+    }
+    public int maxNonDecreasingLength(int[] nums1, int[] nums2) {
+        return solOP1(nums1, nums2);
     }
 }
