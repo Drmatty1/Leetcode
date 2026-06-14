@@ -35,7 +35,8 @@ class Solution {
         return ans;
     }
 
-    public int getLength(int[] nums) {
+    //O(n^2)
+    int sol2(int[] nums) {
         int n = nums.length;
         int ans = 1;
 
@@ -69,5 +70,9 @@ class Solution {
         }
 
         return ans;
+    }
+
+    public int getLength(int[] nums) {
+        return sol1(nums);
     }
 }
