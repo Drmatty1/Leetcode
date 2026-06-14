@@ -1,8 +1,9 @@
 class Solution {
     public long maxRatings(int[][] units) {
         int n = units.length, m = units[0].length;
+
         for(int []a: units) Arrays.sort(a);
-        Arrays.sort(units, (a,b)->Integer.compare(a[0],b[0]));
+        // Arrays.sort(units, (a,b)->Integer.compare(a[0],b[0]));
 
         long ans = 0;
         int j = (m==1?0:1);
