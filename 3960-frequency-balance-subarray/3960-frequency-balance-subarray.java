@@ -72,7 +72,48 @@ class Solution {
         return ans;
     }
 
+
+    //O(n^2)
+    int sol3(int[] nums) {
+        int n = nums.length;
+        int ans = 1;
+
+        for(int i=0; i<n; i++){
+
+            Map<Integer,Integer> freq = new HashMap<>();
+            int []count = new int[n+1];
+            int distinct = 0;
+            int maxfreq = 0;
+
+            for(int j=i; j<n; j++){
+                int key = nums[j];
+                int prevf = freq.getOrDefault(key,0);
+                freq.put(key,prevf+1);
+
+                if( prevf > 0 ){
+                    count[prevf] --;
+                }
+                else distinct++;
+
+                int currf = prevf+1;
+                maxfreq = Math.max(maxfreq, currf);
+
+                count[currf]++;
+                
+                if(maxfreq%2==0 && count[maxfreq]+count[maxfreq/2]==distinct && count[maxfreq/2]>0){
+                    ans = Math.max(ans, j-i+1);
+                }
+                else if( freq.size() == 1 ) ans = Math.max(ans, j-i+1);
+
+            }
+        }
+
+        return ans;
+    }
+    
+
     public int getLength(int[] nums) {
-        return sol1(nums);
+        // return sol1(nums);
+        return sol3(nums);
     }
 }
