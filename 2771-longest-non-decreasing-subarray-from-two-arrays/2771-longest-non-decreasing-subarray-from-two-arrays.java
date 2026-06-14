@@ -1,17 +1,18 @@
 class Solution {
     public int maxNonDecreasingLength(int[] nums1, int[] nums2) {
-        int prev = 0, n = nums1.length;
-    
-        int last = (int)1e9;
+        int n = nums1.length;
+
         for(int i = n-1; i>=0; i--){
-            int a = Math.min(nums1[i],nums2[i]);
-            int b = Math.max(nums1[i],nums2[i]);
-            nums1[i] = a;
-            nums2[i] = b;
+
+            if(nums1[i] > nums2[i]){
+                int temp = nums1[i];
+                nums1[i] = nums2[i];
+                nums2[i] = temp;
+            }
         }
 
-        int []dp1 = new int[n+1];
-        int []dp2 = new int[n+1];
+        int []dp1 = new int[n];
+        int []dp2 = new int[n];
         dp1[n-1] = 1;
         dp2[n-1] = 1;
         int ans = 1;
