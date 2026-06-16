@@ -24,3 +24,11 @@ class Solution {
         return res.toString();
     }
 }
+// curr->aab     rev->baa
+// %
+// curr->baa     rev->aab
+// add 'c'
+// curr->baac    rev->caab
+// rev
+// curr->caab    rev->baac
+
