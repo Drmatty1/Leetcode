@@ -55,8 +55,8 @@ class Solution {
         for(int i=0; i<n; i++){
             int rem = n-i-1;
             int fact = f[rem];
-            int t = k/fact;
-            if( k%fact == 0 ) t--;
+            int t = (k-1)/fact;
+            // if( k%fact == 0 ) t--;
             if( fact < k ){
                 for(int j = i+t; j>i; j-- ){
                     swap(arr, j, j-1);
