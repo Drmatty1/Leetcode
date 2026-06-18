@@ -1,7 +1,7 @@
 class Solution {
     public double angleClock(int hour, int minutes) {
         double minNed = 1L*minutes/5.0;
-        double hourNed = hour + (minNed/12.0);
+        double hourNed = hour + (minNed/12);
         double diff = Math.abs(hourNed-minNed);
 
         if(diff > 6.0) diff = 12.0 - diff;
