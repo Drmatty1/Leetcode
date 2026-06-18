@@ -134,6 +134,7 @@
 | [0011-container-with-most-water](https://github.com/Drmatty1/Leetcode/tree/master/0011-container-with-most-water) |
 | [0048-rotate-image](https://github.com/Drmatty1/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/Drmatty1/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Drmatty1/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Drmatty1/Leetcode/tree/master/0057-insert-interval) |
@@ -433,6 +434,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
+| [0051-n-queens](https://github.com/Drmatty1/Leetcode/tree/master/0051-n-queens) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0491-non-decreasing-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/0494-target-sum) |
