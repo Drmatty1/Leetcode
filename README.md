@@ -254,6 +254,7 @@
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
+| [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
 | [0650-2-keys-keyboard](https://github.com/Drmatty1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Drmatty1/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0788-rotated-digits](https://github.com/Drmatty1/Leetcode/tree/master/0788-rotated-digits) |
@@ -531,4 +532,16 @@
 |  |
 | ------- |
 | [1114-print-in-order](https://github.com/Drmatty1/Leetcode/tree/master/1114-print-in-order) |
+## Rejection Sampling
+|  |
+| ------- |
+| [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
+## Randomized
+|  |
+| ------- |
+| [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
 <!---LeetCode Topics End-->
