@@ -7,7 +7,7 @@ class Solution extends SolBase {
     public int rand10() {
         while(true){
             int a = (rand7()-1)*7 + rand7() ;
-            if(a <= 43 && a>=4) return a/4;
+            if( a <= 40 ) return (a%10)+1;
         }
     }
 }
