@@ -247,6 +247,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/Drmatty1/Leetcode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/Drmatty1/Leetcode/tree/master/0048-rotate-image) |
+| [0060-permutation-sequence](https://github.com/Drmatty1/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Drmatty1/Leetcode/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/Drmatty1/Leetcode/tree/master/0069-sqrtx) |
@@ -428,6 +429,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Drmatty1/Leetcode/tree/master/0002-add-two-numbers) |
+| [0060-permutation-sequence](https://github.com/Drmatty1/Leetcode/tree/master/0060-permutation-sequence) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 ## Backtracking
