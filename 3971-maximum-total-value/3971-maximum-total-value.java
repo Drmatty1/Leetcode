@@ -4,10 +4,9 @@ class Solution {
         long sum = 0, ct = 0;
         for(int i=0; i<s; i++){
             long a = v[i];
+            if( m > a ) continue ; // n = 0
             long d = -dec[i];
             long n = (m-a)/d+1;
-            if( m > a ) n = 0;
-            if( m == a ) n = 1;
             sum += n * (2 * a + (n - 1) * d) / 2;
             ct += n;
         }
@@ -35,7 +34,6 @@ class Solution {
         }
 
         if(psMid == -1){
-            // System.out.println("hi");
             return (int)((count(value,decay,0)[1])%mod);
         }
         long ans = (ps[1] - psMid*(ps[0]-m))%mod;
