@@ -38,17 +38,22 @@ class Solution {
             dp1[idx][1] = 1;
         }
 
+        long []pre0 = new long[len+2];
+        long []pre1 = new long[len+2];
+
         for(int n = 1; n <= N; n++ ){
 
             long[][] dp2 = new long[len+1][2];
 
-            long []pre0 = new long[len+2];
-            long []pre1 = new long[len+2];
+            // long []pre0 = new long[len+2];
+            // long []pre1 = new long[len+2];
+            pre0[0] = 0;
+            pre1[0] = 0;
             for(int i=0; i<=len; i++){
-                pre0[i+1] += pre0[i]+dp1[i][0];
+                pre0[i+1] = (pre0[i] + dp1[i][0]) % mod;
             }
             for(int i=0; i<=len; i++){
-                pre1[i+1] += pre1[i]+dp1[i][1];
+               pre1[i+1] = (pre1[i] + dp1[i][1]) % mod;
             }
 
             for(int idx = -1; idx<len; idx++){
