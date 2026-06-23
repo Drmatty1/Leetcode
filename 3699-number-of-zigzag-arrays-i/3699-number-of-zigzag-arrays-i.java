@@ -62,7 +62,7 @@ class Solution {
                         // for(int i=0; i<ub; i++){
                         //     ans += dp1[i+1][1-less]%mod;
                         // }
-                        ans = (pre0[ub+1]-pre1[1]+mod)%mod;
+                        ans = (pre0[ub+1]-pre0[1]+mod)%mod;
                         dp2[idx+1][less] = ans;
 
                     }
