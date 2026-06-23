@@ -98,6 +98,7 @@ class Solution {
         // if we use start that initialzed to len 2 -> T^(n-2);
         long[][] P = power(T, n - 1);
 
+
         long ans = 0;
 
         for (int i = 0; i < states; i++) {
@@ -105,7 +106,8 @@ class Solution {
             long cur = 0;
 
             for (int j = 0; j < states; j++) {
-                cur = (cur + P[i][j] * start[j]) % MOD;
+                // cur = (cur + P[i][j] * start[j]) % MOD;
+                cur = (cur + P[i][j] ) % MOD;
             }
 
             ans = (ans + cur) % MOD;
