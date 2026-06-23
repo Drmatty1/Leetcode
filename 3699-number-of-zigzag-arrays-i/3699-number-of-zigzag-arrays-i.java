@@ -38,12 +38,13 @@ class Solution {
             dp1[idx][1] = 1;
         }
 
+        long[][] dp2 = new long[len+1][2];
         long []pre0 = new long[len+2];
         long []pre1 = new long[len+2];
 
         for(int n = 1; n <= N; n++ ){
 
-            long[][] dp2 = new long[len+1][2];
+            // long[][] dp2 = new long[len+1][2];
 
             // long []pre0 = new long[len+2];
             // long []pre1 = new long[len+2];
@@ -83,7 +84,9 @@ class Solution {
                     }
                 }
             }
+            long[][] temp = dp1;
             dp1 = dp2;
+            dp2 = temp;
         }
         return (dp1[0][0] + dp1[0][1]) % mod;
     }
