@@ -155,6 +155,7 @@
 | [0134-gas-station](https://github.com/Drmatty1/Leetcode/tree/master/0134-gas-station) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Drmatty1/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
 | [0416-partition-equal-subset-sum](https://github.com/Drmatty1/Leetcode/tree/master/0416-partition-equal-subset-sum) |
@@ -365,6 +366,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0190-reverse-bits](https://github.com/Drmatty1/Leetcode/tree/master/0190-reverse-bits) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Drmatty1/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Drmatty1/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -494,6 +496,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Drmatty1/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
@@ -552,6 +555,7 @@
 ## Segment Tree
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Drmatty1/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Drmatty1/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -574,6 +578,15 @@
 ## Merge Sort
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Drmatty1/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Ordered Set
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 <!---LeetCode Topics End-->
