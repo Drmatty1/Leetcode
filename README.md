@@ -180,6 +180,7 @@
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Drmatty1/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
+| [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Drmatty1/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
@@ -251,6 +252,7 @@
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1143-longest-common-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1143-longest-common-subsequence) |
+| [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [2771-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/2771-longest-non-decreasing-subarray-from-two-arrays) |
@@ -556,6 +558,7 @@
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Drmatty1/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Drmatty1/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -585,6 +588,7 @@
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
 ## Ordered Set
 |  |
 | ------- |
