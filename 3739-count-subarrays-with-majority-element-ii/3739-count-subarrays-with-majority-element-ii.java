@@ -117,10 +117,83 @@ class Solution {
 
     }
 
+
+    long countAndMerge(int[] arr, int l, int m, int r) {
+      
+        // Counts in two subarrays
+        int n1 = m - l + 1, n2 = r - m;
+
+        // Set up two arrays for left and right halves
+        int[] left = new int[n1];
+        int[] right = new int[n2];
+        for (int i = 0; i < n1; i++)
+            left[i] = arr[i + l];
+        for (int j = 0; j < n2; j++)
+            right[j] = arr[m + 1 + j];
+
+        // Initialize inversion count (or result)
+        // and merge two halves
+        long res = 0;
+        int i = 0, j = 0, k = l;
+        while (i < n1 && j < n2) {
+
+            // No increment in inversion count
+            // if left[] has a smaller
+            if (left[i] < right[j]){
+                arr[k++] = left[i++];
+            }
+            // If right <= left, then it is greater than i 
+            // elements because left[] is sorted
+            else {
+                res += i;
+                arr[k++] = right[j++];
+            }
+        }
+
+        // Merge remaining elements
+        while (i < n1){
+            arr[k++] = left[i++];
+        }
+        while (j < n2){
+            arr[k++] = right[j++];
+            res += i;
+        }
+
+        return res;
+    }
+    long countInv(int[] arr, int l, int r) {
+        long res = 0;
+        if (l < r) {
+            int m = (r - l) / 2 + l;
+
+            // Recursively count inversions
+            // in the left and right halves
+            res += countInv(arr, l, m);
+            res += countInv(arr, m + 1, r);
+
+            // Count inversions such that greater element is in 
+            // the left half and smaller in the right half
+            res += countAndMerge(arr, l, m, r);
+        }
+        return res;
+    }
+
+
     public long countMajoritySubarrays(int[] nums, int target) {
 
         // return sol11(nums, target);
-        return sol12(nums, target);
+        // return sol12(nums, target);
+
+
+        int n = nums.length;
+        int []pre = new int[n+1];
+
+        for(int i=0; i<n; i++){
+            pre[i+1] = pre[i] + (target==nums[i]?1:(-1));
+        }
+
+        long ans = countInv(pre, 0, n);
+        return ans;
 
     }
 }
