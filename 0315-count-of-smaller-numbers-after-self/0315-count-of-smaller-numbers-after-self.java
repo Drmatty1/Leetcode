@@ -64,6 +64,8 @@ class Solution {
         for(int e: count) ans.add(e);
         
         // return ans;
+        
+        // below is trick to not creting a sep list
         return new java.util.AbstractList<Integer>() {
             @Override
             public Integer get(int index) {
