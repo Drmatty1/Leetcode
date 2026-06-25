@@ -62,6 +62,17 @@ class Solution {
 
         List<Integer> ans = new ArrayList<>();
         for(int e: count) ans.add(e);
-        return ans;
+        
+        // return ans;
+        return new java.util.AbstractList<Integer>() {
+            @Override
+            public Integer get(int index) {
+                return count[index];
+            }
+            @Override
+            public int size() {
+                return count.length;
+            }
+        };
     }
 }
