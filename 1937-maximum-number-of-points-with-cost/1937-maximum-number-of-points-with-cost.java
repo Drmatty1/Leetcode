@@ -1,4 +1,7 @@
 class Solution {
+
+    // Reference from 1014. Best Sightseeing Pair
+    // & Best time to buy and sell stocks
     public long maxPoints(int[][] points) {
         int r = points.length, c = points[0].length;
 
@@ -19,6 +22,7 @@ class Solution {
 
             for( int j=0; j<n; j++ ){
                 
+                // ans we using one arr only , no need if 2(arr, next)
                 long temp = arr[j];
 
                 curr = points[i][j] + arr[j];
@@ -27,6 +31,7 @@ class Solution {
 
                 arr[j] = Math.max(curr, Math.max(left, right));
 
+                // pre = Math.max( pre , points[i+1][j] + j );
                 pre = Math.max( pre , temp+j );
 
             }
@@ -36,7 +41,6 @@ class Solution {
         long ans = 0;
         for(long e: arr) {
             ans = Math.max(ans, e);
-            System.out.print(e+" ");
         }
         return ans;
     }
