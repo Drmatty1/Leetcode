@@ -177,24 +177,96 @@ class Solution {
         }
         return res;
     }
+    
+
+    class Seg{
+        int []seg ;
+        int n;
+
+        Seg( int s ){
+            n = s;
+            seg = new int[4*n];
+        }
+
+        int query(int []seg, int low, int high , int qlow, int qhigh, int pos){
+            // total overlap
+            if( qlow <= low && qhigh >= high ) return seg[pos];
+
+            // no overlap
+            if( qlow > high || qhigh < low ) return 0;
+
+            // partial overlap
+            int mid = (high-low)/2 + low;
+            return query( seg, low, mid, qlow, qhigh, 2*pos+1 ) + 
+                    query( seg, mid+1, high, qlow, qhigh, 2*pos+2 );
+        }
+        void update(int []seg, int low, int high , int value, int idx, int pos){
+            if( low == high ) {
+                seg[pos] += value;
+                return ;
+            }
+            
+            int mid = (high-low)/2 + low;
+            if( idx <= mid )  
+                update( seg, low, mid, value, idx, 2*pos+1 );
+            else 
+                update( seg, mid+1, high, value, idx, 2*pos+2 );
+
+            seg[pos] = seg[2*pos+1] + seg[2*pos+2];
+        }
 
 
-    public long countMajoritySubarrays(int[] nums, int target) {
+        int find( int qlow, int qhigh ){
+            if( qlow > qhigh ) return 0;
+            return query( seg, 0, n-1, qlow, qhigh, 0);
+        }
+        void put( int idx, int val ){
+            update( seg, 0, n-1, val, idx, 0);
+        }
 
-        // return sol11(nums, target);
-        // return sol12(nums, target);
-
-
+    }
+    long sol3( int[]nums, int target ){
         int n = nums.length;
         int []pre = new int[n+1];
-
         for(int i=0; i<n; i++){
             pre[i+1] = pre[i] + (target==nums[i]?1:(-1));
         }
 
-        long ans = countInv(pre, 0, n);
+        // Freq Array size m , as pre[i] lie b/w -n to n. 
+        int m = 2*n+1;
+        Seg seg = new Seg(m);
+        int offset = n+1;
+        long ans = 0;
+
+        for(int i=0; i<=n; i++){
+            int idx = pre[i];
+            ans += seg.find(0,idx+offset-1);
+            seg.put(idx+offset, 1 );
+        }
+
         return ans;
 
+    }
+
+
+    public long countMajoritySubarrays(int[] nums, int target) {
+        
+        //m-1
+        // return sol11(nums, target);
+        // return sol12(nums, target);
+
+        //m-2
+        // int n = nums.length;
+        // int []pre = new int[n+1];
+        // for(int i=0; i<n; i++){
+        //     pre[i+1] = pre[i] + (target==nums[i]?1:(-1));
+        // }
+        // long ans = countInv(pre, 0, n);
+        // return ans;
+
+
+        // m-3
+        return sol3(nums, target);
     }
 }
 //  0  1  2  1  2  3  4  3  2
