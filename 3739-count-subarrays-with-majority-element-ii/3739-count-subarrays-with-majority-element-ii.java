@@ -282,13 +282,60 @@ class Solution {
         return count;
     }
 
+    class Fenwick{
+        int []fenwick;
+        int n ;
+        Fenwick(int s){
+            n = s+1;
+            fenwick = new int[n];
+        }
+
+        void update(int idx, int val){
+            idx = idx+1;
+            while(idx < n){
+                fenwick[idx] += val;
+                idx += idx & (-idx);
+            }
+        }
+        long find( int r ){
+            r = r+1;
+            long sum = 0;
+            while( r > 0 ){
+                sum += fenwick[r];
+                r -= r & (-r);
+            }
+            return sum;
+        }
+    }
+    long sol4( int[] nums, int target ){
+        int n = nums.length;
+        int []pre = new int[n+1];
+        for(int i=0; i<n; i++){
+            pre[i+1] = pre[i] + (target==nums[i]?1:(-1));
+        }
+
+        Fenwick ft = new Fenwick(2*pre.length+1);
+        int offset = n; 
+        long ans = 0;
+
+        for (int i = 0; i <= n; i++) {
+            int idx = pre[i];
+            ans += ft.find( idx + offset - 1);
+            ft.update(idx + offset, 1);
+        }
+
+        return ans;
+    }
+
     public long countMajoritySubarrays(int[] nums, int target) {
         
-        //m-1
+        // O(n) 
+        //m-1  -- hashMap - Pretty rare works as pre[] has +1/-1 inc/dec;
         // return sol11(nums, target);
         // return sol12(nums, target);
 
-        //m-2
+        // O(nlogn)
+        //m-2  -- MergeSort lil better , but not support dynamic update
         // int n = nums.length;
         // int []pre = new int[n+1];
         // for(int i=0; i<n; i++){
@@ -297,10 +344,17 @@ class Solution {
         // long ans = countInv(pre, 0, n);
         // return ans;
 
-
-        // m-3
+        // O(nlogn)
+        // m-3   -- Segment Tree  
         // return sol3(nums, target);
-        return sol31(nums, target);
+        // return sol31(nums, target);
+
+        
+        // m-4 Fenwick  tree;
+        return sol4(nums, target);
+
     }
 }
+// we used count +1/-1 
+// pre[j]-pre[i] > 0 , this is what we want to find;
 //  0  1  2  1  2  3  4  3  2
