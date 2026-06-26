@@ -1,5 +1,6 @@
 class Solution {
-    public int maxScoreSightseeingPair(int[] values) {
+    // this is Optimized sol, this is op version of dp soln O(n^2)
+    int solOP(int[] values) {
         int n = values.length;
         int []suf = new int[n];
         suf[n-1] = values[n-1]-(n-1);
@@ -12,5 +13,8 @@ class Solution {
             ans = Math.max(ans, i+values[i] + suf[i+1] );
         }
         return ans;
+    }
+    public int maxScoreSightseeingPair(int[] values) {
+       return solOP(values);
     }
 }
