@@ -226,8 +226,7 @@ class Solution {
             update(seg, 0, n - 1, val, idx, 0);
         }
     }
-
-    public long sol3(int[] nums, int target) {
+    long sol3(int[] nums, int target) {
         int n = nums.length;
         int[] pre = new int[n + 1];
         for (int i = 0; i < n; i++) {
@@ -250,7 +249,38 @@ class Solution {
 
         return ans;
     }
-
+    long sol31(int[] nums, int target) {
+        int n = nums.length;
+        
+        // Prefix sums range from -n to n. Total unique states = 2n + 1.
+        int treeSize = 2 * n + 1;
+        int offset = n; // Offset shifts -n to index 0, and 0 to index n.
+        
+        Seg tree = new Seg(treeSize);
+        
+        long count = 0;
+        int currentPrefixSum = 0;
+        
+        // Add the initial 0 prefix sum into our segment tree tracker
+        tree.put(currentPrefixSum + offset, 1);
+        
+        for (int i = 0; i < n; i++) {
+            currentPrefixSum += (nums[i] == target) ? 1 : -1;
+            
+            // We want past prefix sums strictly smaller than currentPrefixSum.
+            // Allowed range: -n up to (currentPrefixSum - 1)
+            // Shifted via offset: 0 up to (currentPrefixSum + offset - 1)
+            int qlow = 0;
+            int qhigh = currentPrefixSum + offset - 1;
+            
+            count += tree.find(qlow, qhigh);
+            
+            // Log the new prefix sum into the tree
+            tree.put(currentPrefixSum + offset, 1);
+        }
+        
+        return count;
+    }
 
     public long countMajoritySubarrays(int[] nums, int target) {
         
@@ -269,7 +299,8 @@ class Solution {
 
 
         // m-3
-        return sol3(nums, target);
+        // return sol3(nums, target);
+        return sol31(nums, target);
     }
 }
 //  0  1  2  1  2  3  4  3  2
