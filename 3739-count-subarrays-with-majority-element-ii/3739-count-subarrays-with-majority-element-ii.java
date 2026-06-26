@@ -179,73 +179,76 @@ class Solution {
     }
     
 
-    class Seg{
-        int []seg ;
+    class Seg {
+        int[] seg;
         int n;
 
-        Seg( int s ){
+        Seg(int s) {
             n = s;
-            seg = new int[4*n];
+            seg = new int[4 * n];
         }
 
-        int query(int []seg, int low, int high , int qlow, int qhigh, int pos){
+        int query(int[] seg, int low, int high, int qlow, int qhigh, int pos) {
             // total overlap
-            if( qlow <= low && qhigh >= high ) return seg[pos];
+            if (qlow <= low && qhigh >= high) return seg[pos];
 
             // no overlap
-            if( qlow > high || qhigh < low ) return 0;
+            if (qlow > high || qhigh < low) return 0;
 
             // partial overlap
-            int mid = (high-low)/2 + low;
-            return query( seg, low, mid, qlow, qhigh, 2*pos+1 ) + 
-                    query( seg, mid+1, high, qlow, qhigh, 2*pos+2 );
+            int mid = (high - low) / 2 + low;
+            return query(seg, low, mid, qlow, qhigh, 2 * pos + 1) + 
+                   query(seg, mid + 1, high, qlow, qhigh, 2 * pos + 2);
         }
-        void update(int []seg, int low, int high , int value, int idx, int pos){
-            if( low == high ) {
+
+        void update(int[] seg, int low, int high, int value, int idx, int pos) {
+            if (low == high) {
                 seg[pos] += value;
-                return ;
+                return;
             }
-            
-            int mid = (high-low)/2 + low;
-            if( idx <= mid )  
-                update( seg, low, mid, value, idx, 2*pos+1 );
+
+            int mid = (high - low) / 2 + low;
+            if (idx <= mid)  
+                update(seg, low, mid, value, idx, 2 * pos + 1);
             else 
-                update( seg, mid+1, high, value, idx, 2*pos+2 );
+                update(seg, mid + 1, high, value, idx, 2 * pos + 2);
 
-            seg[pos] = seg[2*pos+1] + seg[2*pos+2];
+            // FIX 1: Overwrite rather than accumulate to avoid double counting
+            seg[pos] = seg[2 * pos + 1] + seg[2 * pos + 2];
         }
 
-
-        int find( int qlow, int qhigh ){
-            if( qlow > qhigh ) return 0;
-            return query( seg, 0, n-1, qlow, qhigh, 0);
-        }
-        void put( int idx, int val ){
-            update( seg, 0, n-1, val, idx, 0);
+        int find(int qlow, int qhigh) {
+            if (qlow > qhigh) return 0;
+            return query(seg, 0, n - 1, qlow, qhigh, 0);
         }
 
+        void put(int idx, int val) {
+            update(seg, 0, n - 1, val, idx, 0);
+        }
     }
-    long sol3( int[]nums, int target ){
+
+    public long sol3(int[] nums, int target) {
         int n = nums.length;
-        int []pre = new int[n+1];
-        for(int i=0; i<n; i++){
-            pre[i+1] = pre[i] + (target==nums[i]?1:(-1));
+        int[] pre = new int[n + 1];
+        for (int i = 0; i < n; i++) {
+            pre[i + 1] = pre[i] + (target == nums[i] ? 1 : -1);
         }
 
         // Freq Array size m , as pre[i] lie b/w -n to n. 
-        int m = 2*n+1;
+        int m = 2 * n + 1;
         Seg seg = new Seg(m);
-        int offset = n+1;
+        
+        // FIX 2: Adjusted offset to exactly fit the [0, 2*n] range
+        int offset = n; 
         long ans = 0;
 
-        for(int i=0; i<=n; i++){
+        for (int i = 0; i <= n; i++) {
             int idx = pre[i];
-            ans += seg.find(0,idx+offset-1);
-            seg.put(idx+offset, 1 );
+            ans += seg.find(0, idx + offset - 1);
+            seg.put(idx + offset, 1);
         }
 
         return ans;
-
     }
 
 
