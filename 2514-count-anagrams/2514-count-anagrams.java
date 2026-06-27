@@ -1,17 +1,34 @@
 class Solution {
     int mod = 1000000007;
     
-    long power(long a, long n){
+    long power0(long a, long n){
         if( n == 0 ) return 1;
 
         if( n %2 == 0 ){
-            long res = power(a, n/2);
+            long res = power0(a, n/2);
             return (res*res)%mod;
         }
         else{
-            long res = power(a, n/2);
+            long res = power0(a, n/2);
             return (a * ((res*res)%mod) ) % mod ;
         }
+
+    }
+
+    long power(long a, long n){
+        long res = 1;
+
+        while( n > 0 ){
+
+            if( (n&1) == 1 ){
+                res = (res*a)%mod;
+            }
+            
+            a = (a*a)%mod;
+            n = n>>1;
+        }
+
+        return res;
 
     }
 
