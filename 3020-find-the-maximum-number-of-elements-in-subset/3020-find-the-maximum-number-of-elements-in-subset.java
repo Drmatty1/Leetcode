@@ -5,7 +5,6 @@ class Solution {
 
         int freq = map.getOrDefault(v,0);
         
-
         int ans = 0;
         if( freq >= 2 ){
             if( v == 1 )  map.put(v, map.get(v)-2);
@@ -30,7 +29,17 @@ class Solution {
 
         int ans= 0 ;
         for(int e: nums){
-            ans = Math.max(ans, chainLen(map,dp,e));
+            int v = e;
+            int len = 0;
+            while( map.getOrDefault(v,0) > 1 ){
+                len += 2;
+                if( v == 1 )  map.put(v, map.get(v)-2);
+                v = v*v;
+            }
+            if( map.getOrDefault(v,0) == 1 ) len ++;
+            else len --;
+
+            ans = Math.max(ans, len);
         }
 
         return ans;
