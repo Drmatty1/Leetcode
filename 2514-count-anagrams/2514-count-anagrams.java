@@ -29,7 +29,8 @@ class Solution {
 
             int len = arr.length;
 
-            // (N/D)%mod = N*D^(-1)%mod
+            // (a*b*c*d...)%mod = (((a*b%mod)*c%mod)*d%mod)..
+            // (N/D)%mod = N*D^(-1)%mod 
             // D^(-1) = D^(mod−2)%(mod)
             long D = 1, N = 1;
 
@@ -45,7 +46,7 @@ class Solution {
                 N = (N*i) % mod;
             }
 
-            System.out.println(N+" "+D+" "+len);
+            // System.out.println(N+" "+D+" "+len);
 
             long DInv = power(D, mod-2);
 
