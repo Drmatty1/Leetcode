@@ -7,7 +7,8 @@ class Solution {
         dp[0] = 0;
 
         for( int i=0; i<n-1; i++ ){
-
+            
+            if (dp[i] == -1)continue; // No Relaxation Posible from i
             //Relaxing j for i, 1->2,3 : 2->3  , dp[3] = 2;
             for(int j=i+1; j<n; j++){
                 if( Math.abs(nums[j]-nums[i]) <= target ){
