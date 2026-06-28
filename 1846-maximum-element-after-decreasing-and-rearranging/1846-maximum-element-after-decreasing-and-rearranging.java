@@ -1,5 +1,5 @@
 class Solution {
-    public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
+    int sol1( int[]arr ){
         Arrays.sort(arr);
         int max = 1;
         arr[0] = 1;
@@ -10,5 +10,11 @@ class Solution {
             max = Math.max(max, arr[i]);
         }
         return max;
+    }
+
+    public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
+        
+        return sol1(arr);
+        
     }
 }
