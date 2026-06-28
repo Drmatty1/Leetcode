@@ -100,6 +100,7 @@
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Drmatty1/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
 | [2202-maximize-the-topmost-element-after-k-moves](https://github.com/Drmatty1/Leetcode/tree/master/2202-maximize-the-topmost-element-after-k-moves) |
@@ -123,6 +124,7 @@
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Drmatty1/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
@@ -199,6 +201,7 @@
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1937-maximum-number-of-points-with-cost](https://github.com/Drmatty1/Leetcode/tree/master/1937-maximum-number-of-points-with-cost) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
