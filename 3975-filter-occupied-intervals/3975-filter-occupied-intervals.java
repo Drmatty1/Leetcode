@@ -13,8 +13,7 @@ class Solution {
 
             while( !s.isEmpty() && curr[0] <= s.peek()[1] + 1 ){
                 int prev[] = s.pop();
-                prev = new int[]{ Math.min(prev[0],curr[0]), curr[1]};
-                curr = prev;
+                curr = new int[]{ Math.min(prev[0],curr[0]), curr[1]};
             }
 
             s.add(curr);
@@ -24,21 +23,16 @@ class Solution {
         while( !s.isEmpty() ) {
 
             int []prev = s.pop();
+            int a = prev[0], b = prev[1];
 
-            if( freeStart > prev[1] || freeEnd < prev[0] ){
-                res.add(List.of(prev[0],prev[1]));
+            if( freeStart > b || freeEnd < a ){
+                res.add(List.of(a, b));
             }
-            else if( freeStart > prev[0] && freeEnd < prev[1] ){
-                res.add(List.of(freeEnd+1,prev[1]));
-                res.add(List.of(prev[0],freeStart-1));
+            else{
+                if( freeEnd < b ) res.add(List.of( freeEnd+1, b));
+                if( freeStart > a ) res.add(List.of(a, freeStart-1));
             }
-            else if( freeStart > prev[0] ){
-                res.add(List.of(prev[0],freeStart-1));
-            }
-            else if( freeEnd < prev[1]  ){
-                res.add(List.of(freeEnd+1,prev[1]));
-            }
-
+            
         }
 
         Collections.reverse(res);
