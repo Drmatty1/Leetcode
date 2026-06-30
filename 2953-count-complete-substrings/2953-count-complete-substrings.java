@@ -1,6 +1,7 @@
 class Solution {
     int count( char[]arr, int s, int e, int k, int u){
-
+        if( e-s+1 < k*u ) return 0;
+        
         int res = 0;
         int count = 0;  // count_elem_with_freq_equal_k_in_window
 
