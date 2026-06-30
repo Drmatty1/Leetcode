@@ -1,5 +1,33 @@
 class Solution {
-    public int videoStitching(int[][] clips, int time) {
+    int solOP(int[][] clips, int time){
+
+        Arrays.sort(clips, (a,b)->Integer.compare(a[0],b[0]));
+        
+        int n = clips.length;
+        int currentEnd = 0;
+        int i = 0;
+        int count = 0;
+
+        while( currentEnd < time ){
+
+            int nextEnd = currentEnd;
+
+            while( i<n && clips[i][0] <= currentEnd ){
+                nextEnd = Math.max(clips[i][1], nextEnd);
+                i++;
+            }
+
+            if( nextEnd == currentEnd ) return -1;
+
+            count++;
+            currentEnd = nextEnd;
+        }
+
+        return count;
+
+    }
+
+    int sol2(int[][] clips, int time) {
 
         Arrays.sort(clips, (a,b)->Integer.compare(a[0],b[0]));
         
@@ -44,5 +72,11 @@ class Solution {
         }
 
         return -1;
+    }
+
+    public int videoStitching(int[][] clips, int time) {
+        
+        return solOP(clips, time);
+       
     }
 }
