@@ -45,6 +45,33 @@ class Solution {
 
         return -1;
     }
+    int solOP(int[][] clips, int time){
+
+        Arrays.sort(clips, (a,b)->Integer.compare(a[0],b[0]));
+        
+        int n = clips.length;
+        int currentEnd = 0;
+        int i = 0;
+        int count = 0;
+
+        while( currentEnd < time ){
+
+            int nextEnd = currentEnd;
+
+            while( i<n && clips[i][0] <= currentEnd ){
+                nextEnd = Math.max(clips[i][1], nextEnd);
+                i++;
+            }
+
+            if( nextEnd == currentEnd ) return -1;
+
+            count++;
+            currentEnd = nextEnd;
+        }
+
+        return count;
+
+    }
     public int minTaps(int n, int[] ranges) {
         int [][]interval = new int[n+1][2];
         for(int i=0; i<=n; i++){
@@ -52,6 +79,8 @@ class Solution {
             int b = i+ranges[i];
             interval[i] = new int[]{a,b};
         }
-        return videoStitching( interval, n );
+
+        // return videoStitching( interval, n );
+        return solOP( interval, n );
     }
 }
