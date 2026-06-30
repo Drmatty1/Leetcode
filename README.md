@@ -14,6 +14,7 @@
 | [0621-task-scheduler](https://github.com/Drmatty1/Leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [1189-maximum-number-of-balloons](https://github.com/Drmatty1/Leetcode/tree/master/1189-maximum-number-of-balloons) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Drmatty1/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Drmatty1/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Drmatty1/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -46,6 +47,7 @@
 | [1143-longest-common-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Drmatty1/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Drmatty1/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Drmatty1/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Drmatty1/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
@@ -619,4 +621,8 @@
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Sliding Window
+|  |
+| ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Drmatty1/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
