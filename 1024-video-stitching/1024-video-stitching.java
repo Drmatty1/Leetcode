@@ -1,0 +1,48 @@
+class Solution {
+    public int videoStitching(int[][] clips, int time) {
+
+        Arrays.sort(clips, (a,b)->Integer.compare(a[0],b[0]));
+        
+        int n = clips.length;
+
+        Queue<Integer> q = new ArrayDeque<>();
+        boolean []vis = new boolean[n];
+        int lvl = 1;
+
+        for(int i=0; i<n; i++){
+            int []t = clips[i];
+            if(t[0] == 0){ 
+                q.add(i);
+                vis[i] = true;
+            }
+            else break;
+        }
+
+        while( !q.isEmpty() ){
+
+            int s = q.size();
+
+            for(int i=0; i<s; i++){
+
+                int idx = q.poll();
+                int a = clips[idx][0], b = clips[idx][1];
+                if( b >= time ) return lvl;
+
+                for(int j = idx+1; j<n; j++){
+
+                    if( vis[j] == false && clips[j][0] >= a && clips[j][0] <= b ){
+                        q.add(j);
+                        vis[j] = true;
+                    }
+
+                }
+
+            }
+
+            lvl ++;
+
+        }
+
+        return -1;
+    }
+}
