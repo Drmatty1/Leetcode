@@ -22,6 +22,7 @@
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
 | [2615-sum-of-distances](https://github.com/Drmatty1/Leetcode/tree/master/2615-sum-of-distances) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
+| [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Drmatty1/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/Drmatty1/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
@@ -63,6 +64,7 @@
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
 | [2833-furthest-point-from-origin](https://github.com/Drmatty1/Leetcode/tree/master/2833-furthest-point-from-origin) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Drmatty1/Leetcode/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
+| [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 | [3093-longest-common-suffix-queries](https://github.com/Drmatty1/Leetcode/tree/master/3093-longest-common-suffix-queries) |
 | [3612-process-string-with-special-operations-i](https://github.com/Drmatty1/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Drmatty1/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
@@ -625,4 +627,5 @@
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Drmatty1/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 <!---LeetCode Topics End-->
