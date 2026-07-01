@@ -102,6 +102,7 @@ class Solution {
         int n = grid.size();
         int mat[][] = distMat(grid);
 
+        /** 
         Set<Integer> vis;
         int ps = 0;
         int lb = 0, ub = n;
@@ -120,6 +121,39 @@ class Solution {
         }
 
         return ps;
+        */
+
+        int [][]dist = mat;
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[2] - a[2]);
+        
+        pq.add(new int[]{0, 0, dist[0][0]});
+        dist[0][0] = -1; // Mark as visited to prevent re-entry
+
+        while (!pq.isEmpty()) {
+            int[] popped = pq.poll();
+            int r = popped[0];
+            int c = popped[1];
+            int currentSafeness = popped[2];
+
+            // Because it's a Max-PQ, the first time we reach the destination, it's the maximum possible safeness factor
+            if (r == n - 1 && c == n - 1) {
+                return currentSafeness;
+            }
+
+            for (int[] d : dir) {
+                int nr = r + d[0];
+                int nc = c + d[1];
+
+                if (nr >= 0 && nr < n && nc >= 0 && nc < n && dist[nr][nc] != -1) {
+                    // The path safeness is bounded by the current path's safety and the next cell's distance to a thief
+                    int nextSafeness = Math.min(currentSafeness, dist[nr][nc]);
+                    pq.add(new int[]{nr, nc, nextSafeness});
+                    dist[nr][nc] = -1; // Mark as visited immediately
+                }
+            }
+        }
+
+        return 0;
 
     }
 }
