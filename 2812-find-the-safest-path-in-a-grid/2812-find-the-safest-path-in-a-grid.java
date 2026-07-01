@@ -23,21 +23,50 @@ class Solution {
 
         return ans;
     }
+    boolean checkBFS(int[][] mat, int t) {
+        int n = mat.length;
+        if (mat[0][0] < t || mat[n - 1][n - 1] < t) return false;
 
-    public int maximumSafenessFactor(List<List<Integer>> grid) {
+        Queue<int[]> q = new ArrayDeque<>();
+        boolean[][] vis = new boolean[n][n];
 
+        q.add(new int[]{0, 0});
+        vis[0][0] = true;
+
+        while (!q.isEmpty()) {
+            int[] curr = q.poll();
+            int r = curr[0], c = curr[1];
+
+            if (r == n - 1 && c == n - 1) return true;
+
+            for (int[] d : dir) {
+                int nr = r + d[0];
+                int nc = c + d[1];
+
+                if (nr >= 0 && nr < n && nc >= 0 && nc < n && !vis[nr][nc] && mat[nr][nc] >= t) {
+                    vis[nr][nc] = true;
+                    q.add(new int[]{nr, nc});
+                }
+            }
+        }
+        return false;
+    }
+
+    int[][] distMat(List<List<Integer>> grid){
         int n = grid.size();
         int [][]mat = new int[n][n];
 
         Queue<int []> q = new ArrayDeque<>();
-        Set<Integer> vis = new HashSet<>();
+        // Set<Integer> vis = new HashSet<>();
+        boolean []vis = new boolean[n*n];
 
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
                 if(grid.get(i).get(j) == 1){
                     mat[i][j] = 0;
                     q.add(new int[]{i,j}) ;
-                    vis.add(i*n+j);
+                    // vis.add(i*n+j);
+                    vis[i*n+j] = true;
                 }
             }
         }
@@ -55,23 +84,33 @@ class Solution {
                     int ni = i+d[0];
                     int nj = j+d[1];
                     if( ni >=0 && ni < n && nj >= 0 && nj < n &&
-                        vis.contains(ni*n+nj) == false ){
+                        vis[ni*n+nj] == false ){
                         mat[ni][nj] = val+1;
                         q.add(new int[]{ni,nj});
-                        vis.add(ni*n+nj);
+                        vis[ni*n+nj] = true;
                     }
                 }
 
             }
 
         }
+        return mat;
+    }
 
+    public int maximumSafenessFactor(List<List<Integer>> grid) {
+
+        int n = grid.size();
+        int mat[][] = distMat(grid);
+
+        Set<Integer> vis;
         int ps = 0;
         int lb = 0, ub = n;
+
         while( lb <= ub ){
             int mid = (ub-lb)/2+lb;
             vis = new HashSet<>();
-            if( check(mat, 0, 0, mid, vis)  ){
+
+            if( checkBFS(mat, mid)  ){
                 lb = mid+1;
                 ps = mid;
             }
