@@ -6,7 +6,7 @@ class Solution {
 
         if( i == n-1 && j == m-1 ) return true;
 
-        vis.add(i*100+j);
+        vis.add(i*m+j);
         boolean ans  = false;
 
         for(int []d : dir){
@@ -14,7 +14,7 @@ class Solution {
             int nj = j+d[1];
             
             if( ni >=0 && ni < n && nj >= 0 && nj < m &&
-                vis.contains(ni*100+nj) == false 
+                vis.contains(ni*m+nj) == false 
             ){  
                 if( Math.abs(mat[ni][nj]-mat[i][j]) <= t ){
                     boolean temp = check(mat, ni, nj, t, vis);
@@ -37,12 +37,10 @@ class Solution {
             int mid = (ub-lb)/2+lb;
             vis = new HashSet<>();
             if( check(heights, 0, 0, mid, vis)  ){
-                System.out.println(mid+"--UP");
                 ub = mid-1;
                 ps = mid;
             }
             else{
-                System.out.println(mid+"--Down");
                 lb = mid+1;
             }
         }
