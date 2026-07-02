@@ -75,9 +75,7 @@ class Solution {
     }
 
     //m-3
-
-
-    public boolean findSafeWalk(List<List<Integer>> grid, int health) {
+    boolean BFS(List<List<Integer>> grid, int health) {
         int n = grid.size(), m = grid.get(0).size();
         int hp = health;
         if( grid.get(0).get(0) == 1 ) hp = hp-1;
@@ -121,6 +119,12 @@ class Solution {
         }
 
         return false;
+
+    }
+
+    public boolean findSafeWalk(List<List<Integer>> grid, int health) {
+        
+        return BFS(grid, health);
 
     }
 }
