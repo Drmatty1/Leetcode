@@ -48,9 +48,6 @@ class Solution {
             int i = curr[0], j = curr[1];
             hp = curr[2];
 
-            // val = grid.get(i).get(j);
-            // grid.get(i).set(j,val+2);
-
             if( i == n-1 && j == m-1 ) return hp>0;
 
             for( int []d : dir ){
@@ -60,8 +57,7 @@ class Solution {
                     int newhp = hp;
                     if( grid.get(ni).get(nj) == 1 ) newhp = hp-1;
                     pq.add(new int[]{ni,nj,newhp});
-                    val = grid.get(ni).get(nj);
-                    grid.get(ni).set(nj,val-2);
+                    grid.get(ni).set(nj,-1);
                 }
             }
 
