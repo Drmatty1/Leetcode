@@ -29,42 +29,45 @@ class Solution {
         int n = grid.size(), m = grid.get(0).size();
         int hp = health;
         if( grid.get(0).get(0) == 1 ) hp = hp-1;
-        boolean [][][]dp = new boolean[n][m][hp+1];
-        boolean [][][]vis = new boolean[n][m][hp+1];
-        return check(grid, 0, 0, hp, dp, vis);
 
-        // PriorityQueue<int[]> pq= new PriorityQueue<>((a,b)->a[2]-b[2]);
+        //m-1
+        // boolean [][][]dp = new boolean[n][m][hp+1];
+        // boolean [][][]vis = new boolean[n][m][hp+1];
+        // return check(grid, 0, 0, hp, dp, vis);
 
-        // pq.add(new int[]{0,0,hp});
-        // int val = grid.get(0).get(0);
-        // grid.get(0).set(0,val-2);
+        //m-2
+        PriorityQueue<int[]> pq= new PriorityQueue<>((a,b)->b[2]-a[2]);
 
-        // while(!pq.isEmpty()){
+        pq.add(new int[]{0,0,hp});
+        int val = grid.get(0).get(0);
+        grid.get(0).set(0,val-2);
 
-        //     int[] curr =  pq.poll();
-        //     int i = curr[0], j = curr[1];
-        //     hp = curr[2];
+        while(!pq.isEmpty()){
 
-        //     val = grid.get(i).get(j);
-        //     grid.get(i).set(j,val+2);
+            int[] curr =  pq.poll();
+            int i = curr[0], j = curr[1];
+            hp = curr[2];
 
-        //     if( i == n-1 && j == m-1 ) return hp>0;
+            // val = grid.get(i).get(j);
+            // grid.get(i).set(j,val+2);
 
-        //     for( int []d : dir ){
-        //         int ni = i+d[0], nj = j+d[1];
-        //         if( ni>=0 && ni<n && nj>=0 && nj<m ){
-        //             if( grid.get(ni).get(nj) < 0 ) continue;
-        //             int newhp = hp;
-        //             if( grid.get(ni).get(nj) == 1 ) newhp = hp-1;
-        //             pq.add(new int[]{ni,nj,newhp});
-        //             val = grid.get(ni).get(nj);
-        //             grid.get(ni).set(nj,val-2);
-        //         }
-        //     }
+            if( i == n-1 && j == m-1 ) return hp>0;
 
-        // }
+            for( int []d : dir ){
+                int ni = i+d[0], nj = j+d[1];
+                if( ni>=0 && ni<n && nj>=0 && nj<m ){
+                    if( grid.get(ni).get(nj) < 0 ) continue;
+                    int newhp = hp;
+                    if( grid.get(ni).get(nj) == 1 ) newhp = hp-1;
+                    pq.add(new int[]{ni,nj,newhp});
+                    val = grid.get(ni).get(nj);
+                    grid.get(ni).set(nj,val-2);
+                }
+            }
 
-        // return false;
+        }
+
+        return false;
 
     }
 }
