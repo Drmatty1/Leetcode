@@ -1,5 +1,5 @@
 class Solution {
-
+    
     boolean check( List<List<int[]>> adj, long mid, long k, int n, boolean[] online ){
 
         Queue<long[]> q = new ArrayDeque<>();
@@ -55,7 +55,8 @@ class Solution {
             long w = curr[1];
 
             if( node == n-1 ) return true;
-
+            
+            // stale cond.
             if( w > minWt[node] ) continue;
 
             for(int []next : adj.get(node)){
@@ -100,3 +101,47 @@ class Solution {
         return ps;
     }
 }
+/**
+Because the graph is a DAG (Directed Acyclic Graph), the shortest path from any node to the destination (n-1) can be solved using dynamic programming.
+
+For a fixed guess `mid`, define:
+
+f(node) = Minimum total cost to reach node (n-1) starting from `node`, using only:
+- edges with weight >= mid
+- online intermediate nodes
+
+The recurrence is:
+
+f(node) = min(edgeWt + f(neighbor))
+
+taken over all valid outgoing edges from `node`.
+
+Base case:
+f(n-1) = 0
+
+Why memoization works:
+
+If multiple paths reach the same node X, the minimum cost from X to the destination is always the same because the graph has no cycles. Once we compute f(X), we store it in a memo array. Any future DFS reaching X simply returns the stored value instead of recomputing the entire subtree.
+
+This avoids repeated work and makes each node's DP value computed only once for a given `mid`.
+
+Overall algorithm:
+
+1. Binary search on the answer (`mid`), which represents the minimum edge weight allowed on the path.
+
+2. For each `mid`:
+   - Ignore every edge whose weight is less than `mid`.
+   - Ignore any offline intermediate node.
+
+3. Run a memoized DFS (DP) from node `0` to compute the minimum total cost to reach node `n-1`.
+
+4. If the minimum total cost is <= k, then a valid path exists with score at least `mid`, so try a larger `mid`.
+   Otherwise, reduce `mid`.
+
+Time Complexity:
+- DP (memoized DFS) per check: O(n + m)
+- Binary search: O(log C), where C is the maximum edge weight.
+- Overall: O((n + m) * log C)
+
+(You can reduce the binary search to O(log m) by searching only over the sorted unique edge weights.)
+ */
