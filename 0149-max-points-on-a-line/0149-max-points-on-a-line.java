@@ -3,7 +3,7 @@ class Solution {
         int a  = p1[0], b = p1[1], c = p2[0], d = p2[1];
         return new int[]{c-a,b-d,(a-c)*b + (d-b)*a};
     }
-    public int maxPoints(int[][] points) {
+    int sol1(int[][] points) {
         int ans = 1, n = points.length;
         // Set<String> vis = new HashSet<>();
 
@@ -21,6 +21,30 @@ class Solution {
                     if( t == 0 ) res ++;
                 }
                 // vis.add(key);
+                ans = Math.max(ans,res+2);
+            }
+        }
+        return ans;
+    }
+
+    public int maxPoints(int[][] points) {
+        int ans = 1, n = points.length;
+
+        for(int i=0; i<n; i++){
+
+            int x1 = points[i][0], y1 = points[i][1];
+
+            for(int j=i+1; j<n; j++){
+
+                int x2 = points[j][0], y2 = points[j][1];
+                int res = 0;
+
+                for(int k = j+1; k<n; k++){
+                    int x3 = points[k][0], y3 = points[k][1];
+                    int area = x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2);
+                    if( area == 0 ) res ++;
+                }
+    
                 ans = Math.max(ans,res+2);
             }
         }
