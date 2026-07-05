@@ -24,7 +24,7 @@ class Solution {
     public int divisibleGame(int[] nums) {
         int n =  nums.length;
         int mod = 1000000007;
-        long maxDif = -mod;
+        long maxDif = Long.MIN_VALUE;
         long bestK = 0;
 
         int maxVal = 2; // k must be at least 2
