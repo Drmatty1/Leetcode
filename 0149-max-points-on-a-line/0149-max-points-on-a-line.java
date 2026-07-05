@@ -5,14 +5,14 @@ class Solution {
     }
     public int maxPoints(int[][] points) {
         int ans = 1, n = points.length;
-        Set<String> vis = new HashSet<>();
+        // Set<String> vis = new HashSet<>();
 
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
 
                 int []eqn = eqn(points[i],points[j]);
-                String key = eqn[0]+"-"+eqn[1]+"-"+eqn[2];
-                if( vis.contains(key) ) continue;
+                // String key = eqn[0]+"-"+eqn[1]+"-"+eqn[2];
+                // if( vis.contains(key) ) continue;
 
                 int res = 0;
                 for(int k = j+1; k<n; k++){
@@ -20,7 +20,7 @@ class Solution {
                     int t = y*eqn[0]+x*eqn[1]+eqn[2];
                     if( t == 0 ) res ++;
                 }
-                vis.add(key);
+                // vis.add(key);
                 ans = Math.max(ans,res+2);
             }
         }
