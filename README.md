@@ -37,6 +37,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Drmatty1/Leetcode/tree/master/0068-text-justification) |
@@ -285,6 +286,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Drmatty1/Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Drmatty1/Leetcode/tree/master/0063-unique-paths-ii) |
@@ -572,6 +574,7 @@
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
