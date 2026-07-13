@@ -90,6 +90,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [1291-sequential-digits](https://github.com/Drmatty1/Leetcode/tree/master/1291-sequential-digits) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Drmatty1/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3309-maximum-possible-number-by-binary-concatenation](https://github.com/Drmatty1/Leetcode/tree/master/3309-maximum-possible-number-by-binary-concatenation) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
