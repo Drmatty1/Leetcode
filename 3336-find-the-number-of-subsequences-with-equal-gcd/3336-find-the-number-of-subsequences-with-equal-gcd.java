@@ -36,11 +36,52 @@ class Solution {
         return dp[i][g1][g2] = ans;
     }
 
+    int sol2(int[]nums){
+
+        // if(i==nums.length) return (g1>0 && g2==g1)?1:0;
+        
+        int n = nums.length;
+        int [][][]dp = new int[n+1][201][201];
+       
+        for(int j=1; j<=200; j++){
+            dp[n][j][j] = 1;
+        }
+        
+
+        for(int i=n-1; i>=0; i-- ){
+            
+            for(int g1 = 200; g1>=0; g1--){
+                int ng1 = gcd(g1,nums[i]);
+
+                for(int g2 = 200; g2>=0; g2--){
+                    int ng2 = gcd(g2,nums[i]);
+
+                    int ans = dp[i+1][g1][g2];
+
+                    //add elem i, in seq1
+                    ans = (ans+dp[i+1][ng1][g2])%mod;
+
+                    // add to seq2
+                    ans = (ans+dp[i+1][g1][ng2])%mod;
+
+                    dp[i][g1][g2] = ans;
+
+                }
+
+            }
+
+        }
+
+        return dp[0][0][0];
+    }
+
     public int subsequencePairCount(int[] nums) {
         int n = nums.length;
-        dp = new Integer[n][201][201];
-        
+
+        // dp = new Integer[n][201][201];
         // return sol(0,0,0,nums);
-        return sol1(0,0,0,nums);
+        // return sol1(0,0,0,nums);
+        
+        return sol2(nums);
     }
 }
