@@ -40,25 +40,29 @@ class Solution {
     int sol2(int[]nums){
 
         // if(i==nums.length) return (g1>0 && g2==g1)?1:0;
-        int[][]gcd_dp = new int[201][201];
-        for(int i=0; i<201; i++ ) 
-            for(int j=0;j<201;j++)
+        int maxGcd = 1;
+        for(int e:nums) maxGcd = Math.max(maxGcd,e);
+        maxGcd = maxGcd+1;
+
+        int[][]gcd_dp = new int[maxGcd][maxGcd];
+        for(int i=0; i<maxGcd; i++ ) 
+            for(int j=0;j<maxGcd;j++)
                 gcd_dp[i][j]=gcd(i,j);
         
         int n = nums.length;
-        int [][][]dp = new int[n+1][201][201];
+        int [][][]dp = new int[n+1][maxGcd][maxGcd];
        
-        for(int j=1; j<=200; j++){
+        for(int j=1; j<maxGcd; j++){
             dp[n][j][j] = 1;
         }
         
 
         for(int i=n-1; i>=0; i-- ){
             
-            for(int g1 = 200; g1>=0; g1--){
+            for(int g1 = maxGcd-1; g1>=0; g1--){
                 int ng1 = gcd_dp[g1][nums[i]];
 
-                for(int g2 = 200; g2>=0; g2--){
+                for(int g2 = maxGcd-1; g2>=0; g2--){
                     int ng2 = gcd_dp[g2][nums[i]];
 
                     int ans = dp[i+1][g1][g2];
