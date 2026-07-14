@@ -1,6 +1,7 @@
 class Solution {
     int mod = 1000000007;
     Integer [][][]dp ;
+    
     int gcd( int a, int b ){
         if(a==0) return b;
         return gcd(b%a,a);
@@ -39,6 +40,10 @@ class Solution {
     int sol2(int[]nums){
 
         // if(i==nums.length) return (g1>0 && g2==g1)?1:0;
+        int[][]gcd_dp = new int[201][201];
+        for(int i=0; i<201; i++ ) 
+            for(int j=0;j<201;j++)
+                gcd_dp[i][j]=gcd(i,j);
         
         int n = nums.length;
         int [][][]dp = new int[n+1][201][201];
@@ -51,10 +56,10 @@ class Solution {
         for(int i=n-1; i>=0; i-- ){
             
             for(int g1 = 200; g1>=0; g1--){
-                int ng1 = gcd(g1,nums[i]);
+                int ng1 = gcd_dp[g1][nums[i]];
 
                 for(int g2 = 200; g2>=0; g2--){
-                    int ng2 = gcd(g2,nums[i]);
+                    int ng2 = gcd_dp[g2][nums[i]];
 
                     int ans = dp[i+1][g1][g2];
 
