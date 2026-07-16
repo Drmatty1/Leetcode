@@ -274,6 +274,7 @@
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Drmatty1/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Drmatty1/Leetcode/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -332,6 +333,7 @@
 | [2771-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/2771-longest-non-decreasing-subarray-from-two-arrays) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Drmatty1/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Drmatty1/Leetcode/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Drmatty1/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Drmatty1/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
