@@ -1,5 +1,5 @@
 class Solution {
-    String hashCode(int []arr){
+    long hashCode(int []arr){
         long h1 = 0;
         long h2 = 0;
 
@@ -7,7 +7,7 @@ class Solution {
             h1 = h1 * 1000003L + x;
             h2 = h2 * 1000033L + x;
         }
-        return h1+"-"+h2;
+        return h1^h2;
     }
     int check(int [][]a, int[][]b, int i, int j){
         for(int k = 0; k < a.length; k++){
@@ -23,14 +23,14 @@ class Solution {
             for(int j=0; j<n; j++)
                 cgrid[j][i] = grid[i][j];
 
-        String []colHash = new String[n];
+        long []colHash = new long[n];
         for(int i=0; i<n; i++) colHash[i] = hashCode(cgrid[i]);
 
         int ans = 0;
         for(int i=0; i<n; i++){
-            String rowHash = hashCode(grid[i]);
+            long rowHash = hashCode(grid[i]);
             for(int j=0; j<n; j++){
-                if( !rowHash.equals(colHash[j]) ) continue;
+                if( rowHash != colHash[j] ) continue;
                 ans += check(grid,cgrid,i,j);
             }
         }
