@@ -27,6 +27,7 @@
 | [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Drmatty1/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/Drmatty1/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -86,6 +87,7 @@
 | [2384-largest-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2384-largest-palindromic-number) |
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
 | [2833-furthest-point-from-origin](https://github.com/Drmatty1/Leetcode/tree/master/2833-furthest-point-from-origin) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Enumeration
@@ -271,6 +273,7 @@
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/Drmatty1/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3309-maximum-possible-number-by-binary-concatenation](https://github.com/Drmatty1/Leetcode/tree/master/3309-maximum-possible-number-by-binary-concatenation) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Drmatty1/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
@@ -370,6 +373,7 @@
 | [2396-strictly-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Drmatty1/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -604,6 +608,7 @@
 | [2615-sum-of-distances](https://github.com/Drmatty1/Leetcode/tree/master/2615-sum-of-distances) |
 | [2906-construct-product-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Drmatty1/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Drmatty1/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -626,6 +631,7 @@
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2498-frog-jump-ii](https://github.com/Drmatty1/Leetcode/tree/master/2498-frog-jump-ii) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -635,6 +641,7 @@
 | ------- |
 | [0062-unique-paths](https://github.com/Drmatty1/Leetcode/tree/master/0062-unique-paths) |
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 ## Design
 |  |
 | ------- |
@@ -664,6 +671,7 @@
 | ------- |
 | [2197-replace-non-coprime-numbers-in-array](https://github.com/Drmatty1/Leetcode/tree/master/2197-replace-non-coprime-numbers-in-array) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Drmatty1/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Trie
