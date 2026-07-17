@@ -45,7 +45,7 @@ class Solution {
         int len = s.length();
         for(int k=0; k<len; k++) chars[k] = s.charAt(k);
 
-        // System.out.println(s);
+        System.out.println(s);
         return ans;
     }
 }
