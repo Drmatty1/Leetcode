@@ -6,7 +6,7 @@ class Solution {
         for(int i=n-1; i>=0; i-- ){
             if(nums[i] == 0) continue;
             else{
-                suf[i] += 1+suf[i+1] ;
+                suf[i] = 1+suf[i+1] ;
             }
         }
 
