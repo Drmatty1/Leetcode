@@ -1,5 +1,5 @@
 class Solution {
-    public int longestSubarray(int[] nums) {
+    int sol(int[] nums) {
         int n = nums.length;
 
         int []suf = new int[n+1];
@@ -18,6 +18,32 @@ class Solution {
             
             if(curr == 0) pref = 0;
             else pref++;
+        }
+
+        return ans;
+
+    }
+    public int longestSubarray(int[] nums) {
+        int n = nums.length;
+
+        int zeroDel = 0;
+        int oneDel = 0;
+
+        int ans = 0;
+
+        for(int i=0; i<n; i++){
+            int curr = nums[i];
+
+            if(i > 0)
+                oneDel = Math.max( 
+                    ((curr==0)?0:(1+oneDel)) ,
+                    zeroDel
+                );
+
+            if(curr == 0 ) zeroDel=0;
+            else zeroDel++;
+
+            ans = Math.max(ans, oneDel);
         }
 
         return ans;
