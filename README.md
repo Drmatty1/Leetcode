@@ -290,6 +290,7 @@
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Drmatty1/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Drmatty1/Leetcode/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
+| [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Drmatty1/Leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
@@ -421,6 +422,7 @@
 | [2352-equal-row-and-column-pairs](https://github.com/Drmatty1/Leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Drmatty1/Leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3612-process-string-with-special-operations-i](https://github.com/Drmatty1/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Drmatty1/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Drmatty1/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
@@ -629,6 +631,7 @@
 | [2906-construct-product-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Drmatty1/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Drmatty1/Leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Drmatty1/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
