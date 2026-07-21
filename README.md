@@ -78,6 +78,7 @@
 | [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 | [3093-longest-common-suffix-queries](https://github.com/Drmatty1/Leetcode/tree/master/3093-longest-common-suffix-queries) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Drmatty1/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/Drmatty1/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3612-process-string-with-special-operations-i](https://github.com/Drmatty1/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Drmatty1/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
@@ -293,6 +294,7 @@
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Drmatty1/Leetcode/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Drmatty1/Leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/Drmatty1/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
@@ -659,6 +661,7 @@
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/Drmatty1/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Drmatty1/Leetcode/tree/master/3620-network-recovery-pathways) |
@@ -730,6 +733,7 @@
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/Drmatty1/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Drmatty1/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Drmatty1/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
