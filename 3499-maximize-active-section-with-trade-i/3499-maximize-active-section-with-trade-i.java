@@ -1,4 +1,28 @@
 class Solution {
+    int sol0(String s) {
+        int ones = 0, maxZeros = 0;
+        int curr = 0, prev = Integer.MIN_VALUE;
+
+        for(char ch : s.toCharArray()){
+            if(ch=='1')
+                ones++;
+        }
+
+        for(int i=0; i<s.length(); i++){
+            if(s.charAt(i)=='0'){
+                curr++;
+            }
+            else if(curr>0){
+                prev = curr;
+                curr = 0;
+            }
+            
+            if(curr>0){
+                maxZeros = Math.max(maxZeros, prev+curr);
+            }
+        }
+        return ones+maxZeros;
+    }
     int sol(String s) {
         StringBuilder temp = new StringBuilder();
         List<String> ans = new ArrayList<>();
