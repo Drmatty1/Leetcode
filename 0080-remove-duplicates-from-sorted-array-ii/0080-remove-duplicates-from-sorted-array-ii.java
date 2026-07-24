@@ -6,7 +6,7 @@ class Solution {
         int count = 0;
         while(j<n){
             if(nums[j] == nums[i]) {
-                System.out.println(nums[j]+" "+i+" "+j+" "+count);
+                // System.out.println(nums[j]+" "+i+" "+j+" "+count);
                 count++;
                 nums[j] = temp++;
                 j++;
