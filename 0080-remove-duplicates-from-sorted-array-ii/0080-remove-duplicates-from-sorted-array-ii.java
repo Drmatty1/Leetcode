@@ -4,6 +4,16 @@ class Solution {
         int max = 100000;
         int temp = max;
         int count = 0;
+
+        if(n <= 2 )return n;
+
+        // if( nums[2] != nums[0] ){
+        //     if(nums[1] != nums[0]){
+        //         j = 1;
+        //     }
+        //     else j=2;
+        // }
+
         while(j<n){
             if(nums[j] == nums[i]) {
                 count++;
@@ -11,9 +21,9 @@ class Solution {
                 j++;
             }
             else{
-                // if(i < 1) i++;
-                // else i = j;
-                i++;
+                
+                // i++;
+                i = j-1;
                 j = i+2;
             }
         }
