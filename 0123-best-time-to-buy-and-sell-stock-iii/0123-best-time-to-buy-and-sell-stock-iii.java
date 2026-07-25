@@ -1,37 +1,23 @@
 class Solution {
+
+    // Max Optimized
     int sol1(int[] prices) {
-        int cs = 0;
-        int n = prices.length;
-        int m1 = 0, m2 = 0;
+       int buy1 = Integer.MIN_VALUE;
+        int sell1 = 0;
+        int buy2 = Integer.MIN_VALUE;
+        int sell2 = 0;
 
-        for(int i=1; i<n; i++){
-            int diff = prices[i]-prices[i-1];
-           
-             if(cs+diff < 0){
-                if(m1 < m2){
-                    m1 = Math.max(m1,cs);
-                }
-                else{
-                    m2 = Math.max(m2,cs);
-                }
-                cs = 0;
-                diff = 0;
-            }
-            else{
-                cs += diff;
-            }
+        for (int price : prices) {
+            buy1 = Math.max(buy1, -price);
+            sell1 = Math.max(sell1, buy1 + price);
+            buy2 = Math.max(buy2, sell1 - price);
+            sell2 = Math.max(sell2, buy2 + price);
         }
 
-        if(m1 < m2){
-            m1 = Math.max(m1,cs);
-        }
-        else{
-            m2 = Math.max(m2,cs);
-        }
-
-        return m1+m2;
+        return sell2;
     }
-    public int maxProfit(int[] prices) {
+
+    int sol2(int[] prices) {
         int cs = 0;
         int n = prices.length;
 
@@ -64,6 +50,10 @@ class Solution {
         }
 
         return ans;
+    }
+
+    public int maxProfit(int[] prices) {
+       return sol2(prices);
     }
 }
 //3 5 7
