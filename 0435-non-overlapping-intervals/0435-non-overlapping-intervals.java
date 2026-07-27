@@ -27,10 +27,12 @@ class Solution {
     
     //sort by start
     int sol2(int[][] intervals) {
-        Arrays.sort(intervals, (a,b) -> {
-            if(a[0] == b[0]) return Integer.compare(b[1],a[1]);
-            return Integer.compare(a[0],b[0]);
-        });
+        // Arrays.sort(intervals, (a,b) -> {
+        //     if(a[0] == b[0]) return Integer.compare(b[1],a[1]);
+        //     return Integer.compare(a[0],b[0]);
+        // });
+        // Simpler sort: just by start time
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
 
         int i=1, n = intervals.length;
         int count =  0;
