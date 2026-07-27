@@ -7,14 +7,17 @@ class Solution {
         int n = s.length();
 
         for(int i=0; i<=n; i++){
-            char c = (i<n)?s.charAt(i):'Q';
+
+            // Use a dummy non-digit character 'Q' 
+            char c = (i < n) ? s.charAt(i) : 'Q';
 
             if(c == ' ') continue;
 
-            if( i < n && c<='9' && c >= '0' ){
+            if( Character.isDigit(c) ){
                 num = num*10 + (c-'0');
             }
-            else{
+
+            if( !Character.isDigit(c) ){
                 switch (sign){
                     case '+' : st.push(num); break;
                     case '-' : st.push(-num); break;
