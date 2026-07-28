@@ -8,11 +8,8 @@ class Solution {
 
         ans[0] = 1;
         for(int i=1; i<n; i++){
-            
-            boolean need = false;
-            if(ratings[i] > ratings[i-1]) need = true;
 
-            if( need ){
+            if( ratings[i] > ratings[i-1] ){
                 ans[i] = Math.max(ans[i],ans[i-1]+1);
             }
             else{
@@ -22,12 +19,8 @@ class Solution {
         }
 
         for(int i=n-2; i>=0; i--){
-            
-            boolean need = false;
-            
-            if(ratings[i] > ratings[i+1]) need=true;
-
-            if( need ){
+ 
+            if( ratings[i] > ratings[i+1] ){
                 ans[i] = Math.max(ans[i],ans[i+1]+1);
             }
             else{
