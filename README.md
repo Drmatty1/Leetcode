@@ -82,6 +82,7 @@
 | [3093-longest-common-suffix-queries](https://github.com/Drmatty1/Leetcode/tree/master/3093-longest-common-suffix-queries) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Drmatty1/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Drmatty1/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Drmatty1/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/Drmatty1/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Drmatty1/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
@@ -175,6 +176,7 @@
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [2952-minimum-number-of-coins-to-be-added](https://github.com/Drmatty1/Leetcode/tree/master/2952-minimum-number-of-coins-to-be-added) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Drmatty1/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/Drmatty1/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 ## Heap (Priority Queue)
@@ -846,4 +848,8 @@
 |  |
 | ------- |
 | [0324-wiggle-sort-ii](https://github.com/Drmatty1/Leetcode/tree/master/0324-wiggle-sort-ii) |
+## Counting Sort
+|  |
+| ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Drmatty1/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 <!---LeetCode Topics End-->
