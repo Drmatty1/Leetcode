@@ -3,11 +3,10 @@ class Solution {
         int n = s.length();
         if(n==1) return s;
 
-        int mid=  n/2;
+        int mid =  n/2;
         StringBuilder ans = new StringBuilder();
 
-        String s1 = s.substring(0,mid);
-        char []arr = s1.toCharArray();
+        char []arr = s.substring(0,mid).toCharArray();
         Arrays.sort(arr);
         String left = new String(arr);
         
