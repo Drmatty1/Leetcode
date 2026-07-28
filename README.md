@@ -613,6 +613,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Drmatty1/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Drmatty1/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
@@ -626,6 +627,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Drmatty1/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Drmatty1/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
@@ -668,6 +670,7 @@
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0155-min-stack](https://github.com/Drmatty1/Leetcode/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/Drmatty1/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Drmatty1/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0901-online-stock-span](https://github.com/Drmatty1/Leetcode/tree/master/0901-online-stock-span) |
@@ -702,6 +705,7 @@
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Drmatty1/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
@@ -728,6 +732,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Drmatty1/Leetcode/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0901-online-stock-span](https://github.com/Drmatty1/Leetcode/tree/master/0901-online-stock-span) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -861,4 +866,8 @@
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Drmatty1/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
