@@ -2,6 +2,7 @@ class RandomizedSet {
     int n ;
     List<Integer> arr ;
     Map <Integer,Integer> map ;
+
     public RandomizedSet() {
         n = 0;
         arr = new ArrayList<>();
@@ -9,17 +10,14 @@ class RandomizedSet {
     }
     
     public boolean insert(int val) {
+
         if(map.containsKey(val)) return false;
+
         map.put(val,n);
 
         if( arr.size() == n )  arr.add(val);
         else arr.set(n,val);
-
         n++;
-
-        // for(int e: arr) System.out.print(e+" ");
-        // System.out.println();
-        // System.out.println("++"+n);
 
         return true;
     }
@@ -47,12 +45,8 @@ class RandomizedSet {
     
     public int getRandom() {
 
-        // for(int e: arr) System.out.print(e+" ");
-        // System.out.println();
-        // System.out.println("++"+n);
-
         int res = (int)(Math.random()*n);
-        // System.out.println(res);
+        
         return arr.get(res);
     }
 }
