@@ -16,27 +16,27 @@ class Solution {
         }
         return res;
     }
-    
-    public long binom(int n, int k) {
-        if (k > n) return 0;
-        if (k > n - k) k = n - k;
-        long result = 1;
-        for (int i = 1; i <= k; i++) {
-            result = result * (n - i + 1) / i;
-            if (result >= maxK) return maxK;
-        }
-        return result;
-    }
 
     public long multinomial1(int[] counts) {
         int tot = 0;
+        int largest = 0;
+
         for (int cnt : counts) {
             tot += cnt;
+            largest = Math.max(largest, cnt);
         }
+        
         long res = 1;
+        boolean skipped = false;
+
         for (int i = 0; i < 26; i++) {
 
             int cnt = counts[i];
+
+             if (!skipped && cnt == largest) {
+                skipped = true;
+                continue;
+            }
 
             //m-1  - best**
             // res = res * binom(tot, cnt);
@@ -52,6 +52,17 @@ class Solution {
 
         }
         return res;
+    }
+    
+    public long binom(int n, int k) {
+        if (k > n) return 0;
+        if (k > n - k) k = n - k;
+        long result = 1;
+        for (int i = 1; i <= k; i++) {
+            result = result * (n - i + 1) / i;
+            if (result >= maxK) return maxK;
+        }
+        return result;
     }
 
     public String smallestPalindrome(String inputStr, int K) {
@@ -75,7 +86,7 @@ class Solution {
             halfLength += halfFreq[i];
         }
 
-        long totalPerms = multinomial(halfFreq);
+        long totalPerms = multinomial1(halfFreq);
         if (K > totalPerms) return "";
 
         StringBuilder firstHalfBuilder = new StringBuilder();
@@ -84,7 +95,7 @@ class Solution {
             for (int c = 0; c < 26; c++) {
                 if (halfFreq[c] > 0) {
                     halfFreq[c]--;
-                    long perms = multinomial(halfFreq);
+                    long perms = multinomial1(halfFreq);
                     if (perms >= K) {
                         firstHalfBuilder.append((char) ('a' + c));
                         break;
