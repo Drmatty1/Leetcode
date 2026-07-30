@@ -21,12 +21,14 @@ class Solution {
 
     
         int push = 0;
-        for(char c: arr){
-            int rank = revMap[c-'a'];
-            if(rank<=8) push+=1;
-            else if(rank<=16) push+=2;
-            else if(rank <=24) push+=3;
-            else push +=4;
+        int rank = 1;
+        for(int []c : f){
+            if(c[0] == 0)continue;
+            if(rank<=8) push+=1*c[0];
+            else if(rank<=16) push+=2*c[0];
+            else if(rank <=24) push+=3*c[0];
+            else push +=4*c[0];
+            rank++;
         }
 
         return push;
