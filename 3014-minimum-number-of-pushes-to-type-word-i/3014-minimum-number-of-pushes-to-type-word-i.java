@@ -1,5 +1,5 @@
 class Solution {
-    public int minimumPushes(String word) {
+    int sol1(String word) {
         int []f = new int[26];
         char []arr = word.toCharArray();
 
@@ -23,5 +23,12 @@ class Solution {
 
         return push;
         
+    }
+    public int minimumPushes(String word) {
+        int n = word.length();
+        int x = n/8;
+        int y = n%8;
+        int ans = x*(8+8*x)/2 + y*(x+1);
+        return ans;
     }
 };
