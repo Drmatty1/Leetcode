@@ -11,13 +11,13 @@ class Solution {
         Arrays.sort(f,(a,b)->Integer.compare(b[0],a[0]));
 
      
-        int []revMap = new int[26];
-        int r = 1;
-        for(int j=0; j<26; j++){
-            if(f[j][0] == 0) continue;
+        // int []revMap = new int[26];
+        // int r = 1;
+        // for(int j=0; j<26; j++){
+        //     if(f[j][0] == 0) continue;
             
-            revMap[f[j][1]] = r++;   // r rep  rank
-        }
+        //     revMap[f[j][1]] = r++;   // r rep  rank
+        // }
 
     
         int push = 0;
