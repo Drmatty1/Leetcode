@@ -1,4 +1,5 @@
 class Solution {
+    // in this question freq is 1, but in part 2...
     int sol1(String word) {
         int []f = new int[26];
         char []arr = word.toCharArray();
