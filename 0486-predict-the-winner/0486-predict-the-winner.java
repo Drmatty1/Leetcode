@@ -53,6 +53,21 @@ class Solution {
         }
         return dp[0][n-1];
     }
+    int sol23(int []arr){
+        int n = arr.length;
+        int []dp = new int[n+1];
+
+    
+        for(int i=n-1; i>=0; i--){
+            dp[i] = arr[i];
+            for(int j=i+1; j<n; j++){
+                dp[j] = Math.max(
+                    arr[i]-dp[j],arr[j]-dp[j-1]
+                );
+            }
+        }
+        return dp[n-1];
+    }
 
     public boolean predictTheWinner(int[] nums) {
         //m-1
@@ -69,6 +84,7 @@ class Solution {
         // for(int i=0; i<n; i++) Arrays.fill(dp[i],-1);
         // return sol21(nums,0,nums.length-1,dp)>=0;
 
-        return sol22(nums)>=0;
+        // return sol22(nums)>=0
+        return sol23(nums)>=0;
     }
 }
