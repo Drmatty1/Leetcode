@@ -34,14 +34,41 @@ class Solution {
 
         return dp[i][j] = Math.max(a,b);
     }
+    int sol22(int []arr){
+        int n = arr.length;
+        int [][]dp = new int[n+1][n+1];
+
+        for(int i=0; i<n; i++) dp[i][i] = arr[i];
+        /**
+        dp[i][j] = Math.max(
+                    arr[i]-dp[i+1][j],arr[j]-dp[i][j-1]
+                );
+         */
+        for(int i=n-1; i>=0; i--){
+            for(int j=i+1; j<n; j++){
+                dp[i][j] = Math.max(
+                    arr[i]-dp[i+1][j],arr[j]-dp[i][j-1]
+                );
+            }
+        }
+        return dp[0][n-1];
+    }
 
     public boolean predictTheWinner(int[] nums) {
+        //m-1
         // return sol(nums,0,nums.length-1,0);
 
+
+        //m-2,3,4 (DP)
+
         // return sol2(nums,0,nums.length-1)>=0;
-        int n = nums.length;
-        int [][]dp = new int[n][n];
-        for(int i=0; i<n; i++) Arrays.fill(dp[i],-1);
-        return sol21(nums,0,nums.length-1,dp)>=0;
+
+        // int n = nums.length;
+        // if(n%2 == 0) return true;
+        // int [][]dp = new int[n][n];
+        // for(int i=0; i<n; i++) Arrays.fill(dp[i],-1);
+        // return sol21(nums,0,nums.length-1,dp)>=0;
+
+        return sol22(nums)>=0;
     }
 }
