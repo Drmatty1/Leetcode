@@ -254,6 +254,7 @@
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Drmatty1/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0457-circular-array-loop](https://github.com/Drmatty1/Leetcode/tree/master/0457-circular-array-loop) |
 | [0474-ones-and-zeroes](https://github.com/Drmatty1/Leetcode/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [0491-non-decreasing-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/0494-target-sum) |
 | [0502-ipo](https://github.com/Drmatty1/Leetcode/tree/master/0502-ipo) |
@@ -373,6 +374,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/Drmatty1/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Drmatty1/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/Drmatty1/Leetcode/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
@@ -425,6 +427,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
 | [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
+| [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/Drmatty1/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0650-2-keys-keyboard](https://github.com/Drmatty1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Drmatty1/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
@@ -668,6 +671,7 @@
 | [0224-basic-calculator](https://github.com/Drmatty1/Leetcode/tree/master/0224-basic-calculator) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 ## Backtracking
 |  |
@@ -890,4 +894,5 @@
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
+| [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
