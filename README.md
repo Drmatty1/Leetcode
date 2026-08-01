@@ -421,6 +421,7 @@
 | [0227-basic-calculator-ii](https://github.com/Drmatty1/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
 | [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
@@ -867,6 +868,7 @@
 ## Brainteaser
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
 | [2396-strictly-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 ## Data Stream
 |  |
@@ -884,4 +886,8 @@
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
