@@ -374,6 +374,7 @@
 | [0397-integer-replacement](https://github.com/Drmatty1/Leetcode/tree/master/0397-integer-replacement) |
 | [0416-partition-equal-subset-sum](https://github.com/Drmatty1/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Drmatty1/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 | [0474-ones-and-zeroes](https://github.com/Drmatty1/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/0494-target-sum) |
@@ -428,6 +429,7 @@
 | [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
+| [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 | [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
 | [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/Drmatty1/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -467,6 +469,7 @@
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/Drmatty1/Leetcode/tree/master/0190-reverse-bits) |
 | [0397-integer-replacement](https://github.com/Drmatty1/Leetcode/tree/master/0397-integer-replacement) |
+| [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 | [0491-non-decreasing-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0693-binary-number-with-alternating-bits](https://github.com/Drmatty1/Leetcode/tree/master/0693-binary-number-with-alternating-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Drmatty1/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
@@ -764,6 +767,7 @@
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0397-integer-replacement](https://github.com/Drmatty1/Leetcode/tree/master/0397-integer-replacement) |
+| [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -897,6 +901,11 @@
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
+| [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 | [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
+## Bitmask
+|  |
+| ------- |
+| [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 <!---LeetCode Topics End-->
