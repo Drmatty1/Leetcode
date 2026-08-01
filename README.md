@@ -264,6 +264,7 @@
 | [0630-course-schedule-iii](https://github.com/Drmatty1/Leetcode/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Drmatty1/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
+| [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
@@ -384,6 +385,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/Drmatty1/Leetcode/tree/master/0788-rotated-digits) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
+| [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [1014-best-sightseeing-pair](https://github.com/Drmatty1/Leetcode/tree/master/1014-best-sightseeing-pair) |
 | [1024-video-stitching](https://github.com/Drmatty1/Leetcode/tree/master/1024-video-stitching) |
@@ -432,6 +434,7 @@
 | [0650-2-keys-keyboard](https://github.com/Drmatty1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Drmatty1/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0788-rotated-digits](https://github.com/Drmatty1/Leetcode/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Drmatty1/Leetcode/tree/master/1344-angle-between-hands-of-a-clock) |
@@ -895,4 +898,5 @@
 | ------- |
 | [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
