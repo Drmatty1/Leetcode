@@ -1,9 +1,9 @@
 class Solution {
 
-    boolean sol(int n, int k, int mask, Map<String,Boolean> dp){
+    boolean sol(int n, int k, int mask, Map<Integer,Boolean> dp){
         if(n<=0) return true;
 
-        String key = mask+"-";
+        int key = mask;
         if(dp.containsKey(key)) return dp.get(key);
 
         boolean res = false;
@@ -34,7 +34,7 @@ class Solution {
         // if not..
         if( k*(k+1)/2 < n ) return false;
         if(n == 0)  return true;
-        Map<String,Boolean> dp = new HashMap<>();
+        Map<Integer,Boolean> dp = new HashMap<>();
         return sol(n,k,0,dp);
     }
 }
