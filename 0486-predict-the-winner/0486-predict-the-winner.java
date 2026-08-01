@@ -24,10 +24,24 @@ class Solution {
 
         return Math.max(a,b);
     }
+    int sol21(int []arr, int i, int j, int[][]dp){
+        if(i==j) return arr[i];
+
+        if(dp[i][j] != -1) return dp[i][j];
+
+        int a = arr[i] - sol21(arr,i+1,j,dp);
+        int b = arr[j] - sol21(arr,i,j-1,dp);
+
+        return dp[i][j] = Math.max(a,b);
+    }
 
     public boolean predictTheWinner(int[] nums) {
         // return sol(nums,0,nums.length-1,0);
 
-        return sol2(nums,0,nums.length-1)>=0;
+        // return sol2(nums,0,nums.length-1)>=0;
+        int n = nums.length;
+        int [][]dp = new int[n][n];
+        for(int i=0; i<n; i++) Arrays.fill(dp[i],-1);
+        return sol21(nums,0,nums.length-1,dp)>=0;
     }
 }
