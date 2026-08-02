@@ -26,7 +26,45 @@ class Solution {
             return sum;
         }
     }
-    public long countRatioSubarrays(int[] nums, int a, int b) { 
+
+    long sol1(int[] nums, int a, int b) { 
+        int n = nums.length;
+        long []pre = new long[n+1];
+
+        long sum = 0;
+        for(int i=0; i<n; i++){
+            if(nums[i]%2 == 0) sum += b;
+            else sum -= a;
+            pre[i+1] = sum;
+        }
+
+        long[] sorted = pre.clone();
+        Arrays.sort(sorted);
+
+        int m = 0;
+        for (long x : sorted) {
+            if (m == 0 || x != sorted[m - 1]) {
+                sorted[m++] = x;
+            }
+        }
+        long[] uniqueP = Arrays.copyOf(sorted, m);
+
+
+        FenwickTree ft = new FenwickTree(uniqueP.length);
+        long validSubarraysCount = 0;
+
+        for (int j = 0; j <= n; j++) {
+            int r = Arrays.binarySearch(uniqueP, pre[j]);
+
+            validSubarraysCount += j - ft.query(r - 1);
+            ft.update(r, 1);
+        }
+
+        return validSubarraysCount;
+
+    }
+
+    long sol2(int[] nums, int a, int b) { 
         int n = nums.length;
         long []pre = new long[n+1];
 
@@ -60,5 +98,10 @@ class Solution {
 
         return validSubarraysCount;
 
+    }
+
+    public long countRatioSubarrays(int[] nums, int a, int b) { 
+        
+        return sol1(nums,a,b);
     }
 }
