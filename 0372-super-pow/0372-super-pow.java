@@ -6,10 +6,15 @@ class Solution {
         if(zero==2) return power(a,100);
         if(zero==3) return power(a,1000);
         if(zero==4) return power(a,10000);
+        if(zero==5) return power(a,100000);
+        if(zero==6) return power(a,1000000);
+        if(zero==7) return power(a,10000000);
+        if(zero==8) return power(a,100000000);
+        if(zero==9) return power(a,1000000000);
         
         // a^10
-        long res = power10(a,zero-4);
-        return power(res,10000);
+        long res = power10(a,zero-9);
+        return power(res,1000000000);
 
     }
     long power(long a, int b){
