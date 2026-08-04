@@ -38,6 +38,7 @@
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Drmatty1/Leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
+| [3731-find-missing-elements](https://github.com/Drmatty1/Leetcode/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Drmatty1/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## String
@@ -192,6 +193,7 @@
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Drmatty1/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/Drmatty1/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
+| [3731-find-missing-elements](https://github.com/Drmatty1/Leetcode/tree/master/3731-find-missing-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -347,6 +349,7 @@
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Drmatty1/Leetcode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Drmatty1/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Drmatty1/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3731-find-missing-elements](https://github.com/Drmatty1/Leetcode/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Drmatty1/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Drmatty1/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
