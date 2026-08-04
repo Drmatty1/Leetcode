@@ -3,10 +3,13 @@ class Solution {
     long power10(int a, int zero){
         if(zero == 0) return a;
         if(zero==1) return power(a,10);
+        if(zero==2) return power(a,100);
+        if(zero==3) return power(a,1000);
+        if(zero==4) return power(a,10000);
         
         // a^10
-        long res = power10(a,zero-2);
-        return power(res,100);
+        long res = power10(a,zero-4);
+        return power(res,10000);
 
     }
     long power(long a, int b){
