@@ -145,6 +145,7 @@
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Drmatty1/Leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Drmatty1/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -181,6 +182,7 @@
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Drmatty1/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Drmatty1/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -207,6 +209,7 @@
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/Drmatty1/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Drmatty1/Leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
@@ -294,6 +297,7 @@
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Drmatty1/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Drmatty1/Leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1732-find-the-highest-altitude](https://github.com/Drmatty1/Leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
@@ -454,6 +458,7 @@
 | [1573-number-of-ways-to-split-a-string](https://github.com/Drmatty1/Leetcode/tree/master/1573-number-of-ways-to-split-a-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Drmatty1/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -918,6 +923,7 @@
 | [1406-stone-game-iii](https://github.com/Drmatty1/Leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Drmatty1/Leetcode/tree/master/1563-stone-game-v) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 ## Bitmask
 |  |
 | ------- |
@@ -926,6 +932,7 @@
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 ## Nim Game
 |  |
 | ------- |
@@ -938,4 +945,5 @@
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
+| [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 <!---LeetCode Topics End-->
