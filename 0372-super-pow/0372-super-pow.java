@@ -5,8 +5,8 @@ class Solution {
         if(zero==1) return power(a,10);
         
         // a^10
-        long res = power10(a,zero-1);
-        return power(res,10);
+        long res = power10(a,zero-2);
+        return power(res,100);
 
     }
     long power(long a, int b){
@@ -21,7 +21,7 @@ class Solution {
     }
     public int superPow(int a, int[] b) {
         if(a==1) return 1;
-        
+
         int n = b.length;
         long ans= 1;
 
