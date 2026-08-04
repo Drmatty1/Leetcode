@@ -1,23 +1,25 @@
 class Solution {
     int mod = 1337;
-    long power10(int a, int zero){
-        if(zero == 0) return a;
+    Map<String,Integer> dp ;
+
+    int power10(int a, int zero){
+        if(zero == 0) return a%mod;
         if(zero==1) return power(a,10);
-        if(zero==2) return power(a,100);
-        if(zero==3) return power(a,1000);
-        if(zero==4) return power(a,10000);
-        if(zero==5) return power(a,100000);
-        if(zero==6) return power(a,1000000);
-        if(zero==7) return power(a,10000000);
-        if(zero==8) return power(a,100000000);
-        if(zero==9) return power(a,1000000000);
+
+        String key = a+"-"+zero;
+        if(dp.containsKey(key) ) return dp.get(key);
         
         // a^10
-        long res = power10(a,zero-9);
-        return power(res,1000000000);
+        long res = power10(a,zero-1);
 
+
+        int ans = power(res,10);
+
+        dp.put(key,ans);
+        return ans;
     }
-    long power(long a, int b){
+
+    int power(long a, int b){
         if(b==0) return 1;
 
         long res = power(a,b/2);
@@ -25,7 +27,7 @@ class Solution {
 
         if(b%2 != 0) res = (res*a)%mod;
 
-        return res;
+        return (int)res;
     }
     public int superPow(int a, int[] b) {
         if(a==1) return 1;
@@ -33,6 +35,8 @@ class Solution {
         int n = b.length;
         long ans= 1;
 
+        dp = new HashMap<>();
+        
         for(int i=0; i<n; i++){
 
             int rem = n-i-1;
