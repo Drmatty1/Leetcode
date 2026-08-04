@@ -7,7 +7,7 @@ class Solution {
             int lsum = pre[m+1]-pre[i];
             int rsum = pre[j+1]-pre[m+1];
             int temp = 0;
-            if(lsum <= rsum){
+            if(lsum < rsum){
                 temp = lsum + sol(i,m,arr);
             }
             else if(lsum > rsum){
