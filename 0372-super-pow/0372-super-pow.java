@@ -29,7 +29,8 @@ class Solution {
 
         return (int)res;
     }
-    public int superPow(int a, int[] b) {
+
+    int sol1(int a, int[] b) {
         if(a==1) return 1;
 
         int n = b.length;
@@ -45,6 +46,20 @@ class Solution {
             res = power(res,b[i]);
 
             ans = (ans*res)%mod;
+
+        }
+        return (int)ans;
+    }
+
+    public int superPow(int a, int[] b) {
+        if(a==1) return 1;
+        
+        int n = b.length;
+        long ans = power(a,b[0]);
+
+        for(int i=1; i<n; i++){
+    
+            ans = (1L*power(ans,10)*power(a,b[i]))%mod;
 
         }
         return (int)ans;
