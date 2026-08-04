@@ -20,6 +20,8 @@ class Solution {
         return res;
     }
     public int superPow(int a, int[] b) {
+        if(a==1) return 1;
+        
         int n = b.length;
         long ans= 1;
 
