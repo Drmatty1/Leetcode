@@ -1,9 +1,7 @@
 class Solution {
     void dfs(List<List<Integer>> adj, boolean []mark, int k){
         mark[k] = true;
-        // System.out.println(k+" ");
         for(int n: adj.get(k)){
-            // System.out.println(k+" "+n);
             if(mark[n] == false){
                 dfs(adj,mark,n);
             }
@@ -19,6 +17,7 @@ class Solution {
         for(int n: adj.get(k)){
             if(vis[n] == false){
                 res |= dfs1(adj,vis,mark,n);
+                if(res) break;
             }
         }
 
@@ -39,17 +38,14 @@ class Solution {
         boolean []mark = new boolean[n];
         dfs(adj,mark,k);
 
-
         boolean []vis = new boolean[n];
         boolean ans = false;
         for(int i=0; i<n; i++)
-            if(vis[i] == false && mark[i] == false)
+            if(vis[i] == false && mark[i] == false){
                 ans |= dfs1(adj,vis,mark,i);
-        
-        // System.out.println(ans);
-        // for(int i=0; i<n; i++){
-        //     System.out.print(vis[i]+" ");
-        // }
+                if(ans) break;
+            }
+       
 
         List<Integer> res = new ArrayList<>();
 
