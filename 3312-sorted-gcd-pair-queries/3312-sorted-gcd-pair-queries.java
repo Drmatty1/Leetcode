@@ -23,7 +23,8 @@ class Solution {
         int []freq = new int[max+1];
         for(int e: nums) freq[e] ++;
 
-        // count no mult of x
+        // count no mult of x, 
+        // how many no contains factor i -> count[i];
         int []count = new int[max+1];
 
         for(int i=1; i<=max; i++){
