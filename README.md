@@ -23,6 +23,7 @@
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Drmatty1/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Drmatty1/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
+| [2013-detect-squares](https://github.com/Drmatty1/Leetcode/tree/master/2013-detect-squares) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Drmatty1/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2352-equal-row-and-column-pairs](https://github.com/Drmatty1/Leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2384-largest-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2384-largest-palindromic-number) |
@@ -105,6 +106,7 @@
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [1189-maximum-number-of-balloons](https://github.com/Drmatty1/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Drmatty1/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [2013-detect-squares](https://github.com/Drmatty1/Leetcode/tree/master/2013-detect-squares) |
 | [2384-largest-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2384-largest-palindromic-number) |
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
 | [2833-furthest-point-from-origin](https://github.com/Drmatty1/Leetcode/tree/master/2833-furthest-point-from-origin) |
@@ -313,6 +315,7 @@
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Drmatty1/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Drmatty1/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
+| [2013-detect-squares](https://github.com/Drmatty1/Leetcode/tree/master/2013-detect-squares) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Drmatty1/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
@@ -791,6 +794,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0901-online-stock-span](https://github.com/Drmatty1/Leetcode/tree/master/0901-online-stock-span) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
+| [2013-detect-squares](https://github.com/Drmatty1/Leetcode/tree/master/2013-detect-squares) |
 | [2069-walking-robot-simulation-ii](https://github.com/Drmatty1/Leetcode/tree/master/2069-walking-robot-simulation-ii) |
 ## Memoization
 |  |
@@ -917,6 +921,7 @@
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/Drmatty1/Leetcode/tree/master/0901-online-stock-span) |
+| [2013-detect-squares](https://github.com/Drmatty1/Leetcode/tree/master/2013-detect-squares) |
 ## Quickselect
 |  |
 | ------- |
