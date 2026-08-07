@@ -4,7 +4,7 @@ class Solution {
         int max = 0, mask=0;
 
         // here we are tring to maximize i'th bit 
-        for(int i=31; i>=0; i--){
+        for(int i=30; i>=0; i--){
             
             mask = mask | (1<<i);
             Set<Integer> set = new HashSet<>();
