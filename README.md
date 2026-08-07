@@ -63,6 +63,7 @@
 | [0567-permutation-in-string](https://github.com/Drmatty1/Leetcode/tree/master/0567-permutation-in-string) |
 | [0606-construct-string-from-binary-tree](https://github.com/Drmatty1/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0647-palindromic-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/Drmatty1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0696-count-binary-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [0796-rotate-string](https://github.com/Drmatty1/Leetcode/tree/master/0796-rotate-string) |
@@ -144,6 +145,7 @@
 | [0621-task-scheduler](https://github.com/Drmatty1/Leetcode/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/Drmatty1/Leetcode/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Drmatty1/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0678-valid-parenthesis-string](https://github.com/Drmatty1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
@@ -404,6 +406,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/Drmatty1/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0647-palindromic-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/Drmatty1/Leetcode/tree/master/0650-2-keys-keyboard) |
+| [0678-valid-parenthesis-string](https://github.com/Drmatty1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/Drmatty1/Leetcode/tree/master/0788-rotated-digits) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
@@ -741,6 +744,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/Drmatty1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/Drmatty1/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Drmatty1/Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0678-valid-parenthesis-string](https://github.com/Drmatty1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0901-online-stock-span](https://github.com/Drmatty1/Leetcode/tree/master/0901-online-stock-span) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -987,4 +991,8 @@
 |  |
 | ------- |
 | [0372-super-pow](https://github.com/Drmatty1/Leetcode/tree/master/0372-super-pow) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/Drmatty1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
