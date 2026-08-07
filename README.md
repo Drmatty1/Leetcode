@@ -214,6 +214,7 @@
 | [0502-ipo](https://github.com/Drmatty1/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Drmatty1/Leetcode/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/Drmatty1/Leetcode/tree/master/0630-course-schedule-iii) |
+| [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
@@ -549,6 +550,7 @@
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
 | [0513-find-bottom-left-tree-value](https://github.com/Drmatty1/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0606-construct-string-from-binary-tree](https://github.com/Drmatty1/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
+| [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
@@ -572,6 +574,7 @@
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0513-find-bottom-left-tree-value](https://github.com/Drmatty1/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
+| [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
@@ -592,6 +595,7 @@
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Drmatty1/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Drmatty1/Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Drmatty1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -928,6 +932,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/Drmatty1/Leetcode/tree/master/3620-network-recovery-pathways) |
@@ -1019,4 +1024,8 @@
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/Drmatty1/Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
