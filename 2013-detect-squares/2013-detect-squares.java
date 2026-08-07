@@ -1,13 +1,20 @@
 class DetectSquares {
-    Map<Integer,Integer> map;
+    // Map<Integer,Integer> map;
+    int [][]map ;
     public DetectSquares() {
-        map = new HashMap<>();
+        // map = new HashMap<>();
+        map = new int[1001][1001];
     }
     
     public void add(int[] point) {
-        int key = (point[0]<<12)|point[1];
-        map.put(key,map.getOrDefault(key,0)+1);
+        int x = point[0], y = point[1];
+
+        // int key = (x<<12)|y;
+        // map.put(key,map.getOrDefault(key,0)+1);
+
+        map[x][y] ++;
     }
+
     
     public int count(int[] point) {
         
@@ -16,34 +23,34 @@ class DetectSquares {
 
 
         for(int l=1; x-l>=0 && y-l>=0; l++){
-            int f1 = map.getOrDefault( ((x-l)<<12) |y ,0);
-            int f2 = map.getOrDefault( (x<<12) |(y-l) ,0);
-            int f3 = map.getOrDefault( ((x-l)<<12) |(y-l) ,0);
+            int f1 = map[x-l][y];
+            int f2 = map[x][y-l];
+            int f3 = map[x-l][y-l];
 
             ans += f1*f2*f3;
         }
         
         
         for(int l=1; x+l<=1000 && y+l<=1000; l++){
-            int f1 = map.getOrDefault( ((x+l)<<12) | y ,0);
-            int f2 = map.getOrDefault( (x<<12) | (y+l) ,0);
-            int f3 = map.getOrDefault( ((x+l)<<12) | (y+l) ,0);
+            int f1 = map[x+l][y];
+            int f2 = map[x][y+l];
+            int f3 = map[x+l][y+l];
 
             ans += f1*f2*f3;
         }
 
         for(int l=1; x-l>=0 && y+l<=1000 ; l++){
-            int f1 = map.getOrDefault( ((x-l)<<12) |y ,0);
-            int f2 = map.getOrDefault( (x<<12) |(y+l) ,0);
-            int f3 = map.getOrDefault( ((x-l)<<12) |(y+l) ,0);
+            int f1 = map[x-l][y];
+            int f2 = map[x][y+l];
+            int f3 = map[x-l][y+l];
 
             ans += f1*f2*f3;
         }
 
         for(int l=1; x+l<=1000 && y-l>=0 ; l++){
-            int f1 = map.getOrDefault( ((x+l)<<12) |y ,0);
-            int f2 = map.getOrDefault( (x<<12) |(y-l) ,0);
-            int f3 = map.getOrDefault( ((x+l)<<12) |(y-l) ,0);
+            int f1 = map[x+l][y];
+            int f2 = map[x][y-l];
+            int f3 = map[x+l][y-l];
 
             ans += f1*f2*f3;
         }
