@@ -20,12 +20,13 @@ class Solution {
             int pa = find(a), pb = find(b);
             if(pa == pb) return false;
     
-            // par[pa] = pb;
-            if( a == par[a] ) { par[a] = b; } 
-            else if(b == par[b]){
-                par[b] = a; 
-            } 
-            else{ par[pa] = pb; }
+            par[pa] = pb;
+
+            // if( a == par[a] ) { par[a] = b; } 
+            // else if(b == par[b]){
+            //     par[b] = a; 
+            // } 
+            // else{ par[pa] = pb; }
 
             return true;
         }
