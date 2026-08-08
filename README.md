@@ -557,6 +557,7 @@
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
 | [0513-find-bottom-left-tree-value](https://github.com/Drmatty1/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0606-construct-string-from-binary-tree](https://github.com/Drmatty1/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
+| [0684-redundant-connection](https://github.com/Drmatty1/Leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -581,6 +582,7 @@
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0513-find-bottom-left-tree-value](https://github.com/Drmatty1/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
+| [0684-redundant-connection](https://github.com/Drmatty1/Leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
@@ -602,6 +604,7 @@
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Drmatty1/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0684-redundant-connection](https://github.com/Drmatty1/Leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Drmatty1/Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
@@ -722,6 +725,7 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Drmatty1/Leetcode/tree/master/0130-surrounded-regions) |
+| [0684-redundant-connection](https://github.com/Drmatty1/Leetcode/tree/master/0684-redundant-connection) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
