@@ -883,6 +883,7 @@
 | [0584-find-customer-referee](https://github.com/Drmatty1/Leetcode/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/Drmatty1/Leetcode/tree/master/0595-big-countries) |
 | [0626-exchange-seats](https://github.com/Drmatty1/Leetcode/tree/master/0626-exchange-seats) |
+| [1148-article-views-i](https://github.com/Drmatty1/Leetcode/tree/master/1148-article-views-i) |
 | [1978-employees-whose-manager-left-the-company](https://github.com/Drmatty1/Leetcode/tree/master/1978-employees-whose-manager-left-the-company) |
 ## Segment Tree
 |  |
