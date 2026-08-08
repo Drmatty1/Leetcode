@@ -358,6 +358,7 @@
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3309-maximum-possible-number-by-binary-concatenation](https://github.com/Drmatty1/Leetcode/tree/master/3309-maximum-possible-number-by-binary-concatenation) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3334-find-the-maximum-factor-score-of-array](https://github.com/Drmatty1/Leetcode/tree/master/3334-find-the-maximum-factor-score-of-array) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Drmatty1/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
@@ -496,6 +497,7 @@
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Drmatty1/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3334-find-the-maximum-factor-score-of-array](https://github.com/Drmatty1/Leetcode/tree/master/3334-find-the-maximum-factor-score-of-array) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Drmatty1/Leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
@@ -857,6 +859,7 @@
 | [2197-replace-non-coprime-numbers-in-array](https://github.com/Drmatty1/Leetcode/tree/master/2197-replace-non-coprime-numbers-in-array) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3334-find-the-maximum-factor-score-of-array](https://github.com/Drmatty1/Leetcode/tree/master/3334-find-the-maximum-factor-score-of-array) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Drmatty1/Leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Drmatty1/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -1049,4 +1052,8 @@
 |  |
 | ------- |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Drmatty1/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
+## Least Common Multiple
+|  |
+| ------- |
+| [3334-find-the-maximum-factor-score-of-array](https://github.com/Drmatty1/Leetcode/tree/master/3334-find-the-maximum-factor-score-of-array) |
 <!---LeetCode Topics End-->
