@@ -888,6 +888,7 @@
 | [1070-product-sales-analysis-iii](https://github.com/Drmatty1/Leetcode/tree/master/1070-product-sales-analysis-iii) |
 | [1148-article-views-i](https://github.com/Drmatty1/Leetcode/tree/master/1148-article-views-i) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Drmatty1/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
+| [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Drmatty1/Leetcode/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
 | [1683-invalid-tweets](https://github.com/Drmatty1/Leetcode/tree/master/1683-invalid-tweets) |
 | [1978-employees-whose-manager-left-the-company](https://github.com/Drmatty1/Leetcode/tree/master/1978-employees-whose-manager-left-the-company) |
 ## Segment Tree
