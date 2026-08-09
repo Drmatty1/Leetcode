@@ -296,6 +296,7 @@
 | [1024-video-stitching](https://github.com/Drmatty1/Leetcode/tree/master/1024-video-stitching) |
 | [1046-last-stone-weight](https://github.com/Drmatty1/Leetcode/tree/master/1046-last-stone-weight) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/Drmatty1/Leetcode/tree/master/1288-remove-covered-intervals) |
@@ -424,6 +425,7 @@
 | [1014-best-sightseeing-pair](https://github.com/Drmatty1/Leetcode/tree/master/1014-best-sightseeing-pair) |
 | [1024-video-stitching](https://github.com/Drmatty1/Leetcode/tree/master/1024-video-stitching) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Drmatty1/Leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
@@ -478,6 +480,7 @@
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Drmatty1/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Drmatty1/Leetcode/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1406-stone-game-iii](https://github.com/Drmatty1/Leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
@@ -780,6 +783,7 @@
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Drmatty1/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/Drmatty1/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1732-find-the-highest-altitude](https://github.com/Drmatty1/Leetcode/tree/master/1732-find-the-highest-altitude) |
 | [2615-sum-of-distances](https://github.com/Drmatty1/Leetcode/tree/master/2615-sum-of-distances) |
@@ -990,6 +994,7 @@
 | [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 | [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Drmatty1/Leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Drmatty1/Leetcode/tree/master/1563-stone-game-v) |
@@ -1001,6 +1006,7 @@
 ## Minimax
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 ## Nim Game
@@ -1014,6 +1020,7 @@
 ## Zero-Sum Game
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 ## Euler's Totient Function
