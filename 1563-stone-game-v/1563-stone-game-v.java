@@ -124,7 +124,7 @@ class Solution {
     }
 
 
-    private int search(int[] pre, int l, int r) {
+    int search(int[] pre, int l, int r) {
         int sum = pre[r+1] - pre[l], L = l;
         while(l < r) {
             int m = l + ((r - l) >> 1);
@@ -254,7 +254,9 @@ class Solution {
         // return sol22(stoneValue);
 
         // return sol31(stoneValue);
-        return sol32(stoneValue);
+        // return sol32(stoneValue);
+
+        return sol4(stoneValue);
     }
 }
 
