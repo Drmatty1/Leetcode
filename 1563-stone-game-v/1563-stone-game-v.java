@@ -253,7 +253,8 @@ class Solution {
         // return sol21(stoneValue);
         // return sol22(stoneValue);
 
-        return sol31(stoneValue);
+        // return sol31(stoneValue);
+        return sol32(stoneValue);
     }
 }
 
