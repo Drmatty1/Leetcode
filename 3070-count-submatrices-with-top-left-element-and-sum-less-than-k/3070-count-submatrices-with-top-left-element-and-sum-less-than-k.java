@@ -1,24 +1,16 @@
 class Solution {
-    void add( int []a, int[]b ){
-        int l = a.length;
-        for( int i=0; i<l; i++ ) a[i] += b[i];
-    }
     public int countSubmatrices(int[][] grid, int k) {
-        
         int r = grid.length, c = grid[0].length;
-        int ans = 0;
-       
-        for( int i = 0; i<r; i++ ){
-
-            if( i != 0 ) add( grid[0], grid[i] );
-
-            int sum = 0;
-            for( int j=0; j<c; j++ ){
-                sum += grid[0][j];
-                if( sum <= k ) ans++;
+        int [][]dp = new int[r+1][c+1];
+        int count = 0;
+        for(int i=0; i<r; i++){
+            int currRow = 0;  //prefSum of curr Row
+            for(int j=0; j<c; j++){
+                currRow += grid[i][j];
+                dp[i+1][j+1] += dp[i][j+1] + currRow;
+                if(dp[i+1][j+1] <= k) count++;
             }
-
         }
-        return ans;
+        return count;
     }
 }
