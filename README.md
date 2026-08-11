@@ -37,6 +37,7 @@
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Drmatty1/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/Drmatty1/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Drmatty1/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Drmatty1/Leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
@@ -365,6 +366,7 @@
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3334-find-the-maximum-factor-score-of-array](https://github.com/Drmatty1/Leetcode/tree/master/3334-find-the-maximum-factor-score-of-array) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Drmatty1/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Drmatty1/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Drmatty1/Leetcode/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
@@ -795,6 +797,7 @@
 | [2906-construct-product-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Drmatty1/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Drmatty1/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Drmatty1/Leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Drmatty1/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
