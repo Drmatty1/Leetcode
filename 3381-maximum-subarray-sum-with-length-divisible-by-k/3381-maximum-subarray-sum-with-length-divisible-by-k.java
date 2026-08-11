@@ -9,10 +9,10 @@ class Solution {
 
         for(int i=1; i<=n; i++){
             sum += nums[i-1];
-            if(i>=k)
+            // if(i>=k)
                 ans = Math.max(ans,sum-pre[i%k]);
             pre[i%k] = Math.min(pre[i%k],sum);
-            System.out.println(pre[i%k]);
+            // System.out.println(pre[i%k]);
         }
         return ans;
     }
