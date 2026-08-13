@@ -51,16 +51,16 @@ class Solution {
             
             tree[node] = merge(tree[2*node],tree[2*node+1]);
         }
-        void update(int node, String s, int i, int j, int idx, char val ){
+        void update(int node, int i, int j, int idx, char val ){
             if(i==j){
                 tree[node] = new Node(1,1,1,val,val,1);
                 return ;
             }
             int mid = (i+j)/2;
             if(idx<=mid)
-                update(2*node,s,i,mid,idx,val);
+                update(2*node,i,mid,idx,val);
             else
-                update(2*node+1,s,mid+1,j,idx,val);
+                update(2*node+1,mid+1,j,idx,val);
             
             tree[node] = merge(tree[2*node],tree[2*node+1]);
         }
@@ -73,7 +73,7 @@ class Solution {
         Seg tree = new Seg(n);
         tree.build(1,s,0,n-1);
         for(int i=0; i<l; i++){
-            tree.update(1,s,0,n-1,queryIndices[i],queryCharacters.charAt(i));
+            tree.update(1,0,n-1,queryIndices[i],queryCharacters.charAt(i));
             ans[i] = tree.tree[1].ans;
         }
         return ans;
