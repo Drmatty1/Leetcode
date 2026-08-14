@@ -30,7 +30,7 @@ class Solution {
         return ans;
     }
 
-    public int[] maxSlidingWindow(int[] nums, int k) {
+    int[] sol_2(int[] nums, int k) {
         int n = nums.length;
         int []ans = new int[n-k+1];
 
@@ -41,6 +41,24 @@ class Solution {
                 while(pq.peek()[1] < (i-k+1)) pq.poll();
                 ans[i-k+1] = pq.peek()[0];
             }
+        }
+        return ans;
+    }
+
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int n = nums.length;
+        int []ans = new int[n-k+1];
+
+        TreeMap<Integer,Integer> freq = new TreeMap<>();
+        for(int i=0; i<n; i++){
+            int c = nums[i];
+            freq.put(c, freq.getOrDefault(c,0)+1);
+            if(i>=k){
+                int p = nums[i-k];
+                freq.put(p, freq.get(p)-1);
+                if(freq.get(p)==0) freq.remove(p);
+            }
+            if(i>=k-1) ans[i-k+1] = freq.lastKey();
         }
         return ans;
     }
