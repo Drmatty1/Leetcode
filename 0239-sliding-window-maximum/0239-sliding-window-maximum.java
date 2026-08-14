@@ -45,7 +45,7 @@ class Solution {
         return ans;
     }
 
-    public int[] maxSlidingWindow(int[] nums, int k) {
+    int[] sol_3(int[] nums, int k) {
         int n = nums.length;
         int []ans = new int[n-k+1];
 
@@ -60,6 +60,27 @@ class Solution {
                 if(oldFreq==1) freq.remove(p);
             }
             if(i>=k-1) ans[i-k+1] = freq.lastKey();
+        }
+        return ans;
+    }
+
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int n = nums.length;
+        int []ans = new int[n-k+1];
+
+        Deque<Integer> dq = new ArrayDeque<>();
+
+        for(int i=0; i<n; i++){
+
+            int c = nums[i];
+            while( !dq.isEmpty() && nums[dq.peekLast()] < c) 
+                dq.pollLast();
+            dq.addLast(i);
+
+            while( dq.peekFirst() <= (i-k) ) dq.pollFirst();
+            
+            if(i>=k-1) ans[i-k+1] = nums[dq.peekFirst()];
+
         }
         return ans;
     }
