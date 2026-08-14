@@ -55,8 +55,9 @@ class Solution {
             freq.put(c, freq.getOrDefault(c,0)+1);
             if(i>=k){
                 int p = nums[i-k];
-                freq.put(p, freq.get(p)-1);
-                if(freq.get(p)==0) freq.remove(p);
+                int oldFreq = freq.get(p);
+                freq.put(p, oldFreq-1);
+                if(oldFreq==1) freq.remove(p);
             }
             if(i>=k-1) ans[i-k+1] = freq.lastKey();
         }
