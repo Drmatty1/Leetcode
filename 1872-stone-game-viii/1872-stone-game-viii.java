@@ -20,6 +20,6 @@ class Solution {
         dp = new int[n][2];
         for(int i=0; i<n; i++)
             Arrays.fill(dp[i],Integer.MIN_VALUE);
-        return sol(stones,1,true);
+        return sol(stones,0,false);
     }
 }
