@@ -336,6 +336,7 @@
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Drmatty1/Leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1732-find-the-highest-altitude](https://github.com/Drmatty1/Leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1765-map-of-highest-peak](https://github.com/Drmatty1/Leetcode/tree/master/1765-map-of-highest-peak) |
+| [1770-maximum-score-from-performing-multiplication-operations](https://github.com/Drmatty1/Leetcode/tree/master/1770-maximum-score-from-performing-multiplication-operations) |
 | [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -458,6 +459,7 @@
 | [1563-stone-game-v](https://github.com/Drmatty1/Leetcode/tree/master/1563-stone-game-v) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1690-stone-game-vii](https://github.com/Drmatty1/Leetcode/tree/master/1690-stone-game-vii) |
+| [1770-maximum-score-from-performing-multiplication-operations](https://github.com/Drmatty1/Leetcode/tree/master/1770-maximum-score-from-performing-multiplication-operations) |
 | [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 | [1937-maximum-number-of-points-with-cost](https://github.com/Drmatty1/Leetcode/tree/master/1937-maximum-number-of-points-with-cost) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
