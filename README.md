@@ -338,6 +338,7 @@
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 | [1937-maximum-number-of-points-with-cost](https://github.com/Drmatty1/Leetcode/tree/master/1937-maximum-number-of-points-with-cost) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Drmatty1/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Drmatty1/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -454,6 +455,7 @@
 | [1563-stone-game-v](https://github.com/Drmatty1/Leetcode/tree/master/1563-stone-game-v) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1690-stone-game-vii](https://github.com/Drmatty1/Leetcode/tree/master/1690-stone-game-vii) |
+| [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 | [1937-maximum-number-of-points-with-cost](https://github.com/Drmatty1/Leetcode/tree/master/1937-maximum-number-of-points-with-cost) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Drmatty1/Leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
@@ -510,6 +512,7 @@
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1690-stone-game-vii](https://github.com/Drmatty1/Leetcode/tree/master/1690-stone-game-vii) |
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
+| [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 | [1922-count-good-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Drmatty1/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -809,6 +812,7 @@
 | [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1732-find-the-highest-altitude](https://github.com/Drmatty1/Leetcode/tree/master/1732-find-the-highest-altitude) |
+| [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 | [2615-sum-of-distances](https://github.com/Drmatty1/Leetcode/tree/master/2615-sum-of-distances) |
 | [2906-construct-product-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Drmatty1/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -1031,6 +1035,7 @@
 | [1563-stone-game-v](https://github.com/Drmatty1/Leetcode/tree/master/1563-stone-game-v) |
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1690-stone-game-vii](https://github.com/Drmatty1/Leetcode/tree/master/1690-stone-game-vii) |
+| [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 ## Bitmask
 |  |
 | ------- |
@@ -1042,6 +1047,7 @@
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1690-stone-game-vii](https://github.com/Drmatty1/Leetcode/tree/master/1690-stone-game-vii) |
+| [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 ## Nim Game
 |  |
 | ------- |
@@ -1057,6 +1063,7 @@
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1690-stone-game-vii](https://github.com/Drmatty1/Leetcode/tree/master/1690-stone-game-vii) |
+| [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 ## Euler's Totient Function
 |  |
 | ------- |
