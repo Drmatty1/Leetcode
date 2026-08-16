@@ -44,11 +44,16 @@ class Solution {
             else c++;
         }
 
-        // case 1
-        boolean case1 = b>0?sol(1,a,b-1,c,n):false;
-        boolean case2 = c>0?sol(2,a,b,c-1,n):false;
+        //m-OP
+        if(a%2==0){
+            return Math.min(b,c)>0;
+        }
+        return Math.abs(b-c)>2;
 
-        return case1||case2;
+        // m-1
+        // boolean case1 = b>0?sol(1,a,b-1,c,n):false;
+        // boolean case2 = c>0?sol(2,a,b,c-1,n):false;
+        // return case1||case2;
 
     }
 }           
