@@ -495,6 +495,7 @@
 | [0372-super-pow](https://github.com/Drmatty1/Leetcode/tree/master/0372-super-pow) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
+| [0400-nth-digit](https://github.com/Drmatty1/Leetcode/tree/master/0400-nth-digit) |
 | [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
 | [0470-implement-rand10-using-rand7](https://github.com/Drmatty1/Leetcode/tree/master/0470-implement-rand10-using-rand7) |
 | [0486-predict-the-winner](https://github.com/Drmatty1/Leetcode/tree/master/0486-predict-the-winner) |
@@ -842,6 +843,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Drmatty1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0287-find-the-duplicate-number](https://github.com/Drmatty1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0400-nth-digit](https://github.com/Drmatty1/Leetcode/tree/master/0400-nth-digit) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1631-path-with-minimum-effort](https://github.com/Drmatty1/Leetcode/tree/master/1631-path-with-minimum-effort) |
