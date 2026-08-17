@@ -941,6 +941,7 @@
 | [0177-nth-highest-salary](https://github.com/Drmatty1/Leetcode/tree/master/0177-nth-highest-salary) |
 | [0178-rank-scores](https://github.com/Drmatty1/Leetcode/tree/master/0178-rank-scores) |
 | [0180-consecutive-numbers](https://github.com/Drmatty1/Leetcode/tree/master/0180-consecutive-numbers) |
+| [0182-duplicate-emails](https://github.com/Drmatty1/Leetcode/tree/master/0182-duplicate-emails) |
 | [0511-game-play-analysis-i](https://github.com/Drmatty1/Leetcode/tree/master/0511-game-play-analysis-i) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/Drmatty1/Leetcode/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0584-find-customer-referee](https://github.com/Drmatty1/Leetcode/tree/master/0584-find-customer-referee) |
