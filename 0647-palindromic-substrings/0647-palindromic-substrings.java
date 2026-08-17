@@ -1,6 +1,5 @@
 class Solution {
     int count(char []a, int i, int j){
-        if(i<0 || j>= a.length) return 0;
         int n = a.length;
 
         int count = 0;
