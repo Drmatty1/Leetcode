@@ -1,39 +1,23 @@
 class Solution {
-
-    int op( char[] a, int i ){
+    int count(char []a, int i, int j){
+        if(i<0 || j>= a.length) return 0;
         int n = a.length;
-        int c = 0;
-        int l = i-1, r = i+1;
-        while( l >=0 && r < n && a[l]==a[r]  ){
-            c++;
-            l--;
-            r++;
-        }
-        return c+1;
-    }
-    int ep( char[] a, int i ){
-        int n = a.length;
-        int c = 0;
-        int l = i, r = i+1;
-        while( l >=0 && r < n && a[l]==a[r]  ){
-            c++;
-            l--;
-            r++;
-        }
-        return (c);
-    }
 
+        int count = 0;
+        while(i>=0 && j<n){
+            if(a[i--] == a[j++]) count++;
+            else break;
+        }
+        return count;
+    }
     public int countSubstrings(String s) {
-        int l = s.length();
-        char[] a = s.toCharArray();
+        char []a = s.toCharArray();
+        int n = a.length;
         int ans = 0;
-        for( int i = 0; i<l; i++ ){
-            int p = op(a,i);
-            int q = ep(a,i);
-            ans += p+q;
+        for(int i=0; i<n; i++){
+            ans += count(a,i,i+1); //even length;
+            ans += 1+count(a,i-1,i+1); //odd length;
         }
-
         return ans;
-
     }
 }
