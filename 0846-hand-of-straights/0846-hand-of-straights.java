@@ -4,8 +4,11 @@ class Solution {
         int len = 0;
         while(map.containsKey(e)){
             len++;
-            map.put(e,map.get(e)-1);
-            if(map.get(e) == 0) map.remove(e);
+
+            int freq = map.get(e);
+            if(freq > 1)  map.put(e,freq-1);
+            else map.remove(e);
+
             e++;
             if(len==k) return true;
         }
