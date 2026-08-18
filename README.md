@@ -361,6 +361,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Drmatty1/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2155-all-divisions-with-the-highest-score-of-a-binary-array](https://github.com/Drmatty1/Leetcode/tree/master/2155-all-divisions-with-the-highest-score-of-a-binary-array) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Drmatty1/Leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Drmatty1/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2197-replace-non-coprime-numbers-in-array](https://github.com/Drmatty1/Leetcode/tree/master/2197-replace-non-coprime-numbers-in-array) |
