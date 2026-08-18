@@ -1,15 +1,21 @@
 class Solution {
     Map<Integer,Integer> map ;
     boolean count(int e, int k){
-        int len = 0;
+        
+        int freq = map.get(e);
+        int len=0;
         while(map.containsKey(e)){
             len++;
-            map.put(e,map.get(e)-1);
+            if(map.get(e) < freq) return false;
+
+            map.put(e,map.get(e)-freq);
             if(map.get(e) == 0) map.remove(e);
+
             e++;
             if(len==k) return true;
         }
         return false;
+
     }
     public boolean isPossibleDivide(int[] nums, int k) {
 
@@ -17,14 +23,21 @@ class Solution {
         if(n%k != 0) return false;
         map = new HashMap<>();
 
-        Arrays.sort(nums);
         for(int e: nums){
             map.put(e,map.getOrDefault(e,0)+1);
         }
 
+        int []keys = new int[map.size()];
+        int i=0;
+        for(int e: map.keySet()){
+            keys[i++] = e;
+        }
+
+        Arrays.sort(keys);
+
         int count = 0;
 
-        for(int e: nums){
+        for(int e: keys){
             if(map.containsKey(e)==false) continue;
             boolean res = count(e,k);
             // System.out.println(e+" "+res);
