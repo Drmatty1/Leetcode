@@ -14,6 +14,7 @@ class Solution {
         }
         return false;
     }
+    // O(nlogn)
     boolean sol(int[] nums, int k) {
 
         int n = nums.length;
@@ -37,7 +38,38 @@ class Solution {
         return true;
 
     }
+
+
+    boolean find(int []arr, int i, int k){
+        int n = arr.length;
+        int count = 0;
+        int next = arr[i];
+
+        for(int j=i; j<n && count < k; j++ ){
+            if(arr[j]==next){
+                count++;
+                next++;
+                arr[j] = -1;
+            }
+        }
+
+        return count==k;
+    }
+    boolean sol1(int []a, int k){
+        Arrays.sort(a);
+        for(int i=0; i<a.length; i++){
+            if(a[i]>=0){
+                if(find(a,i,k)==false) return false;
+            }
+        }
+        return true;
+    }
+
+
     public boolean isNStraightHand(int[] hand, int groupSize) {
-        return sol(hand,groupSize);
+        // return sol(hand,groupSize);
+
+        return sol1(hand,groupSize);
+
     }
 }
