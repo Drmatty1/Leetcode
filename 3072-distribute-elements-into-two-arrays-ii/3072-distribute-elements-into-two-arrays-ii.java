@@ -1,4 +1,5 @@
 class Solution {
+
     class Treap {
 
         static class Node {
@@ -114,7 +115,7 @@ class Solution {
             return countGreaterThan(root, x);
         }
     }
-    public int[] resultArray(int[] nums) {
+    int[] sol(int[] nums) {
 
         Treap ost_l = new Treap();
         Treap ost_r = new Treap();
@@ -155,6 +156,195 @@ class Solution {
         for(int e: arr2) nums[i++] = e;
 
         return nums;
+
+    }
+
+    class Fenwick {
+        int[] bit;
+
+        Fenwick(int n) {
+            bit = new int[n + 1];
+        }
+
+        void add(int idx, int val) {
+            while (idx < bit.length) {
+                bit[idx] += val;
+                idx += idx & -idx;
+            }
+        }
+
+        int query(int idx) {
+            int sum = 0;
+
+            while (idx > 0) {
+                sum += bit[idx];
+                idx -= idx & -idx;
+            }
+
+            return sum;
+        }
+    }
+    int[] sol_OP(int[] nums) {
+
+        int n = nums.length;
+
+        // Coordinate compression
+        int[] sorted = nums.clone();
+        Arrays.sort(sorted);
+
+        Map<Integer, Integer> rank = new HashMap<>();
+
+        int rankValue = 1;
+
+        for (int x : sorted) {
+            if (!rank.containsKey(x)) {
+                rank.put(x, rankValue++);
+            }
+        }
+
+        Fenwick bit1 = new Fenwick(rankValue);
+        Fenwick bit2 = new Fenwick(rankValue);
+
+        List<Integer> arr1 = new ArrayList<>();
+        List<Integer> arr2 = new ArrayList<>();
+
+        // First two operations
+        arr1.add(nums[0]);
+        bit1.add(rank.get(nums[0]), 1);
+
+        arr2.add(nums[1]);
+        bit2.add(rank.get(nums[1]), 1);
+
+        for (int i = 2; i < n; i++) {
+
+            int x = nums[i];
+            int idx = rank.get(x);
+
+            int greater1 =
+                arr1.size() - bit1.query(idx);
+
+            int greater2 =
+                arr2.size() - bit2.query(idx);
+
+            if (greater1 > greater2) {
+
+                arr1.add(x);
+                bit1.add(idx, 1);
+
+            } else if (greater1 < greater2) {
+
+                arr2.add(x);
+                bit2.add(idx, 1);
+
+            } else {
+
+                if (arr1.size() <= arr2.size()) {
+
+                    arr1.add(x);
+                    bit1.add(idx, 1);
+
+                } else {
+
+                    arr2.add(x);
+                    bit2.add(idx, 1);
+                }
+            }
+        }
+
+        // Concatenate
+        int[] result = new int[n];
+
+        int k = 0;
+
+        for (int x : arr1)
+            result[k++] = x;
+
+        for (int x : arr2)
+            result[k++] = x;
+
+        return result;
+    }
+
+    int[] sol_OP_1(int[] nums) {
+
+        int n = nums.length;
+
+        // Coordinate compression
+        int[] st = nums.clone();
+        Arrays.sort(st);
+
+        Fenwick bit1 = new Fenwick(n+1);
+        Fenwick bit2 = new Fenwick(n+1);
+
+        List<Integer> arr1 = new ArrayList<>();
+        List<Integer> arr2 = new ArrayList<>();
+
+        // First two operations
+        arr1.add(nums[0]);
+        // bit1.add(rank.get(nums[0]), 1);
+        bit1.add(Arrays.binarySearch(st, nums[0]) + 1, 1);
+
+        arr2.add(nums[1]);
+        // bit2.add(rank.get(nums[1]), 1);
+        bit2.add(Arrays.binarySearch(st, nums[1]) + 1, 1);
+
+        for (int i = 2; i < n; i++) {
+
+            int x = nums[i];
+            int idx = Arrays.binarySearch(st, x) + 1;
+
+            int greater1 =
+                arr1.size() - bit1.query(idx);
+
+            int greater2 =
+                arr2.size() - bit2.query(idx);
+
+            if (greater1 > greater2) {
+
+                arr1.add(x);
+                bit1.add(idx, 1);
+
+            } else if (greater1 < greater2) {
+
+                arr2.add(x);
+                bit2.add(idx, 1);
+
+            } else {
+
+                if (arr1.size() <= arr2.size()) {
+
+                    arr1.add(x);
+                    bit1.add(idx, 1);
+
+                } else {
+
+                    arr2.add(x);
+                    bit2.add(idx, 1);
+                }
+            }
+        }
+
+        // Concatenate
+        int[] result = new int[n];
+
+        int k = 0;
+
+        for (int x : arr1)
+            result[k++] = x;
+
+        for (int x : arr2)
+            result[k++] = x;
+
+        return result;
+    }
+
+    public int[] resultArray(int[] nums) {
+
+        // return sol(nums);
+
+        // return sol_OP(nums);
+
+        return sol_OP(nums);
 
     }
 }
