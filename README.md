@@ -388,6 +388,7 @@
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Drmatty1/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Drmatty1/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Drmatty1/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Drmatty1/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Drmatty1/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3093-longest-common-suffix-queries](https://github.com/Drmatty1/Leetcode/tree/master/3093-longest-common-suffix-queries) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/Drmatty1/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
@@ -595,6 +596,7 @@
 | [2352-equal-row-and-column-pairs](https://github.com/Drmatty1/Leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Drmatty1/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Drmatty1/Leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3612-process-string-with-special-operations-i](https://github.com/Drmatty1/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Drmatty1/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
