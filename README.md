@@ -91,6 +91,7 @@
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Drmatty1/Leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/Drmatty1/Leetcode/tree/master/1869-longer-contiguous-segments-of-ones-than-zeros) |
+| [1927-sum-game](https://github.com/Drmatty1/Leetcode/tree/master/1927-sum-game) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Drmatty1/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
@@ -174,6 +175,7 @@
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1792-maximum-average-pass-ratio](https://github.com/Drmatty1/Leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Drmatty1/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [1927-sum-game](https://github.com/Drmatty1/Leetcode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Drmatty1/Leetcode/tree/master/2029-stone-game-ix) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Drmatty1/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
@@ -541,6 +543,7 @@
 | [1840-maximum-building-height](https://github.com/Drmatty1/Leetcode/tree/master/1840-maximum-building-height) |
 | [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
 | [1922-count-good-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1922-count-good-numbers) |
+| [1927-sum-game](https://github.com/Drmatty1/Leetcode/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Drmatty1/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Drmatty1/Leetcode/tree/master/2029-stone-game-ix) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -1088,6 +1091,7 @@
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1690-stone-game-vii](https://github.com/Drmatty1/Leetcode/tree/master/1690-stone-game-vii) |
 | [1872-stone-game-viii](https://github.com/Drmatty1/Leetcode/tree/master/1872-stone-game-viii) |
+| [1927-sum-game](https://github.com/Drmatty1/Leetcode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Drmatty1/Leetcode/tree/master/2029-stone-game-ix) |
 ## Bitmask
 |  |
