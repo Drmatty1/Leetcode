@@ -14,7 +14,7 @@ class Solution {
             j++;
             
             while( count == k ) {
-                System.out.println(ans+" "+i+" "+j+" "+count);
+                // System.out.println(ans+" "+i+" "+j+" "+count);
                 if(ans.equals("") || ans.length() > (j-i) )
                     ans = s.substring(i,j);
                 else if(ans.length() == (j-i)){
