@@ -119,6 +119,7 @@
 | [3614-process-string-with-special-operations-ii](https://github.com/Drmatty1/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Drmatty1/Leetcode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Drmatty1/Leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Drmatty1/Leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Counting
 |  |
@@ -150,6 +151,7 @@
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Drmatty1/Leetcode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Drmatty1/Leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Greedy
 |  |
 | ------- |
@@ -763,6 +765,7 @@
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Drmatty1/Leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Drmatty1/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Drmatty1/Leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Rolling Hash
 |  |
 | ------- |
