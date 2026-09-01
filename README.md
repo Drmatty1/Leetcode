@@ -278,6 +278,7 @@
 | [0053-maximum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Drmatty1/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Drmatty1/Leetcode/tree/master/0057-insert-interval) |
+| [0059-spiral-matrix-ii](https://github.com/Drmatty1/Leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Drmatty1/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Drmatty1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/Drmatty1/Leetcode/tree/master/0068-text-justification) |
@@ -609,6 +610,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/Drmatty1/Leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Drmatty1/Leetcode/tree/master/0068-text-justification) |
 | [1260-shift-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1260-shift-2d-grid) |
@@ -721,6 +723,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Drmatty1/Leetcode/tree/master/0048-rotate-image) |
+| [0059-spiral-matrix-ii](https://github.com/Drmatty1/Leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Drmatty1/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Drmatty1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/Drmatty1/Leetcode/tree/master/0130-surrounded-regions) |
