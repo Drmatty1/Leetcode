@@ -34,6 +34,7 @@
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
 | [2615-sum-of-distances](https://github.com/Drmatty1/Leetcode/tree/master/2615-sum-of-distances) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Drmatty1/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Drmatty1/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -232,6 +233,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Drmatty1/Leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -391,6 +393,7 @@
 | [2498-frog-jump-ii](https://github.com/Drmatty1/Leetcode/tree/master/2498-frog-jump-ii) |
 | [2615-sum-of-distances](https://github.com/Drmatty1/Leetcode/tree/master/2615-sum-of-distances) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Drmatty1/Leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2771-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/2771-longest-non-decreasing-subarray-from-two-arrays) |
@@ -503,6 +506,7 @@
 | [1937-maximum-number-of-points-with-cost](https://github.com/Drmatty1/Leetcode/tree/master/1937-maximum-number-of-points-with-cost) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Drmatty1/Leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Drmatty1/Leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2771-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/2771-longest-non-decreasing-subarray-from-two-arrays) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Drmatty1/Leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -746,6 +750,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Drmatty1/Leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2352-equal-row-and-column-pairs](https://github.com/Drmatty1/Leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
@@ -912,6 +917,7 @@
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2498-frog-jump-ii](https://github.com/Drmatty1/Leetcode/tree/master/2498-frog-jump-ii) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Drmatty1/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -946,6 +952,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0397-integer-replacement](https://github.com/Drmatty1/Leetcode/tree/master/0397-integer-replacement) |
 | [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -1058,6 +1065,7 @@
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Drmatty1/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Drmatty1/Leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 ## Sliding Window
 |  |
 | ------- |
