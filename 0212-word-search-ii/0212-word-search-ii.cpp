@@ -53,8 +53,8 @@ public:
     
     bool exist(vector<vector<char>>& board, string word) {
         int r = board.size(),c= board[0].size() ;
-        unordered_map<int,bool>vs;
-        vector<vector<int>> vis(r, vector<int>(c, 0));
+        // unordered_map<int,bool>vs;
+        // vector<vector<int>> vis(r, vector<int>(c, 0));
 
         for( int i=0;i<r;i++ ){
             for(int j=0; j<c; j++){
