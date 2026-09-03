@@ -82,6 +82,7 @@ public:
                 reverse(s.begin(), s.end());
                 isRev = true;
             }
+            delete[] freq;
             if( exist(board,s) ){
                 if(isRev == true) reverse(s.begin(), s.end());
                 ans.push_back(s);
