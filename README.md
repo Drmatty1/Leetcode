@@ -4,6 +4,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Drmatty1/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/Drmatty1/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
@@ -275,6 +276,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Drmatty1/Leetcode/tree/master/0011-container-with-most-water) |
+| [0041-first-missing-positive](https://github.com/Drmatty1/Leetcode/tree/master/0041-first-missing-positive) |
 | [0048-rotate-image](https://github.com/Drmatty1/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Drmatty1/Leetcode/tree/master/0051-n-queens) |
