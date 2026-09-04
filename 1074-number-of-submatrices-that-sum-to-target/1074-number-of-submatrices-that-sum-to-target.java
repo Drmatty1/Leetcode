@@ -40,7 +40,7 @@ class Solution {
         return ans;
     }
 
-    public int numSubmatrixSumTarget(int[][] matrix, int target) {  
+    int sol2(int[][] matrix, int target) {  
         int r = matrix.length, c = matrix[0].length;
 
         int[][] pre = new int[r][c + 1];
@@ -69,6 +69,12 @@ class Solution {
         }
 
         return ans;
+        
+    }
+
+    public int numSubmatrixSumTarget(int[][] matrix, int target) {  
+        // return sol1(matrix, target);
+        return sol2(matrix, target);
         
     }
 }
