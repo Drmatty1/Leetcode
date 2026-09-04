@@ -11,7 +11,7 @@ class Solution {
         for(int i=0; i<n; i++){
 
             while(nums[i] > 0){
-                if(nums[i] == i+1 ) break;
+                // if(nums[i] == i+1 ) break;
                 if(nums[i] > n ) break;
                 if(nums[i] == nums[nums[i]-1] ) break;
                 swap(i,nums[i]-1,nums);
