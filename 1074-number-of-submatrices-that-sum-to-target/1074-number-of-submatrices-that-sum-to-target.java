@@ -1,8 +1,9 @@
 class Solution {
-    int subarraySum(int []a, int t){
+    Map<Integer,Integer> map = new HashMap<>();
+    int subarraySum(int []a, int t ){
         int n = a.length;
 
-        Map<Integer,Integer> map = new HashMap<>();
+        map.clear();
         map.put(0,1);
         int currSum= 0 ;
         int ans = 0;
