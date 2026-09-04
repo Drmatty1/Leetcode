@@ -21,6 +21,7 @@
 | [0710-random-pick-with-blacklist](https://github.com/Drmatty1/Leetcode/tree/master/0710-random-pick-with-blacklist) |
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/Drmatty1/Leetcode/tree/master/0846-hand-of-straights) |
+| [1074-number-of-submatrices-that-sum-to-target](https://github.com/Drmatty1/Leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1189-maximum-number-of-balloons](https://github.com/Drmatty1/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -341,6 +342,7 @@
 | [1014-best-sightseeing-pair](https://github.com/Drmatty1/Leetcode/tree/master/1014-best-sightseeing-pair) |
 | [1024-video-stitching](https://github.com/Drmatty1/Leetcode/tree/master/1024-video-stitching) |
 | [1046-last-stone-weight](https://github.com/Drmatty1/Leetcode/tree/master/1046-last-stone-weight) |
+| [1074-number-of-submatrices-that-sum-to-target](https://github.com/Drmatty1/Leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
@@ -744,6 +746,7 @@
 | [0212-word-search-ii](https://github.com/Drmatty1/Leetcode/tree/master/0212-word-search-ii) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
+| [1074-number-of-submatrices-that-sum-to-target](https://github.com/Drmatty1/Leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -890,6 +893,7 @@
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Drmatty1/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/Drmatty1/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [1074-number-of-submatrices-that-sum-to-target](https://github.com/Drmatty1/Leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1732-find-the-highest-altitude](https://github.com/Drmatty1/Leetcode/tree/master/1732-find-the-highest-altitude) |
