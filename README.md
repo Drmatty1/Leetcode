@@ -67,6 +67,7 @@
 | [0067-add-binary](https://github.com/Drmatty1/Leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Drmatty1/Leetcode/tree/master/0068-text-justification) |
 | [0097-interleaving-string](https://github.com/Drmatty1/Leetcode/tree/master/0097-interleaving-string) |
+| [0115-distinct-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/Drmatty1/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Drmatty1/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/Drmatty1/Leetcode/tree/master/0212-word-search-ii) |
@@ -465,6 +466,7 @@
 | [0095-unique-binary-search-trees-ii](https://github.com/Drmatty1/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/Drmatty1/Leetcode/tree/master/0097-interleaving-string) |
+| [0115-distinct-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Drmatty1/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Drmatty1/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
