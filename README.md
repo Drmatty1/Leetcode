@@ -673,6 +673,7 @@
 | [1559-detect-cycles-in-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/Drmatty1/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Drmatty1/Leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Drmatty1/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Drmatty1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Drmatty1/Leetcode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Drmatty1/Leetcode/tree/master/3310-remove-methods-from-project) |
@@ -824,6 +825,7 @@
 | [1376-time-needed-to-inform-all-employees](https://github.com/Drmatty1/Leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Drmatty1/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Drmatty1/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -837,6 +839,7 @@
 | [0606-construct-string-from-binary-tree](https://github.com/Drmatty1/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Drmatty1/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Drmatty1/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Union-Find
 |  |
 | ------- |
