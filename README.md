@@ -336,6 +336,7 @@
 | [0630-course-schedule-iii](https://github.com/Drmatty1/Leetcode/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Drmatty1/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0710-random-pick-with-blacklist](https://github.com/Drmatty1/Leetcode/tree/master/0710-random-pick-with-blacklist) |
+| [0835-image-overlap](https://github.com/Drmatty1/Leetcode/tree/master/0835-image-overlap) |
 | [0846-hand-of-straights](https://github.com/Drmatty1/Leetcode/tree/master/0846-hand-of-straights) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
@@ -755,6 +756,7 @@
 | [0130-surrounded-regions](https://github.com/Drmatty1/Leetcode/tree/master/0130-surrounded-regions) |
 | [0212-word-search-ii](https://github.com/Drmatty1/Leetcode/tree/master/0212-word-search-ii) |
 | [0542-01-matrix](https://github.com/Drmatty1/Leetcode/tree/master/0542-01-matrix) |
+| [0835-image-overlap](https://github.com/Drmatty1/Leetcode/tree/master/0835-image-overlap) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/Drmatty1/Leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
