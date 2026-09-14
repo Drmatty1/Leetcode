@@ -546,6 +546,7 @@
 | [0096-unique-binary-search-trees](https://github.com/Drmatty1/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0149-max-points-on-a-line](https://github.com/Drmatty1/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0172-factorial-trailing-zeroes](https://github.com/Drmatty1/Leetcode/tree/master/0172-factorial-trailing-zeroes) |
+| [0223-rectangle-area](https://github.com/Drmatty1/Leetcode/tree/master/0223-rectangle-area) |
 | [0224-basic-calculator](https://github.com/Drmatty1/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Drmatty1/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
@@ -1119,6 +1120,7 @@
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Drmatty1/Leetcode/tree/master/0149-max-points-on-a-line) |
+| [0223-rectangle-area](https://github.com/Drmatty1/Leetcode/tree/master/0223-rectangle-area) |
 ## Brainteaser
 |  |
 | ------- |
