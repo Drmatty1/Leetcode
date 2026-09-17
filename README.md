@@ -27,6 +27,7 @@
 | [1331-rank-transform-of-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Drmatty1/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Drmatty1/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Drmatty1/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2013-detect-squares](https://github.com/Drmatty1/Leetcode/tree/master/2013-detect-squares) |
@@ -363,6 +364,7 @@
 | [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
 | [1406-stone-game-iii](https://github.com/Drmatty1/Leetcode/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Drmatty1/Leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Drmatty1/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -514,6 +516,7 @@
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Drmatty1/Leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
 | [1406-stone-game-iii](https://github.com/Drmatty1/Leetcode/tree/master/1406-stone-game-iii) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Drmatty1/Leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1510-stone-game-iv](https://github.com/Drmatty1/Leetcode/tree/master/1510-stone-game-iv) |
@@ -950,6 +953,7 @@
 | [0400-nth-digit](https://github.com/Drmatty1/Leetcode/tree/master/0400-nth-digit) |
 | [0710-random-pick-with-blacklist](https://github.com/Drmatty1/Leetcode/tree/master/0710-random-pick-with-blacklist) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1631-path-with-minimum-effort](https://github.com/Drmatty1/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
@@ -1114,6 +1118,7 @@
 | [0567-permutation-in-string](https://github.com/Drmatty1/Leetcode/tree/master/0567-permutation-in-string) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Drmatty1/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Drmatty1/Leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Drmatty1/Leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Drmatty1/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
