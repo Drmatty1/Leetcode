@@ -22,6 +22,7 @@
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/Drmatty1/Leetcode/tree/master/0846-hand-of-straights) |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/Drmatty1/Leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
+| [1096-brace-expansion-ii](https://github.com/Drmatty1/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1189-maximum-number-of-balloons](https://github.com/Drmatty1/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -91,6 +92,7 @@
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0940-distinct-subsequences-ii](https://github.com/Drmatty1/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Drmatty1/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1096-brace-expansion-ii](https://github.com/Drmatty1/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1143-longest-common-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Drmatty1/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -235,6 +237,7 @@
 | [0767-reorganize-string](https://github.com/Drmatty1/Leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/Drmatty1/Leetcode/tree/master/0846-hand-of-straights) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
+| [1096-brace-expansion-ii](https://github.com/Drmatty1/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/Drmatty1/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -726,6 +729,7 @@
 | [0743-network-delay-time](https://github.com/Drmatty1/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Drmatty1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/Drmatty1/Leetcode/tree/master/0994-rotting-oranges) |
+| [1096-brace-expansion-ii](https://github.com/Drmatty1/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/Drmatty1/Leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -914,6 +918,7 @@
 | [0212-word-search-ii](https://github.com/Drmatty1/Leetcode/tree/master/0212-word-search-ii) |
 | [0491-non-decreasing-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/0494-target-sum) |
+| [1096-brace-expansion-ii](https://github.com/Drmatty1/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Drmatty1/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Drmatty1/Leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -928,6 +933,7 @@
 | [0227-basic-calculator-ii](https://github.com/Drmatty1/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Drmatty1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0901-online-stock-span](https://github.com/Drmatty1/Leetcode/tree/master/0901-online-stock-span) |
+| [1096-brace-expansion-ii](https://github.com/Drmatty1/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
