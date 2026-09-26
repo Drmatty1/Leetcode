@@ -12,12 +12,7 @@ class Solution {
                 int j = i+1;
                 while(j<n && s.charAt(j) != ')') j++;
                 String key = s.substring(i+1,j);
-                if(map.containsKey(key)){
-                    ans.append(map.get(key));
-                }
-                else{
-                    ans.append('?');
-                }
+                ans.append(map.getOrDefault(key, "?"));
                 i = j+1;
             }
             else{
