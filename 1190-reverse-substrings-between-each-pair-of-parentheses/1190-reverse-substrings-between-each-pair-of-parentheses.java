@@ -1,7 +1,7 @@
 class Solution {
     public String reverseParentheses(String s) {
         // Stack<String> st = new Stack<>();
-        Deque<String> st = new ArrayDeque<>();
+        Deque<StringBuilder> st = new ArrayDeque<>();
 
         int n = s.length();
         StringBuilder res = new StringBuilder();
@@ -10,12 +10,12 @@ class Solution {
             char c = s.charAt(i);
 
             if(c == '('){
-                st.addLast(new String(res));
+                st.addLast(res);
                 res = new StringBuilder();
             }
             else if( c == ')'){
                 StringBuilder t = new StringBuilder("");
-                if(!st.isEmpty()) t = new StringBuilder(st.pollLast());
+                if(!st.isEmpty()) t = st.pollLast();
                 res = t.append(res.reverse());
             }
             else{
