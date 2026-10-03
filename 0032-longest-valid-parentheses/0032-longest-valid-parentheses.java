@@ -20,7 +20,6 @@ class Solution {
         }
         return ans;
     }
-
     int sol2(String s) {
         int n=s.length();
         char []arr = s.toCharArray();
