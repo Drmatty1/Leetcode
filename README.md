@@ -107,6 +107,7 @@
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Drmatty1/Leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Drmatty1/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Drmatty1/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Drmatty1/Leetcode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1573-number-of-ways-to-split-a-string](https://github.com/Drmatty1/Leetcode/tree/master/1573-number-of-ways-to-split-a-string) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -203,6 +204,7 @@
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Drmatty1/Leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Drmatty1/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Drmatty1/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Drmatty1/Leetcode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1642-furthest-building-you-can-reach](https://github.com/Drmatty1/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1686-stone-game-vi](https://github.com/Drmatty1/Leetcode/tree/master/1686-stone-game-vi) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -950,6 +952,7 @@
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Drmatty1/Leetcode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Drmatty1/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2197-replace-non-coprime-numbers-in-array](https://github.com/Drmatty1/Leetcode/tree/master/2197-replace-non-coprime-numbers-in-array) |
@@ -1268,6 +1271,7 @@
 | [1021-remove-outermost-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Drmatty1/Leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Drmatty1/Leetcode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
