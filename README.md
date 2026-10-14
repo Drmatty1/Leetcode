@@ -381,6 +381,7 @@
 | [1046-last-stone-weight](https://github.com/Drmatty1/Leetcode/tree/master/1046-last-stone-weight) |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/Drmatty1/Leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [1131-maximum-of-absolute-value-expression](https://github.com/Drmatty1/Leetcode/tree/master/1131-maximum-of-absolute-value-expression) |
 | [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1254-number-of-closed-islands](https://github.com/Drmatty1/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Drmatty1/Leetcode/tree/master/1260-shift-2d-grid) |
@@ -616,6 +617,7 @@
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0976-largest-perimeter-triangle](https://github.com/Drmatty1/Leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Drmatty1/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1131-maximum-of-absolute-value-expression](https://github.com/Drmatty1/Leetcode/tree/master/1131-maximum-of-absolute-value-expression) |
 | [1140-stone-game-ii](https://github.com/Drmatty1/Leetcode/tree/master/1140-stone-game-ii) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Drmatty1/Leetcode/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Drmatty1/Leetcode/tree/master/1401-circle-and-rectangle-overlapping) |
