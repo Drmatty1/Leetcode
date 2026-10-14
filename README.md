@@ -221,6 +221,7 @@
 | [2384-largest-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2384-largest-palindromic-number) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2498-frog-jump-ii](https://github.com/Drmatty1/Leetcode/tree/master/2498-frog-jump-ii) |
+| [2607-make-k-subarray-sums-equal](https://github.com/Drmatty1/Leetcode/tree/master/2607-make-k-subarray-sums-equal) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Drmatty1/Leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [2952-minimum-number-of-coins-to-be-added](https://github.com/Drmatty1/Leetcode/tree/master/2952-minimum-number-of-coins-to-be-added) |
@@ -268,6 +269,7 @@
 | [2054-two-best-non-overlapping-events](https://github.com/Drmatty1/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/Drmatty1/Leetcode/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
+| [2607-make-k-subarray-sums-equal](https://github.com/Drmatty1/Leetcode/tree/master/2607-make-k-subarray-sums-equal) |
 | [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2931-maximum-spending-after-buying-items](https://github.com/Drmatty1/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
@@ -439,6 +441,7 @@
 | [2352-equal-row-and-column-pairs](https://github.com/Drmatty1/Leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Drmatty1/Leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2498-frog-jump-ii](https://github.com/Drmatty1/Leetcode/tree/master/2498-frog-jump-ii) |
+| [2607-make-k-subarray-sums-equal](https://github.com/Drmatty1/Leetcode/tree/master/2607-make-k-subarray-sums-equal) |
 | [2615-sum-of-distances](https://github.com/Drmatty1/Leetcode/tree/master/2615-sum-of-distances) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Drmatty1/Leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
@@ -641,6 +644,7 @@
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
 | [2396-strictly-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2514-count-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/2514-count-anagrams) |
+| [2607-make-k-subarray-sums-equal](https://github.com/Drmatty1/Leetcode/tree/master/2607-make-k-subarray-sums-equal) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Drmatty1/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Drmatty1/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -1083,6 +1087,7 @@
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Drmatty1/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2197-replace-non-coprime-numbers-in-array](https://github.com/Drmatty1/Leetcode/tree/master/2197-replace-non-coprime-numbers-in-array) |
 | [2344-minimum-deletions-to-make-array-divisible](https://github.com/Drmatty1/Leetcode/tree/master/2344-minimum-deletions-to-make-array-divisible) |
+| [2607-make-k-subarray-sums-equal](https://github.com/Drmatty1/Leetcode/tree/master/2607-make-k-subarray-sums-equal) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Drmatty1/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3334-find-the-maximum-factor-score-of-array](https://github.com/Drmatty1/Leetcode/tree/master/3334-find-the-maximum-factor-score-of-array) |
