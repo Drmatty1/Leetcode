@@ -58,6 +58,7 @@
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Drmatty1/Leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Drmatty1/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Drmatty1/Leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Drmatty1/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3713-longest-balanced-substring-i](https://github.com/Drmatty1/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Drmatty1/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -282,6 +283,7 @@
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Drmatty1/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/Drmatty1/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Drmatty1/Leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Drmatty1/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Drmatty1/Leetcode/tree/master/3731-find-missing-elements) |
 ## Heap (Priority Queue)
@@ -489,6 +491,7 @@
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Drmatty1/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Drmatty1/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Drmatty1/Leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Drmatty1/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3620-network-recovery-pathways](https://github.com/Drmatty1/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Drmatty1/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
