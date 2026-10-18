@@ -1,61 +1,44 @@
 class Solution {
-    long MOD = 1_000_000_007L;
-    long power(long base, long exp) {
-        long res = 1;
-        base %= MOD;
-        while (exp > 0) {
-            if ((exp & 1) == 1) res = (res * base) % MOD;
-            base = (base * base) % MOD;
-            exp >>= 1;
-        }
-        return res;
-    }
-    long modInverse(long n) {
-        return power(n, MOD - 2);
-    }
-    long nCr(long n, long r) {
-        if (r < 0 || r > n) return 0;
-        if (r == 0 || r == n) return 1;
+    int MOD = 1_000_000_007;
+    long[][] comb;
 
-        // Symmetry: C(n, r) == C(n, n - r)
-        r = Math.min(r, n - r);
+    long dfs(List<Integer> list) {
+        if (list.size() <= 2) return 1;
 
-        long num = 1;
-        long den = 1;
+        int root = list.get(0);
+        List<Integer> left = new ArrayList<>();
+        List<Integer> right = new ArrayList<>();
 
-        for (long i = 1; i <= r; i++) {
-            num = (num * ((n - i + 1) % MOD)) % MOD;
-            den = (den * i) % MOD;
+        for (int i = 1; i < list.size(); i++) {
+            int val = list.get(i);
+            if (val < root) left.add(val);
+            else right.add(val);
         }
 
-        return (num * modInverse(den)) % MOD;
+        long leftWays = dfs(left);
+        long rightWays = dfs(right);
+        long waysToInterleave = comb[list.size() - 1][left.size()];
+
+        long ans = (leftWays * rightWays) % MOD;
+        return (ans * waysToInterleave) % MOD;
     }
 
-    int sol(int[] nums) {
-        int m = nums.length-1;
-        if(m==1 || m == 0) return 1;
-        int r = 0;
-        for(int i=1; i<=m; i++) if(nums[i] < nums[0]) r++;
-        if(r==0 || r==m){
-            int []arr = new int[m];
-            for(int i=1; i<=m; i++)
-                arr[i-1] = nums[i];
-            return sol(arr);
-        }
+    int numOfWays(int[] nums){
+        int n = nums.length;
         
-        int []a = new int[r];
-        int []b = new int[m-r];
-        int x=0,y=0;
-        for(int i=1; i<=m; i++){
-            if(nums[i]<nums[0]) a[x++] = nums[i];
-            else b[y++] = nums[i];
+        // Precompute combinations using Pascal's Triangle: C[n][k] = C[n-1][k-1] + C[n-1][k]
+        comb = new long[n + 1][n + 1];
+        for (int i = 0; i <= n; i++) {
+            comb[i][0] = 1;
+            for (int j = 1; j <= i; j++) {
+                comb[i][j] = (comb[i - 1][j - 1] + comb[i - 1][j]) % MOD;
+            }
         }
-        long a1 = sol(a), b1 = sol(b);
-        long c = nCr(m,r);
-        return (int)(( (a1*b1)%MOD * c ) %MOD);
-    }
 
-    public int numOfWays(int[] nums) {
-        return sol(nums)-1;
+        List<Integer> list = new ArrayList<>();
+        for (int val : nums) list.add(val);
+
+        // Subtract 1 to exclude the original permutation
+        return (int) ((dfs(list) - 1 + MOD) % MOD);
     }
 }
