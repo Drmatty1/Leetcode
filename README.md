@@ -7,6 +7,7 @@
 | [0041-first-missing-positive](https://github.com/Drmatty1/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Drmatty1/Leetcode/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/Drmatty1/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/Drmatty1/Leetcode/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/Drmatty1/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -79,6 +80,7 @@
 | [0115-distinct-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/Drmatty1/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Drmatty1/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Drmatty1/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/Drmatty1/Leetcode/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/Drmatty1/Leetcode/tree/master/0224-basic-calculator) |
@@ -349,6 +351,7 @@
 | [0130-surrounded-regions](https://github.com/Drmatty1/Leetcode/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/Drmatty1/Leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Drmatty1/Leetcode/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/Drmatty1/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Drmatty1/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Drmatty1/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -549,6 +552,7 @@
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Drmatty1/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0131-palindrome-partitioning](https://github.com/Drmatty1/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Drmatty1/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Drmatty1/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1115,6 +1119,7 @@
 ## Memoization
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0397-integer-replacement](https://github.com/Drmatty1/Leetcode/tree/master/0397-integer-replacement) |
 | [0464-can-i-win](https://github.com/Drmatty1/Leetcode/tree/master/0464-can-i-win) |
@@ -1153,6 +1158,7 @@
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Drmatty1/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/Drmatty1/Leetcode/tree/master/0212-word-search-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -1413,4 +1419,8 @@
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Drmatty1/Leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
