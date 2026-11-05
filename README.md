@@ -269,6 +269,7 @@
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Drmatty1/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Drmatty1/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Drmatty1/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -407,6 +408,7 @@
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Drmatty1/Leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1331-rank-transform-of-an-array](https://github.com/Drmatty1/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Drmatty1/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1395-count-number-of-teams](https://github.com/Drmatty1/Leetcode/tree/master/1395-count-number-of-teams) |
 | [1406-stone-game-iii](https://github.com/Drmatty1/Leetcode/tree/master/1406-stone-game-iii) |
@@ -906,6 +908,7 @@
 | [0567-permutation-in-string](https://github.com/Drmatty1/Leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0696-count-binary-substrings](https://github.com/Drmatty1/Leetcode/tree/master/0696-count-binary-substrings) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Drmatty1/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Drmatty1/Leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Drmatty1/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -1066,6 +1069,7 @@
 | [0400-nth-digit](https://github.com/Drmatty1/Leetcode/tree/master/0400-nth-digit) |
 | [0710-random-pick-with-blacklist](https://github.com/Drmatty1/Leetcode/tree/master/0710-random-pick-with-blacklist) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Drmatty1/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Drmatty1/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Drmatty1/Leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
