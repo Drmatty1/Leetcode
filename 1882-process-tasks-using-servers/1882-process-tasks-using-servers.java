@@ -1,56 +1,102 @@
 class Solution {
     public int[] assignTasks(int[] servers, int[] tasks) {
-        PriorityQueue<long[]> sv = new PriorityQueue<>(
-            (a,b) -> {
-                if(a[0] == b[0]) return Long.compare(a[1],b[1]);
-                return Long.compare(a[0],b[0]);
+
+        PriorityQueue<int[]> sv = new PriorityQueue<>(
+            (a, b) -> {
+                if (a[0] == b[0])
+                    return Integer.compare(a[1], b[1]);
+
+                return Integer.compare(a[0], b[0]);
             }
         );
-        int m = tasks.length, n = servers.length;
-        for(int i=0; i<n; i++){
-            sv.add(new long[]{servers[i],i,0});
-        }
+
         PriorityQueue<long[]> busy = new PriorityQueue<>(
-            (a,b) ->  Long.compare(a[2],b[2])
+            (a, b) -> Long.compare(a[0], b[0])
         );
 
-        long time = -1;
-        Queue<long[]> taskQ = new ArrayDeque<>();
-        int []ans = new int[m];
-        int k=0;
-        for(int i=0; i<m; i++){
-            time++;
-            taskQ.add(new long[]{tasks[i],time});
-            while(!busy.isEmpty() && busy.peek()[2] <= time){
-                sv.add(busy.poll());
+        int n = servers.length;
+        int m = tasks.length;
+
+        for (int i = 0; i < n; i++) {
+            sv.add(new int[]{servers[i], i});
+        }
+
+        Queue<Integer> taskQ = new ArrayDeque<>();
+
+        int[] ans = new int[m];
+        long time = 0;
+
+        // Process incoming tasks
+        for (int i = 0; i < m; i++) {
+
+            time = i;
+            taskQ.add(i);
+
+            // Release completed servers
+            while (!busy.isEmpty() && busy.peek()[0] <= time) {
+                long[] s = busy.poll();
+
+                sv.add(new int[]{
+                    (int)s[1],
+                    (int)s[2]
+                });
             }
-            while(!taskQ.isEmpty() && !sv.isEmpty()){
-                long []server = sv.poll();
-                long []task = taskQ.poll();
-                server[2] = time+tasks[(int)task[1]];
-                busy.add(server);
-                ans[k++] = (int)server[1];
+
+            // Assign waiting tasks
+            while (!taskQ.isEmpty() && !sv.isEmpty()) {
+
+                int[] server = sv.poll();
+                int task = taskQ.poll();
+
+                ans[task] = server[1];
+
+                busy.add(new long[]{
+                    time + tasks[task],
+                    server[0],
+                    server[1]
+                });
             }
         }
 
-        time++;
-        while(!taskQ.isEmpty()){
-            while(!busy.isEmpty() && busy.peek()[2] <= time){
-                sv.add(busy.poll());
+        // Process remaining waiting tasks
+        time = m;
+
+        while (!taskQ.isEmpty()) {
+
+            while (!busy.isEmpty() && busy.peek()[0] <= time) {
+                long[] s = busy.poll();
+
+                sv.add(new int[]{
+                    (int)s[1],
+                    (int)s[2]
+                });
             }
-            if(sv.isEmpty()){
-                time = busy.peek()[2];
-                while(!busy.isEmpty() && busy.peek()[2] <= time){
-                    sv.add(busy.poll());
+
+            if (sv.isEmpty()) {
+                time = busy.peek()[0];
+
+                while (!busy.isEmpty() && busy.peek()[0] <= time) {
+                    long[] s = busy.poll();
+
+                    sv.add(new int[]{
+                        (int)s[1],
+                        (int)s[2]
+                    });
                 }
             }
 
-            while(!taskQ.isEmpty() && !sv.isEmpty()){
-                long []server = sv.poll();
-                long []task = taskQ.poll();
-                server[2] = time+tasks[(int)task[1]];
-                busy.add(server);
-                ans[k++] = (int)server[1];
+            while (!taskQ.isEmpty() && !sv.isEmpty()) {
+
+                int[] server = sv.poll();
+                int task = taskQ.poll();
+
+                ans[task] = server[1];
+
+                busy.add(new long[]{
+                    time + tasks[task],
+                    server[0],
+                    server[1]
+                });
             }
         }
 
