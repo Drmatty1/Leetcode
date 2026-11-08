@@ -8,6 +8,8 @@ class Solution {
 
             for(int i=0; i<m; i++){
                 for(int j=0; j<n; j++){
+                    if( (i>move&&i<(m-i)) && (j>move&&j<(n-j)) )
+                        continue;
                     for(int []d: dirs){
                         int ni = i+d[0], nj = j+d[1];
                         if(ni<0||ni>=m||nj<0||nj>=n){
