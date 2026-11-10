@@ -1,39 +1,20 @@
 class Solution {
-   
     public int leastInterval(char[] tasks, int n) {
-        
-        int []map = new int[26];
-        for( char c : tasks ) map[c-'A']++;
+        int[] freq = new int[26];  
+        int maxCount = 0;
 
-        PriorityQueue<Character> pq = new PriorityQueue<> ( 
-            (c1,c2)->{
-            return Integer.compare( map[c2-'A'],map[c1-'A'] );
-        } );
-
-        for( int i=0; i<26; i++ ){
-            if( map[i] != 0 )
-                pq.add((char)(i+'A'));
+        for (char task : tasks) {
+            freq[task - 'A']++;
+            maxCount = Math.max(maxCount, freq[task - 'A']);
         }
 
-        int ans=0;   //interval
-
-        while( !pq.isEmpty() ){
-            List<Character> temp = new ArrayList<>();
-            int window = n+1;
-            while( window>0 && !pq.isEmpty() ){
-                char c = pq.poll();
-                ans++;
-                window--;
-                map[c-'A']--;
-                if( map[c-'A'] > 0 ){
-                    temp.add(c);
-                }
+        int time = (maxCount - 1) * (n + 1);
+        for (int f : freq) {
+            if (f == maxCount) {
+                time++;
             }
-    
-            for( char c : temp ) pq.add(c);
-            if( window != 0 && temp.size()!=0 ) ans+= window;
-        
         }
-        return ans;
+
+        return Math.max(tasks.length, time);
     }
 }
