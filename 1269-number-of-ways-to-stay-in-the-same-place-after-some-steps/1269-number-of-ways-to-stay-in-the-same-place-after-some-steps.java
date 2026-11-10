@@ -32,6 +32,27 @@ class Solution {
         return dp[steps][0];
     }
 
+    int sol2(int steps){
+
+        int []prev = new int[steps+1];
+        prev[0] = 1;
+
+        for(int s=1; s<=steps; s++){
+
+            int []curr = new int[steps+1];
+
+            for(int i=0; i<n && i<=steps; ++i){
+                int ans = prev[i] ;
+                if(i>0) ans = (ans+prev[i-1])%M;
+                if(i<steps-1) ans = (ans+prev[i+1])%M;
+                curr[i] = ans;
+            }
+            prev = curr;
+        }
+
+        return prev[0];
+    }
+
     public int numWays(int steps, int arrLen) {
         n = arrLen;
 
@@ -39,7 +60,9 @@ class Solution {
         // for(int i=0; i<=steps; ++i) Arrays.fill(dp[i],-1);
         // return sol(steps,0);
 
-        return sol1(steps);
+        // return sol1(steps);
+
+        return sol2(steps);
     }
 
 }
