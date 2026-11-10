@@ -33,18 +33,19 @@ class Solution {
     }
 
     int sol2(int steps){
+        int maxReach = Math.min(steps/2+1, n);
 
-        int []prev = new int[steps+1];
+        int []prev = new int[maxReach];
         prev[0] = 1;
 
         for(int s=1; s<=steps; s++){
 
-            int []curr = new int[steps+1];
+            int []curr = new int[maxReach];
 
-            for(int i=0; i<n && i<=steps; ++i){
+            for(int i=0; i<n && i<maxReach; ++i){
                 int ans = prev[i] ;
                 if(i>0) ans = (ans+prev[i-1])%M;
-                if(i<steps-1) ans = (ans+prev[i+1])%M;
+                if(i<maxReach-1) ans = (ans+prev[i+1])%M;
                 curr[i] = ans;
             }
             prev = curr;
