@@ -588,6 +588,7 @@
 | [0871-minimum-number-of-refueling-stops](https://github.com/Drmatty1/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0877-stone-game](https://github.com/Drmatty1/Leetcode/tree/master/0877-stone-game) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/Drmatty1/Leetcode/tree/master/0902-numbers-at-most-n-given-digit-set) |
+| [0935-knight-dialer](https://github.com/Drmatty1/Leetcode/tree/master/0935-knight-dialer) |
 | [0940-distinct-subsequences-ii](https://github.com/Drmatty1/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [1014-best-sightseeing-pair](https://github.com/Drmatty1/Leetcode/tree/master/1014-best-sightseeing-pair) |
 | [1024-video-stitching](https://github.com/Drmatty1/Leetcode/tree/master/1024-video-stitching) |
