@@ -567,6 +567,7 @@
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Drmatty1/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0279-perfect-squares](https://github.com/Drmatty1/Leetcode/tree/master/0279-perfect-squares) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Drmatty1/Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/Drmatty1/Leetcode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
@@ -651,6 +652,7 @@
 | [0227-basic-calculator-ii](https://github.com/Drmatty1/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0233-number-of-digit-one](https://github.com/Drmatty1/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0279-perfect-squares](https://github.com/Drmatty1/Leetcode/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
 | [0372-super-pow](https://github.com/Drmatty1/Leetcode/tree/master/0372-super-pow) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -811,6 +813,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/Drmatty1/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Drmatty1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Drmatty1/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0279-perfect-squares](https://github.com/Drmatty1/Leetcode/tree/master/0279-perfect-squares) |
 | [0310-minimum-height-trees](https://github.com/Drmatty1/Leetcode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Drmatty1/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -1449,4 +1452,12 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Drmatty1/Leetcode/tree/master/0139-word-break) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0279-perfect-squares](https://github.com/Drmatty1/Leetcode/tree/master/0279-perfect-squares) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0279-perfect-squares](https://github.com/Drmatty1/Leetcode/tree/master/0279-perfect-squares) |
 <!---LeetCode Topics End-->
