@@ -62,14 +62,31 @@ class Solution {
         }
         return dp[i] = curr.isEnd;
     }
+
+    boolean sol2(int i, String s,Set<String> set){
+        if(i==s.length()) return true;
+        if(dp[i] != null) return dp[i];
+        boolean res = false;
+        for(int j=i; j<s.length(); j++){
+            if(set.contains(s.substring(i,j+1)))
+                res |= sol2(j+1,s,set);
+        }
+        return dp[i] = res;
+    }
+
     public boolean wordBreak(String s, List<String> wordDict) {
-        Trie t = new Trie();
-        for(String st: wordDict) t.insert(st);
-        Node curr = t.root;
+        // Trie t = new Trie();
+        // for(String st: wordDict) t.insert(st);
+        // Node curr = t.root;
 
         // return dfs(s,0,t);
 
+        // dp = new Boolean[s.length()];
+        // return dfsDP(s,0,t);
+
+        Set<String> set = new HashSet<>();
+        for(String str: wordDict) set.add(str);
         dp = new Boolean[s.length()];
-        return dfsDP(s,0,t);
+        return sol2(0,s,set);
     }
 }
