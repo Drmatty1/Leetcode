@@ -572,6 +572,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Drmatty1/Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/Drmatty1/Leetcode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/Drmatty1/Leetcode/tree/master/0322-coin-change) |
+| [0343-integer-break](https://github.com/Drmatty1/Leetcode/tree/master/0343-integer-break) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
 | [0397-integer-replacement](https://github.com/Drmatty1/Leetcode/tree/master/0397-integer-replacement) |
 | [0403-frog-jump](https://github.com/Drmatty1/Leetcode/tree/master/0403-frog-jump) |
@@ -655,6 +656,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/Drmatty1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/Drmatty1/Leetcode/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/Drmatty1/Leetcode/tree/master/0292-nim-game) |
+| [0343-integer-break](https://github.com/Drmatty1/Leetcode/tree/master/0343-integer-break) |
 | [0372-super-pow](https://github.com/Drmatty1/Leetcode/tree/master/0372-super-pow) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Drmatty1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/Drmatty1/Leetcode/tree/master/0396-rotate-function) |
