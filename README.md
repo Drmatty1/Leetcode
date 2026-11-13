@@ -394,6 +394,7 @@
 | [0621-task-scheduler](https://github.com/Drmatty1/Leetcode/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/Drmatty1/Leetcode/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Drmatty1/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0665-non-decreasing-array](https://github.com/Drmatty1/Leetcode/tree/master/0665-non-decreasing-array) |
 | [0710-random-pick-with-blacklist](https://github.com/Drmatty1/Leetcode/tree/master/0710-random-pick-with-blacklist) |
 | [0835-image-overlap](https://github.com/Drmatty1/Leetcode/tree/master/0835-image-overlap) |
 | [0846-hand-of-straights](https://github.com/Drmatty1/Leetcode/tree/master/0846-hand-of-straights) |
