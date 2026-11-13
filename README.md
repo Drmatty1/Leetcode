@@ -508,6 +508,7 @@
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Drmatty1/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Drmatty1/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Drmatty1/Leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Drmatty1/Leetcode/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Drmatty1/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3488-closest-equal-element-queries](https://github.com/Drmatty1/Leetcode/tree/master/3488-closest-equal-element-queries) |
@@ -1062,6 +1063,7 @@
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Drmatty1/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2197-replace-non-coprime-numbers-in-array](https://github.com/Drmatty1/Leetcode/tree/master/2197-replace-non-coprime-numbers-in-array) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Drmatty1/Leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -1160,6 +1162,7 @@
 | [0901-online-stock-span](https://github.com/Drmatty1/Leetcode/tree/master/0901-online-stock-span) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Drmatty1/Leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1673-find-the-most-competitive-subsequence](https://github.com/Drmatty1/Leetcode/tree/master/1673-find-the-most-competitive-subsequence) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Drmatty1/Leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Linked List
 |  |
 | ------- |
@@ -1234,6 +1237,7 @@
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Drmatty1/Leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Drmatty1/Leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Drmatty1/Leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Drmatty1/Leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Drmatty1/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3525-find-x-value-of-array-ii](https://github.com/Drmatty1/Leetcode/tree/master/3525-find-x-value-of-array-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Drmatty1/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
@@ -1293,6 +1297,7 @@
 | [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Drmatty1/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Drmatty1/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Drmatty1/Leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Shortest Path
 |  |
 | ------- |
@@ -1439,10 +1444,12 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Drmatty1/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Drmatty1/Leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Drmatty1/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Drmatty1/Leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
