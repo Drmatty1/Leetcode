@@ -127,6 +127,7 @@
 | [1980-find-unique-binary-string](https://github.com/Drmatty1/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Drmatty1/Leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Drmatty1/Leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/Drmatty1/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2384-largest-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2384-largest-palindromic-number) |
 | [2409-count-days-spent-together](https://github.com/Drmatty1/Leetcode/tree/master/2409-count-days-spent-together) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Drmatty1/Leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
@@ -778,6 +779,7 @@
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Drmatty1/Leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Drmatty1/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2069-walking-robot-simulation-ii](https://github.com/Drmatty1/Leetcode/tree/master/2069-walking-robot-simulation-ii) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/Drmatty1/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2352-equal-row-and-column-pairs](https://github.com/Drmatty1/Leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2751-robot-collisions](https://github.com/Drmatty1/Leetcode/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Drmatty1/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
