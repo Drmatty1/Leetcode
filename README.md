@@ -136,6 +136,7 @@
 | [2833-furthest-point-from-origin](https://github.com/Drmatty1/Leetcode/tree/master/2833-furthest-point-from-origin) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Drmatty1/Leetcode/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Drmatty1/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/Drmatty1/Leetcode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [2953-count-complete-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2953-count-complete-substrings) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Drmatty1/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Drmatty1/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -634,6 +635,7 @@
 | [2713-maximum-strictly-increasing-cells-in-a-matrix](https://github.com/Drmatty1/Leetcode/tree/master/2713-maximum-strictly-increasing-cells-in-a-matrix) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Drmatty1/Leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2771-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Drmatty1/Leetcode/tree/master/2771-longest-non-decreasing-subarray-from-two-arrays) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/Drmatty1/Leetcode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Drmatty1/Leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Drmatty1/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -960,6 +962,7 @@
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Drmatty1/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2396-strictly-palindromic-number](https://github.com/Drmatty1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Drmatty1/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/Drmatty1/Leetcode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Drmatty1/Leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Drmatty1/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Drmatty1/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
