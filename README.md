@@ -54,6 +54,7 @@
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Drmatty1/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/Drmatty1/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Drmatty1/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Drmatty1/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3404-count-special-subsequences](https://github.com/Drmatty1/Leetcode/tree/master/3404-count-special-subsequences) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Drmatty1/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -144,6 +145,7 @@
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Drmatty1/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3093-longest-common-suffix-queries](https://github.com/Drmatty1/Leetcode/tree/master/3093-longest-common-suffix-queries) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Drmatty1/Leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Drmatty1/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Drmatty1/Leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3498-reverse-degree-of-a-string](https://github.com/Drmatty1/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Drmatty1/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
@@ -513,6 +515,7 @@
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Drmatty1/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3309-maximum-possible-number-by-binary-concatenation](https://github.com/Drmatty1/Leetcode/tree/master/3309-maximum-possible-number-by-binary-concatenation) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Drmatty1/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Drmatty1/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3334-find-the-maximum-factor-score-of-array](https://github.com/Drmatty1/Leetcode/tree/master/3334-find-the-maximum-factor-score-of-array) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Drmatty1/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Drmatty1/Leetcode/tree/master/3364-minimum-positive-sum-subarray) |
@@ -828,6 +831,7 @@
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Drmatty1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Drmatty1/Leetcode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Drmatty1/Leetcode/tree/master/3310-remove-methods-from-project) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Drmatty1/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Drmatty1/Leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Breadth-First Search
 |  |
@@ -997,6 +1001,7 @@
 | [2196-create-binary-tree-from-descriptions](https://github.com/Drmatty1/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Drmatty1/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Drmatty1/Leetcode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Drmatty1/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Drmatty1/Leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Tree
 |  |
