@@ -14,7 +14,7 @@ class Solution {
         return mask;
     }
 
-    public int maxLength(int[] nums) {
+    public int solOP(int[] nums) {
 
         int n = nums.length;
 
@@ -51,5 +51,77 @@ class Solution {
 
         // Every subarray of length 2 is product equivalent
         return Math.max(2, best);
+    }
+
+
+    boolean can(int[] nums, int len) {
+
+        if (len == 2) return true;
+
+        int[] cnt = new int[4];
+        int bad = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            int mask = getMask(nums[i]);
+
+            // Add current number
+            for (int p = 0; p < 4; p++) {
+                if ((mask & (1 << p)) != 0) {
+                    if (cnt[p] == 1) bad++;
+                    cnt[p]++;
+                }
+            }
+
+            // Remove element outside current window
+            if (i >= len) {
+
+                int oldMask = getMask(nums[i - len]);
+
+                for (int p = 0; p < 4; p++) {
+                    if ((oldMask & (1 << p)) != 0) {
+                        cnt[p]--;
+
+                        if (cnt[p] == 1) bad--;
+                    }
+                }
+            }
+
+            // Check complete window
+            if (i >= len - 1 && bad == 0) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public int solBS(int[] nums) {
+
+        int low = 2;
+        int high = nums.length;
+        int ans = 2;
+
+        while (low <= high) {
+
+            int mid = low + (high - low) / 2;
+
+            if (can(nums, mid)) {
+
+                ans = mid;
+                low = mid + 1;  // Try a larger length
+
+            } else {
+
+                high = mid - 1; // Try a smaller length
+            }
+        }
+
+        return ans;
+    }
+
+    public int maxLength(int[] nums) {
+
+        return solBS(nums);
     }
 }
