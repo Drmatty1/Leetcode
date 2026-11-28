@@ -27,10 +27,11 @@ class Solution {
         int ans = 0;
 
         for(int i=0; i<n; i++){
-            while(gain[i] > 0 && items[i][1] <= minCost*2 && budget >= items[i][1]){
-                ans += 2;
-                budget -= items[i][1];
-                gain[i] --;
+            if(gain[i] > 0 && items[i][1] <= minCost*2 && budget >= items[i][1]){
+                int max = Math.min(gain[i],budget/items[i][1]);
+                ans += 2*max;
+                budget -= items[i][1]*max;
+                gain[i] -= max;
             }
         }
 
