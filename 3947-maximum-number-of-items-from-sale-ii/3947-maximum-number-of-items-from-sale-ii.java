@@ -3,15 +3,20 @@ class Solution {
         int n = items.length;
         Arrays.sort(items , (a,b)-> a[1]-b[1]);
 
-        // int []gain = new int[n+1];
+        int maxFactor = 0;
+        for (int[] item : items) {
+            maxFactor = Math.max(maxFactor, item[0]);
+        }
+
+        // int []gain = new int[maxFactor];
         int minCost = items[0][1];
-        int []freq  =  new int[n+1];
+        int []freq  =  new int[maxFactor+1];
         for(int [] i: items) freq[i[0]] ++;
 
         // Sieve..!!
-        int []multiple = new int[n+1];
-        for(int i = 1; i<n+1; i++){
-            for(int m = i; m < n+1; m+=i){
+        int []multiple = new int[maxFactor+1];
+        for(int i = 1; i<maxFactor+1; i++){
+            for(int m = i; m < maxFactor+1; m+=i){
                 multiple[i] += freq[m];
             }
         }
